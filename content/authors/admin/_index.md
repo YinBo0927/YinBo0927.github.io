@@ -1,13 +1,13 @@
 ---
 # Display name
-title: 吳健雄
+title: Bo Yin
 
 # Name pronunciation (optional)
-name_pronunciation: Chien Shiung Wu
+name_pronunciation: Bo Yin
 
 # Full name (for SEO)
-first_name: Shiung Wu
-last_name: Chien
+first_name: Bo
+last_name: Yin
 
 # Status emoji
 status:
@@ -17,34 +17,36 @@ status:
 superuser: true
 
 # Role/position/tagline
-role: Professor of Artificial Intelligence
+role: Undergraduate Student of Artificial Intelligence
 
 # Organizations/Affiliations to show in About widget
 organizations:
-  - name: Stanford University
-    url: https://www.stanford.edu/
+  - name: South China University of Technology
+    url: https://www.scut.edu.cn
+
 
 # Short bio (displayed in user profile at end of posts)
-bio: My research interests include distributed robotics, mobile computing and programmable matter.
+bio: My research interests include computer vision, multi object optimization, LLMs and AIGC.
 
 # Interests to show in About widget
 interests:
-  - Artificial Intelligence
-  - Computational Linguistics
-  - Information Retrieval
+  - Computer Vision
+  - Multi Object Optimization
+  - LLMs
+  - AIGC
 
 # Education to show in About widget
 education:
   courses:
-    - course: PhD in Artificial Intelligence
-      institution: Stanford University
-      year: 2012
-    - course: MEng in Artificial Intelligence
-      institution: Massachusetts Institute of Technology
-      year: 2009
+    # - course: PhD in Artificial Intelligence
+    #   institution: Stanford University
+    #   year: 2012
+    # - course: MEng in Artificial Intelligence
+    #   institution: Massachusetts Institute of Technology
+    #   year: 2009
     - course: BSc in Artificial Intelligence
-      institution: Massachusetts Institute of Technology
-      year: 2008
+      institution: South China University of Technology
+      year: 2021-2025
 
 # Skills
 # For available icons, see: https://docs.hugoblox.com/getting-started/page-builder/#icons
@@ -53,12 +55,12 @@ skills:
     items:
       - name: Python
         description: ''
-        percent: 80
+        percent: 100
         icon: python
         icon_pack: fab
       - name: Data Science
         description: ''
-        percent: 100
+        percent: 70
         icon: chart-line
         icon_pack: fas
       - name: SQL
@@ -70,20 +72,20 @@ skills:
     color: '#eeac02'
     color_border: '#f0bf23'
     items:
-      - name: Hiking
+      - name: Table Tennis
         description: ''
         percent: 60
-        icon: person-hiking
+        icon: table-tennis
         icon_pack: fas
-      - name: Cats
+      - name: Badminton
         description: ''
         percent: 100
-        icon: cat
+        icon: badminton
         icon_pack: fas
-      - name: Photography
+      - name: Basketball
         description: ''
         percent: 80
-        icon: camera-retro
+        icon: basketball
         icon_pack: fas
 
 # Social/Academic Networking
@@ -114,11 +116,11 @@ social:
   # and uncomment the lines below.
   - icon: cv
     icon_pack: ai
-    link: uploads/resume.pdf
+    link: uploads\Bo Yin cv.pdf
 
 # Highlight the author in author lists? (true/false)
 highlight_name: true
 ---
 
-Chien Shiung Wu is a professor of artificial intelligence at the Stanford AI Lab. Her research interests include distributed robotics, mobile computing and programmable matter. She leads the Robotic Neurobiology group, which develops self-reconfiguring robots, systems of self-organizing robots, and mobile sensor networks.
+Bo Yin is an undergraduate student of South China University of Technology, majoring in Artificial Intelligence. He is currently working as an remote intern in TgaiLab, supervised by Prof. [Yaochu jin](https://www.westlake.edu.cn/faculty/yaochu-jin.html).
 {style="text-align: justify;"}
