@@ -3,7 +3,7 @@
 title: Bo Yin
 
 # Name pronunciation (optional)
-name_pronunciation: Bo Yin
+# name_pronunciation: Bo Yin
 
 # Full name (for SEO)
 first_name: Bo
@@ -65,7 +65,7 @@ skills:
         icon_pack: fas
       - name: SQL
         description: ''
-        percent: 40
+        percent: 20
         icon: database
         icon_pack: fas
   - name: Hobbies
@@ -74,13 +74,13 @@ skills:
     items:
       - name: Table Tennis
         description: ''
-        percent: 60
+        percent: 80
         icon: table-tennis
         icon_pack: fas
       - name: Badminton
         description: ''
-        percent: 100
-        icon: shuttlecock
+        percent: 80
+        icon: badminton
         icon_pack: fas
       - name: Basketball
         description: ''
