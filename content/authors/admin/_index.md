@@ -77,11 +77,11 @@ skills:
         percent: 80
         icon: table-tennis
         icon_pack: fas
-      - name: Badminton
-        description: ''
-        percent: 80
-        icon: badminton
-        icon_pack: fas
+      # - name: Badminton
+      #   description: ''
+      #   percent: 80
+      #   icon: badminton
+      #   icon_pack: fas
       - name: Basketball
         description: ''
         percent: 80
