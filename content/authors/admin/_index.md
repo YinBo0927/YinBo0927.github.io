@@ -122,5 +122,5 @@ social:
 highlight_name: true
 ---
 
-Bo Yin is an undergraduate student of South China University of Technology, majoring in Artificial Intelligence. He is currently working as an remote intern in TgaiLab, supervised by Prof. [Yaochu jin](https://www.westlake.edu.cn/faculty/yaochu-jin.html) from Westlake University. 
+Bo Yin is an undergraduate student of South China University of Technology, majoring in Artificial Intelligence. He is currently working as an remote intern in TgaiLab, supervised by Prof. [Yaochu jin](https://www.westlake.edu.cn/faculty/yaochu-jin.html) from Westlake University. And He also conducted research under Prof. [Xueming Yan](https://sist.gdufs.edu.cn/info/1319/3472.htm)'s guidance
 {style="text-align: justify;"}
