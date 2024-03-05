@@ -241,10 +241,10 @@ sections:
       phone: (+86)147-4808-8142
       # appointment_url: 'https://calendly.com'
       address:
-        street: 450 Serra Mall
+        street: 777 Xinye Avenue East
         city: Guangzhou
         region: Guangdong
-        postcode: '94305'
+        postcode: '511442'
         country: China
         country_code: CN
       # directions: Enter Building 1 and take the stairs to Office 200 on Floor 2
