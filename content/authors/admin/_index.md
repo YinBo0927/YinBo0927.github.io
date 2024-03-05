@@ -44,9 +44,9 @@ education:
     # - course: MEng in Artificial Intelligence
     #   institution: Massachusetts Institute of Technology
     #   year: 2009
-    - course: BSc in Artificial Intelligence
+    - course: Undergraduate Student in Artificial Intelligence
       institution: South China University of Technology
-      year: 2021-2025
+      year: 2021-present
 
 # Skills
 # For available icons, see: https://docs.hugoblox.com/getting-started/page-builder/#icons
@@ -74,7 +74,7 @@ skills:
     items:
       - name: Table Tennis
         description: ''
-        percent: 80
+        percent: 90
         icon: table-tennis
         icon_pack: fas
       # - name: Badminton
@@ -93,9 +93,12 @@ skills:
 #   For an email link, use "fas" icon pack, "envelope" icon, and a link in the
 #   form "mailto:your-email@example.com" or "/#contact" for contact widget.
 social:
-  # - icon: envelope
-  #   icon_pack: fas
-  #   link: '/#contact'
+  - icon: envelope
+    icon_pack: fas
+    link: '/#contact'
+  - icon: weixin
+    icon_pack: brands
+    link: uploads\wechat.jpg
   # - icon: twitter
   #   icon_pack: fab
   #   link: https://twitter.com/GeorgeCushen
@@ -105,9 +108,9 @@ social:
   # - icon: graduation-cap # Alternatively, use `google-scholar` icon from `ai` icon pack
   #   icon_pack: fas
   #   link: https://scholar.google.co.uk/citations?user=sIwtMXoAAAAJ
-  # - icon: github
-  #   icon_pack: fab
-  #   link: https://github.com/gcushen
+  - icon: github
+    icon_pack: fab
+    link: https://github.com/YinBo0927
   # - icon: linkedin
   #   icon_pack: fab
   #   link: https://www.linkedin.com/
