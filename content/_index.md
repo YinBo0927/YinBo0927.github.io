@@ -69,6 +69,14 @@ sections:
           location: Hangzhou, China
           date_start: '2023-12-01'
           date_end: ''
+
+        - title: Trainee
+          company: HSBC
+          company_url: ''
+          #company_logo: org-gc
+          location: Guangzhou, China
+          date_start: '2024-04-08'
+          date_end: ''
           # description: |2-
           #     Responsibilities include:
 
