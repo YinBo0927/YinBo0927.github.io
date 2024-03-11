@@ -98,11 +98,11 @@ sections:
     content:
       title: Awards
       text: SCUT Third-class Scholarship (2022-09)  
-            TCL Huameng Third-class Scholarship (2022-09)  
-            Honorable Mentions of Mathematical Contest In Modeling (2023-05)  
-            Second Prize in the Mathorcup Student Mathematical Contest in Modeling (2023-06)  
-            Second Prize of Guangdong Province in MCM(2023-06)    
-            Third Prize of the 18th ”Challenge Cup” of SCUT (2023-3)  
+      text: TCL Huameng Third-class Scholarship (2022-09)  
+      text: Honorable Mentions of Mathematical Contest In Modeling (2023-05)  
+      text: Second Prize in the Mathorcup Student Mathematical Contest in Modeling (2023-06)  
+      text: Second Prize of Guangdong Province in MCM(2023-06)    
+      text: Third Prize of the 18th ”Challenge Cup” of SCUT (2023-3)  
 
       # date_format: Jan 2006
 
