@@ -94,7 +94,7 @@ sections:
     design:
       columns: '2'
 
-  - block: awards
+  - block: experience
     content:
       title: Awards
       # Date format for awards
