@@ -94,34 +94,40 @@ sections:
     design:
       columns: '2'
 
-  - block: experience
+  - block: markdown
     content:
       title: Awards
+      text: SCUT Third-class Scholarship (2022-09)
+            TCL Huameng Third-class Scholarship (2022-09)
+            Honorable Mentions of Mathematical Contest In Modeling (2023-05)
+            Second Prize in the Mathorcup Student Mathematical Contest in Modeling (2023-06)
+            Second Prize of Guangdong Province in MCM
+            Third Prize of the 18th ”Challenge Cup” of SCUT (2023-3)
 
-      date_format: Jan 2006
+      # date_format: Jan 2006
 
-      items:
-        - title: University Third-class Scholarship
-          company: South China University of Technology
-          date: '2022-09-01'
-          # description: |2-
-          #     Awarded for the paper 'A novel AI-based approach to mass spectrometry'.
-        - title: Huameng Third-class Scholarship
-          company: TCL
-          date: '2022-09-01'
-          # description: |2-
-          #     Awarded for the paper 'A novel AI-based approach to mass spectrometry'.
-        - title: Honorable Mentions of Mathematical Contest In Modeling
-          company: COMAP
-          date: '2023-05-01'
-        - title: Second Prize in the Mathorcup Student Mathematical Contest in Modeling
-          company: China Research Association of Selective Method and Economic Mathematics
-          date: '2023-06-01'
-        - title: Second Prize of Guangdong Province in MCM
-          company: Chinese Society of Industrial and Applied Mathematics
-        - title: Third Prize of the 18th ”Challenge Cup” of SCUT
-          company: South China University of Technology
-          date: '2023-3-01'
+      # items:
+      #   - title: University Third-class Scholarship
+      #     company: South China University of Technology
+      #     date: '2022-09-01'
+      #     # description: |2-
+      #     #     Awarded for the paper 'A novel AI-based approach to mass spectrometry'.
+      #   - title: Huameng Third-class Scholarship
+      #     company: TCL
+      #     date: '2022-09-01'
+      #     # description: |2-
+      #     #     Awarded for the paper 'A novel AI-based approach to mass spectrometry'.
+      #   - title: Honorable Mentions of Mathematical Contest In Modeling
+      #     company: COMAP
+      #     date: '2023-05-01'
+      #   - title: Second Prize in the Mathorcup Student Mathematical Contest in Modeling
+      #     company: China Research Association of Selective Method and Economic Mathematics
+      #     date: '2023-06-01'
+      #   - title: Second Prize of Guangdong Province in MCM
+      #     company: Chinese Society of Industrial and Applied Mathematics
+      #   - title: Third Prize of the 18th ”Challenge Cup” of SCUT
+      #     company: South China University of Technology
+      #     date: '2023-3-01'
     design:
       columns: '2'
   # - block: accomplishments
