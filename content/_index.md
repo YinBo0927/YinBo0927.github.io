@@ -94,37 +94,33 @@ sections:
     design:
       columns: '2'
 
-  - block: markdown
+  - block: experience
     content:
       title: Awards
-      # Date format for awards
-      #   Refer to https://docs.hugoblox.com/customization/#date-format
+
       date_format: Jan 2006
-      # Awards.
-      #   Add/remove as many `award` items below as you like.
-      #   Required fields are `title`, `awarder`, and `date`.
-      #   Begin multi-line descriptions with YAML's `|2-` multi-line prefix.
+
       items:
         - title: University Third-class Scholarship
-          awarder: South China University of Technology
+          company: South China University of Technology
           date: '2022-09-01'
           # description: |2-
           #     Awarded for the paper 'A novel AI-based approach to mass spectrometry'.
         - title: Huameng Third-class Scholarship
-          awarder: TCL
+          company: TCL
           date: '2022-09-01'
           # description: |2-
           #     Awarded for the paper 'A novel AI-based approach to mass spectrometry'.
         - title: Honorable Mentions of Mathematical Contest In Modeling
-          awarder: COMAP
+          company: COMAP
           date: '2023-05-01'
         - title: Second Prize in the Mathorcup Student Mathematical Contest in Modeling
-          awarder: China Research Association of Selective Method and Economic Mathematics
+          company: China Research Association of Selective Method and Economic Mathematics
           date: '2023-06-01'
         - title: Second Prize of Guangdong Province in MCM
-          awarder: Chinese Society of Industrial and Applied Mathematics
+          company: Chinese Society of Industrial and Applied Mathematics
         - title: Third Prize of the 18th ”Challenge Cup” of SCUT
-          awarder: South China University of Technology
+          company: South China University of Technology
           date: '2023-3-01'
     design:
       columns: '2'
