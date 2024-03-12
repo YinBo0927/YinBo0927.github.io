@@ -125,5 +125,5 @@ social:
 highlight_name: true
 ---
 
-Bo Yin is an undergraduate student of South China University of Technology, majoring in Artificial Intelligence. He is currently working as an remote intern in TgaiLab, supervised by Prof. [Yaochu jin](https://www.westlake.edu.cn/faculty/yaochu-jin.html) from Westlake University. And He also conducted research under Prof. [Xueming Yan](https://sist.gdufs.edu.cn/info/1319/3472.htm)'s guidance from Guangdong University of Foreign Studies. I am looking for a MPhil/Msc position based in Singapore, Hong Kong in 2025 Fall. I am open to opportunities in the field of artificial intelligence especially in LLMs, AIGC and computer vision.
+Bo Yin is an undergraduate student of South China University of Technology, majoring in Artificial Intelligence. He is currently working as an remote intern in TgaiLab, supervised by Prof. [Yaochu jin](https://www.westlake.edu.cn/faculty/yaochu-jin.html) from Westlake University. And He also conducted research under Prof. [Xueming Yan](https://sist.gdufs.edu.cn/info/1319/3472.htm)'s guidance from Guangdong University of Foreign Studies. I am looking for a **MPhil/Msc** position based in Singapore, Hong Kong in *2025 Fall*. I am open to opportunities in the field of artificial intelligence especially in LLMs, AIGC and computer vision.
 {style="text-align: justify;"}
