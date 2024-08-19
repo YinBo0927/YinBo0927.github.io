@@ -7,7 +7,7 @@
 
 # Site Settings
 title                    : "Yin Bo"
-description              : "Undergraduate student majoring in artificial intelligence, SCUT; participant of Computer Engineering 3+1+1 program, NUS "
+description              : "Undergraduate student majoring in artificial intelligence"
 repository               : "YinBo0927/YinBo0927.github.io"
 google_scholar_stats_use_cdn : true
 
@@ -23,7 +23,7 @@ baidu_site_verification  :  # get baidu_site_verification from https://ziyuan.ba
 author:
   name             : "Yin Bo"
   avatar           : "images/photo.jpg"
-  bio              : "Lorem ipsum College"
+  bio              : "SCUT -> NUS"
   location         : "Guangzhou, China"
   employer         :
   pubmed           : 
@@ -37,7 +37,7 @@ author:
   flickr           :
   facebook         :
   foursquare       :
-  github           : # e.g., "github username"
+  github           : "https://github.com/YinBo0927"
   google_plus      :
   keybase          :
   instagram        :
