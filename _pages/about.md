@@ -17,7 +17,7 @@ redirect_from:
 
 <span class='anchor' id='about-me'></span>
 
-Bo Yin is an undergraduate student of South China University of Technology, majoring in Artificial Intelligence. He works as an remote intern in TGAILab, supervised by Prof. [Yaochu jin](https://www.westlake.edu.cn/faculty/yaochu-jin.html) from Westlake University. And He also conducted research under Prof. [Xueming Yan](https://sist.gdufs.edu.cn/info/1319/3472.htm)'s guidance from Guangdong University of Foreign Studies. Later, he is going to NUSRI-CQ and conduct the FYP under the guidance of Prof. [Wang Xinchao](https://cde.nus.edu.sg/ece/staff/wang-xinchao/).
+Yin Bo is an undergraduate student of South China University of Technology, majoring in Artificial Intelligence. He works as an remote intern in TGAILab, supervised by Prof. [Jin Yaochu](https://www.westlake.edu.cn/faculty/yaochu-jin.html) from Westlake University. And He also conducted research under Prof. [Yan Xueming](https://sist.gdufs.edu.cn/info/1319/3472.htm)'s guidance from Guangdong University of Foreign Studies. Later, he is going to NUSRI-CQ and conduct the FYP under the guidance of Prof. [Wang Xinchao](https://cde.nus.edu.sg/ece/staff/wang-xinchao/).
 
 My research interest includes computer vision and diffusion model. 
 
