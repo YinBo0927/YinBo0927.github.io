@@ -26,8 +26,8 @@ My research interest includes computer vision and diffusion model.
 
 # 🔥 News
 - *2024.07*: 🎉🎉 I get the 3+1+1 programme offer from the NUSRI-CQ. 
-- *2024.03*: 🎉🎉 I get the trainee offer from the HSBC Technology China.
-- *2023.12*: 🎉🎉 I get the intern offer from the TGAILab, supervised by Prof. [Yaochu jin](https://www.westlake.edu.cn/faculty/yaochu-jin.html).
+- *2024.03*: 🎉 I get the trainee offer from the HSBC Technology China.
+- *2023.12*: 🎉 I get the intern offer from the TGAILab, supervised by Prof. [Yaochu jin](https://www.westlake.edu.cn/faculty/yaochu-jin.html).
 <!-- - *2022.02*: &nbsp;🎉🎉 Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus ornare aliquet ipsum, ac tempus justo dapibus sit amet.  -->
 
 # 📝 Publications 
@@ -45,6 +45,20 @@ My research interest includes computer vision and diffusion model.
 </div> -->
 
 - [Precise Apple Detection and Localization in Orchards using YOLOv5 for Robotic Harvesting Systems](https://arxiv.org/abs/2405.06260), Jiang Ziyue, *Yin Bo*, Lu Boyun, **AIPMV 2024**
+
+# 📚 Research Projects
+
+<div class='paper-box'><div class='paper-box-image'><div><div class="badge">CVPR 2016</div><img src='images/500x300.png' alt="sym" width="100%"></div></div>
+<div class='paper-box-text' markdown="1">
+
+AI Interior Decoration Design
+
+**Yin Bo**, Cai Zihao, Xia Jianan, Chen Qiyue, He Yu
+
+[**Project**](https://github.com/YinBo0927/AI_interior_decoration_design_assistant) 
+- The course project from the ai system design and got 95 points.
+</div>
+</div>
 
 
 <!-- # 🎖 Honors and Awards
