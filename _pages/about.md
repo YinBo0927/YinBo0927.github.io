@@ -51,7 +51,7 @@ My research interest includes computer vision and diffusion model.
 <div class='paper-box'><div class='paper-box-image'><div><img src='images/ai_interior.png' alt="sym" width="100%"></div></div>
 <div class='paper-box-text' markdown="1">
 
-AI Interior Decoration Design
+[AI Interior Decoration Design](../AI_interior_decoration_design_assistant.pptx)
 
 **Yin Bo**, Cai Zihao, Xia Jianan, Chen Qiyue, He Yu
 
