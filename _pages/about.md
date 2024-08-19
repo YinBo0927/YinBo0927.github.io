@@ -44,7 +44,8 @@ My research interest includes computer vision and diffusion model.
 </div>
 </div> -->
 
-- [Precise Apple Detection and Localization in Orchards using YOLOv5 for Robotic Harvesting Systems](https://arxiv.org/abs/2405.06260), Jiang Ziyue, **Yin Bo**, Lu Boyun, **AIPMV 2024**
+- [Precise Apple Detection and Localization in Orchards using YOLOv5 for Robotic Harvesting Systems](https://arxiv.org/abs/2405.06260), Jiang Ziyue, *Yin Bo*, Lu Boyun, **AIPMV 2024**
+
 
 <!-- # 🎖 Honors and Awards
 - *2021.10* Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus ornare aliquet ipsum, ac tempus justo dapibus sit amet. 
