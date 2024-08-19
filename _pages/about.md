@@ -25,9 +25,9 @@ My research interest includes computer vision and diffusion model.
 
 
 # 🔥 News
-- *2024.07*: I get the 3+1+1 programme offer from the NUSRI-CQ. 
-- *2024.03*: I get the trainee offer from the HSBC Technology China.
-- *2023.12*: I get the intern offer from the TGAILab, supervised by Prof. [Yaochu jin](https://www.westlake.edu.cn/faculty/yaochu-jin.html).
+- *2024.07*: 🎉🎉 I get the 3+1+1 programme offer from the NUSRI-CQ. 
+- *2024.03*: 🎉🎉 I get the trainee offer from the HSBC Technology China.
+- *2023.12*: 🎉🎉 I get the intern offer from the TGAILab, supervised by Prof. [Yaochu jin](https://www.westlake.edu.cn/faculty/yaochu-jin.html).
 <!-- - *2022.02*: &nbsp;🎉🎉 Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus ornare aliquet ipsum, ac tempus justo dapibus sit amet.  -->
 
 # 📝 Publications 
