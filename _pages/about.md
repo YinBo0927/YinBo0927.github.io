@@ -46,9 +46,11 @@ My research interest includes computer vision and diffusion model.
 
 - [Precise Apple Detection and Localization in Orchards using YOLOv5 for Robotic Harvesting Systems](https://arxiv.org/abs/2405.06260), Jiang Ziyue, *Yin Bo*, Lu Boyun, **AIPMV 2024**
 
+- A Discussion of Migration of Common Neural Network Regularization Methods on SNNs Lv Yilin, *Yin Bo* **ISAEECE 2024**
+
 # 📚 Research Projects
 
-<div class='paper-box'><div class='paper-box-image'><div><img src='images/ai_interior.png' alt="sym" width="100%"></div></div>
+<div class='paper-box'><div class='paper-box-image'><div><img src='images/ai_interior.png' alt="sym" width="600" height="300"></div></div>
 <div class='paper-box-text' markdown="1">
 
 [AI Interior Decoration Design](../AI_designt.pptx)
@@ -60,6 +62,18 @@ My research interest includes computer vision and diffusion model.
 - This project based on fine-tuning the qiwen model and stable diffusion model to generate the interior design according to the user's requirements.
 </div>
 </div>
+
+<div class='paper-box'><div class='paper-box-image'><div><img src='images/navagation_car' alt="sym" width="600" height="300"></div></div>
+<div class='paper-box-text' markdown="1">
+
+[Mobile Robot Autonomous Navigation System Based on Deep Learning](../car.docx)
+
+Han Yuxiang, Zhang XiaoXun, Hu Yufan, **Yin Bo**
+
+<!-- [**Project**]() -->
+
+- This is the Student Reasearch Project(SRP) from the South China University of Technology.
+- I got 4 innovation points in this project which satisfied the requirements of the SRP.
 
 
 # 🏆 Honors and Awards
