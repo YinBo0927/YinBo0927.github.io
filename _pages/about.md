@@ -74,6 +74,8 @@ Han Yuxiang, Zhang XiaoXun, Hu Yufan, **Yin Bo**
 
 - This is the Student Reasearch Project(SRP) from the South China University of Technology.
 - I got 4 innovation points in this project which satisfied the requirements of the SRP.
+</div>
+</div>
 
 
 # 🏆 Honors and Awards
