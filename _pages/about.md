@@ -79,7 +79,7 @@ Han Yuxiang, Zhang XiaoXun, Hu Yufan, **Yin Bo**
 </div>
 
 
-# 🏆 Honors and Awards
+# 🏆 Awards
 
 - *2024.02*, Honorable Mention in Mathematical Contest in Modeling (MCM), the Consortium for Mathematics and Its Applications
 - *2023.11*, Second Prize in Guangdong Division of Contemporary Undergraduate Mathematical Contest in Modeling (CUMCM), China Society for Industrial and Applied Mathematics
@@ -88,6 +88,12 @@ Han Yuxiang, Zhang XiaoXun, Hu Yufan, **Yin Bo**
 - *2023.03*, Third Prize in Challenge Cup of South China University of Technology, South China University of Technology
 - *2021.12*, First Prize in Baidu PaddlePaddle Cup, South China University of Technology
 
+# 📌 Honors
+
+- *2024.05* Tai Hu Innovation Scholarship
+- *2022.11* Tai Hu Innovation Scholarship
+- *2022.09* SCUT Third-class Scholarship
+- *2022.09* Huameng Third-class Scholarship
 
 # 📖 Educations
 - *2024.09 - 2025.06 (now)*, National University of Singapore Research Institute in Chongqing, 3+1+1 Program.
