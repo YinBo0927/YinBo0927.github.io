@@ -50,7 +50,7 @@ My research interest includes computer vision and diffusion model.
 
 # 📚 Research Projects
 
-<div class='paper-box'><div class='paper-box-image'><div><img src='images/ai_interior.png' alt="sym" width="100%"></div></div>
+<div class='paper-box'><div class='paper-box-image'><div><img src='images/ai_interior.png' alt="sym" width="500" height="300"></div></div>
 <div class='paper-box-text' markdown="1">
 
 [AI Interior Decoration Design](../AI_designt.pptx)
@@ -63,7 +63,7 @@ My research interest includes computer vision and diffusion model.
 </div>
 </div>
 
-<div class='paper-box'><div class='paper-box-image'><div><img src='images/navagation_car.png' alt="sym" width="100%"></div></div>
+<div class='paper-box'><div class='paper-box-image'><div><img src='images/navagation_car.png' alt="sym" width="500" height="300"></div></div>
 <div class='paper-box-text' markdown="1">
 
 [Mobile Robot Autonomous Navigation System Based on Deep Learning](../car.docx)
