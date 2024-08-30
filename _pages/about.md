@@ -57,6 +57,7 @@ My research interest includes computer vision and diffusion model.
 
 [**Project**](https://github.com/YinBo0927/AI_interior_decoration_design_assistant) 
 - The course project from the ai system design and got 95 points.
+- This project based on fine-tuning the qiwen model and stable diffusion model to generate the interior design according to the user's requirements.
 </div>
 </div>
 
