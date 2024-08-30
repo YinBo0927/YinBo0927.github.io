@@ -61,9 +61,15 @@ My research interest includes computer vision and diffusion model.
 </div>
 
 
-<!-- # 🎖 Honors and Awards
-- *2021.10* Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus ornare aliquet ipsum, ac tempus justo dapibus sit amet. 
-- *2021.09* Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus ornare aliquet ipsum, ac tempus justo dapibus sit amet.  -->
+# 🎖 Honors and Awards
+
+- *2024.02* Honorable Mention in Mathematical Contest in Modeling (MCM), the Consortium for Mathematics and Its Applications
+- *2023.11* Second Prize in Guangdong Division of Contemporary Undergraduate Mathematical Contest in Modeling (CUMCM), China Society for Industrial and Applied Mathematics
+- *2023.06* Second Prize in MathorCup Mathematical Contest in Modeling, Chinese Society of Optimization, Overall Planning and Economical Mathematics
+- *2023.05* Second Prize in SCUT Division of Mathematical Contest in Modeling for Universities in Guangzhou City, South China University of Technology
+- *2023.03* Third Prize in Challenge Cup of South China University of Technology, South China University of Technology
+- *2021.12* First Prize in Baidu PaddlePaddle Cup, South China University of Technology
+
 
 # 📖 Educations
 - *2024.09 - 2025.06 (now)*, National University of Singapore Research Institute in Chongqing, 3+1+1 Program.
