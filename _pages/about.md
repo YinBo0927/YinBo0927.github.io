@@ -61,7 +61,7 @@ My research interest includes computer vision and diffusion model.
 </div>
 
 
-# 🎖 Honors and Awards
+# 🏆 Honors and Awards
 
 - *2024.02* Honorable Mention in Mathematical Contest in Modeling (MCM), the Consortium for Mathematics and Its Applications
 - *2023.11* Second Prize in Guangdong Division of Contemporary Undergraduate Mathematical Contest in Modeling (CUMCM), China Society for Industrial and Applied Mathematics
