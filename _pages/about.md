@@ -47,7 +47,8 @@ My research interest includes computer vision and diffusion model.
 - [Precise Apple Detection and Localization in Orchards using YOLOv5 for Robotic Harvesting Systems](https://arxiv.org/abs/2405.06260), Jiang Ziyue, *Yin Bo*, Lu Boyun, **AIPMV 2024**
 
 - A Discussion of Migration of Common Neural Network Regularization Methods on SNNs, Lv Yilin, *Yin Bo*, **ISAEECE 2024**
-- SAM-MSF^2: SAM finetune-based Multi-Scale Feature Fusion for Retinal Vessel Segmentation, Yuancong Liang, Huihui Fang, **Bo Yin**, Lingyue Xie, Enqi Ouyang, Kaiyan Chen, Ying Chen, Shiqi Zhou, Hanyi Yu, Yanwu Xu, under review in **BIBM 2024**
+- SAM-MSF^2: SAM finetune-based Multi-Scale Feature Fusion for Retinal Vessel Segmentation, Yuancong Liang, Huihui Fang, **Bo Yin**, Lingyue Xie, Enqi Ouyang, Kaiyan Chen, Ying Chen, Shiqi Zhou, Hanyi Yu, Yanwu Xu, *under review* in **BIBM 2024**
+- [EmoDM: A Diffusion Model for Evolutionary Multi-objective Optimization](https://arxiv.org/abs/2401.15931), Yan Xueming, Jin Yaochu, *Contributer*: **Yin Bo**
 
 # 📚 Research Projects
 
@@ -75,6 +76,19 @@ Han Yuxiang, Zhang XiaoXun, Hu Yufan, **Yin Bo**
 
 - This is the Student Reasearch Project(SRP) from the South China University of Technology.
 - I got 4 innovation points in this project which satisfied the requirements of the SRP.
+</div>
+</div>
+
+<div class='paper-box'><div class='paper-box-image'><div><img src='images/bear.png' alt="sym" width="500" height="300"></div></div>
+<div class='paper-box-text' markdown="1">
+
+[CuteBear Multi-modal Sentiment Analysis Robot](../bear.doc)
+
+Zhan Zhenrong, **Yin Bo**, Liu Ziyun, Liu Yingying, Chen Boyang, He Yu, Chen Qiyue
+
+<!-- [**Project**](https://github.com/YinBo0927/AI_interior_decoration_design_assistant)  -->
+- The project applied for the South China University of Technology hundred-step ladder climbing plan, and won 10,000 yuan of funding.
+- The project also won the third prize of the South China University of Technology Challenge Cup
 </div>
 </div>
 
