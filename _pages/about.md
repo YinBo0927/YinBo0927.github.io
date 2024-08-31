@@ -47,8 +47,8 @@ My research interest includes computer vision and diffusion model.
 - [Precise Apple Detection and Localization in Orchards using YOLOv5 for Robotic Harvesting Systems](https://arxiv.org/abs/2405.06260), Jiang Ziyue, *Yin Bo*, Lu Boyun, **AIPMV 2024**
 
 - A Discussion of Migration of Common Neural Network Regularization Methods on SNNs, Lv Yilin, *Yin Bo*, **ISAEECE 2024**
-- SAM-MSF^2: SAM finetune-based Multi-Scale Feature Fusion for Retinal Vessel Segmentation, Yuancong Liang, Huihui Fang, **Bo Yin**, Lingyue Xie, Enqi Ouyang, Kaiyan Chen, Ying Chen, Shiqi Zhou, Hanyi Yu, Yanwu Xu, *under review* in **BIBM 2024**
-- [EmoDM: A Diffusion Model for Evolutionary Multi-objective Optimization](https://arxiv.org/abs/2401.15931), Yan Xueming, Jin Yaochu, *Contributer*: **Yin Bo**
+- SAM-MSF^2: SAM finetune-based Multi-Scale Feature Fusion for Retinal Vessel Segmentation, Yuancong Liang, Huihui Fang, **Bo Yin**, Lingyue Xie, Enqi Ouyang, Kaiyan Chen, Ying Chen, Shiqi Zhou, Hanyi Yu, Yanwu Xu, *Submitted* in **BIBM 2024**
+- [EmoDM: A Diffusion Model for Evolutionary Multi-objective Optimization](https://arxiv.org/abs/2401.15931), Yan Xueming, Jin Yaochu, *Contributer*: **Yin Bo**, *Submitted* in **IEEE**
 
 # 📚 Research Projects
 
