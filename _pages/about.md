@@ -112,9 +112,9 @@ Zhan Zhenrong, **Yin Bo**, Liu Ziyun, Liu Yingying, Chen Boyang, He Yu, Chen Qiy
 
 # 🌍 Overseas Exchange Certificate
 
-<div style="text-align: center;">
-  <img src="images/cambridge.png" alt="alt text" width="600" height="300">
-  <img src="images/oxford.png" alt="alt text" width="600" height="300">
+<div style="display: flex; justify-content: center; gap: 20px;">
+  <img src="images/cambridge.png" alt="Cambridge" width="600" height="300">
+  <img src="images/oxford.png" alt="Oxford" width="600" height="300">
 </div>
 
 # 📖 Educations
