@@ -93,6 +93,13 @@ Zhan Zhenrong, **Yin Bo**, Liu Ziyun, Liu Yingying, Chen Boyang, He Yu, Chen Qiy
 </div>
 
 
+# 📌 Honors
+
+- *2024.05* Tai Hu Innovation Scholarship
+- *2022.11* Tai Hu Innovation Scholarship
+- *2022.09* SCUT Third-class Scholarship
+- *2022.09* Huameng Third-class Scholarship
+
 # 🏆 Awards
 
 - *2024.02*, Honorable Mention in Mathematical Contest in Modeling (MCM), the Consortium for Mathematics and Its Applications
@@ -102,14 +109,16 @@ Zhan Zhenrong, **Yin Bo**, Liu Ziyun, Liu Yingying, Chen Boyang, He Yu, Chen Qiy
 - *2023.03*, Third Prize in Challenge Cup of South China University of Technology, South China University of Technology
 - *2021.12*, First Prize in Baidu PaddlePaddle Cup, South China University of Technology
 
-# 📌 Honors
 
-- *2024.05* Tai Hu Innovation Scholarship
-- *2022.11* Tai Hu Innovation Scholarship
-- *2022.09* SCUT Third-class Scholarship
-- *2022.09* Huameng Third-class Scholarship
+# 🌍 Overseas Exchange Certificate
+
+<div style="text-align: center;">
+  <img src="images/cambridge.png" alt="alt text" width="600" height="300">
+  <img src="images/oxford.png" alt="alt text" width="600" height="300">
+</div>
 
 # 📖 Educations
+
 - *2024.09 - 2025.06 (now)*, National University of Singapore Research Institute in Chongqing, 3+1+1 Program.
 - *2021.09 - 2025.07 (now)*, South China University of Technology, B.Eng. in Artificial Intelligence.
 
@@ -118,5 +127,9 @@ Zhan Zhenrong, **Yin Bo**, Liu Ziyun, Liu Yingying, Chen Boyang, He Yu, Chen Qiy
 - *2021.03*, Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus ornare aliquet ipsum, ac tempus justo dapibus sit amet.  \| [\[video\]](https://github.com/) -->
 
 # 💻 Internships
+
 - *2024.04 - 2024.08*, [HSBC Technology China](https://www.about.hsbc.com.cn/zh-cn/careers/technology), Guangzhou China.
 - *2023.12 - 2024.05*, [TGAILab](https://www.scholat.com/org/tgai), Westlake University, Hangzhou China.
+
+#  
+
