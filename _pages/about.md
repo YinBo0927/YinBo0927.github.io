@@ -17,16 +17,16 @@ redirect_from:
 
 <span class='anchor' id='about-me'></span>
 
-Yin Bo is an undergraduate student of South China University of Technology, majoring in Artificial Intelligence. He used to work as an intern in TGAILab, supervised by Prof. [Jin Yaochu](https://www.westlake.edu.cn/faculty/yaochu-jin.html) from Westlake University. And He also conducted research under Prof. [Yan Xueming](https://sist.gdufs.edu.cn/info/1319/3472.htm)'s guidance from Guangdong University of Foreign Studies. Now, he is going to NUSRI-CQ. 
-<!-- and conduct the FYP
-under the guidance of Prof. [Wang Xinchao](https://cde.nus.edu.sg/ece/staff/wang-xinchao/). -->
+Yin Bo is an undergraduate student of South China University of Technology, majoring in Artificial Intelligence. He used to work as an intern in TGAILab, supervised by Prof. [Jin Yaochu](https://www.westlake.edu.cn/faculty/yaochu-jin.html) from Westlake University. And He also conducted research under Prof. [Yan Xueming](https://sist.gdufs.edu.cn/info/1319/3472.htm)'s guidance from Guangdong University of Foreign Studies. Now, he is going to NUSRI-CQ. and conduct the FYP under the guidance of Prof. [Wang Xinchao](https://cde.nus.edu.sg/ece/staff/wang-xinchao/).
 
-My research interest includes computer vision and diffusion model. 
+My research interest includes computer vision, diffusion model and multi-object optimization. 
 
 <!-- I have published more than 100 papers at the top international AI conferences with total <a href='https://scholar.google.com/citations?user=DhtAFkwAAAAJ'>google scholar citations <strong><span id='total_cit'>260000+</span></strong></a> (You can also use google scholar badge <a href='https://scholar.google.com/citations?user=DhtAFkwAAAAJ'><img src="https://img.shields.io/endpoint?url={{ url | url_encode }}&logo=Google%20Scholar&labelColor=f6f6f6&color=9cf&style=flat&label=citations"></a>). -->
 
 
 # 🔥 News
+
+- *2024.09*: 🌟 I was selected for my favorite FYP project, Learnable Activation Networks for Vision.
 - *2024.07*: 🎉🎉 I get the 3+1+1 programme offer from the NUSRI-CQ. 
 - *2024.03*: 🎉 I get the trainee offer from the HSBC Technology China.
 - *2023.12*: 🎉 I get the intern offer from the TGAILab, supervised by Prof. [Yaochu jin](https://www.westlake.edu.cn/faculty/yaochu-jin.html).
