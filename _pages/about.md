@@ -132,6 +132,5 @@ Zhan Zhenrong, **Yin Bo**, Liu Ziyun, Liu Yingying, Chen Boyang, He Yu, Chen Qiy
 
 - *2024.04 - 2024.08*, [HSBC Technology China](https://www.about.hsbc.com.cn/zh-cn/careers/technology), Guangzhou China.
 - *2023.12 - 2024.05*, [TGAILab](https://www.scholat.com/org/tgai), Westlake University, Hangzhou China.
-
-#  
+ 
 
