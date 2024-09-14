@@ -26,7 +26,7 @@ My research interest includes computer vision, diffusion model and multi-object 
 
 # 🔥 News
 
-- *2024.09*: 🌟 I was selected for my favorite FYP project, Learnable Activation Networks for Vision.
+- *2024.09*: 🌟 I was selected for my favorite FYP project--*Learnable Activation Networks for Vision*.
 - *2024.07*: 🎉🎉 I get the 3+1+1 programme offer from the NUSRI-CQ. 
 - *2024.03*: 🎉 I get the trainee offer from the HSBC Technology China.
 - *2023.12*: 🎉 I get the intern offer from the TGAILab, supervised by Prof. [Yaochu jin](https://www.westlake.edu.cn/faculty/yaochu-jin.html).
