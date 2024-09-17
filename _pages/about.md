@@ -17,7 +17,7 @@ redirect_from:
 
 <span class='anchor' id='about-me'></span>
 
-Yin Bo is an undergraduate student of South China University of Technology, majoring in Artificial Intelligence. He used to work as an intern in TGAILab, supervised by Prof. [Jin Yaochu](https://www.westlake.edu.cn/faculty/yaochu-jin.html) from Westlake University. And He also conducted research under Prof. [Yan Xueming](https://sist.gdufs.edu.cn/info/1319/3472.htm)'s guidance from Guangdong University of Foreign Studies. Now, he is going to NUSRI-CQ. and conduct the FYP under the guidance of Prof. [Wang Xinchao](https://cde.nus.edu.sg/ece/staff/wang-xinchao/).
+Hi, I am an undergraduate student of South China University of Technology, majoring in Artificial Intelligence. I used to work as an intern in TGAILab, supervised by Prof. [Jin Yaochu](https://www.westlake.edu.cn/faculty/yaochu-jin.html) from Westlake University and conducted research under Prof. [Yan Xueming](https://sist.gdufs.edu.cn/info/1319/3472.htm)'s guidance from Guangdong University of Foreign Studies. I also study in HDMI Lab supervised by Prof. [Xu Yanwu](https://www2.scut.edu.cn/ft/2021/1220/c29779a519449/page.htm) previously. Now, I am going to NUSRI-CQ. and conduct the FYP under the guidance of Prof. [Wang Xinchao](https://cde.nus.edu.sg/ece/staff/wang-xinchao/).
 
 My research interest includes computer vision, diffusion model and multi-object optimization. 
 
@@ -48,8 +48,8 @@ My research interest includes computer vision, diffusion model and multi-object 
 
 - [Precise Apple Detection and Localization in Orchards using YOLOv5 for Robotic Harvesting Systems](https://arxiv.org/abs/2405.06260), Jiang Ziyue, *Yin Bo*, Lu Boyun, **AIPMV 2024**
 
-- A Discussion of Migration of Common Neural Network Regularization Methods on SNNs, Lv Yilin, *Yin Bo*, **ISAEECE 2024**
-- SAM-MSF^2: SAM finetune-based Multi-Scale Feature Fusion for Retinal Vessel Segmentation, Yuancong Liang, Huihui Fang, **Bo Yin**, Lingyue Xie, Enqi Ouyang, Kaiyan Chen, Ying Chen, Shiqi Zhou, Hanyi Yu, Yanwu Xu, *Submitted* in **BIBM 2024**
+- [A Discussion of Migration of Common Neural Network Regularization Methods on SNNs](../ei.pdf), Lv Yilin, *Yin Bo*, **ISAEECE 2024**
+- [SAM-MSF^2: SAM finetune-based Multi-Scale Feature Fusion for Retinal Vessel Segmentation](../bibm.pdf), Yuancong Liang, Huihui Fang, **Bo Yin**, Lingyue Xie, Enqi Ouyang, Kaiyan Chen, Ying Chen, Shiqi Zhou, Hanyi Yu, Yanwu Xu, *Submitted* in **BIBM 2024**
 - [EmoDM: A Diffusion Model for Evolutionary Multi-objective Optimization](https://arxiv.org/abs/2401.15931), Yan Xueming, Jin Yaochu, *Contributer*: **Yin Bo**, *Submitted* in **IEEE**
 
 # 📚 Research Projects
