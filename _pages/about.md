@@ -97,10 +97,10 @@ Zhan Zhenrong, **Yin Bo**, Liu Ziyun, Liu Yingying, Chen Boyang, He Yu, Chen Qiy
 
 # 📌 Honors
 
-- *2024.05* Tai Hu Innovation Scholarship
-- *2022.11* Tai Hu Innovation Scholarship
-- *2022.09* SCUT Third-class Scholarship
-- *2022.09* Huameng Third-class Scholarship
+- *2024.05* Tai Hu Innovation Scholarship 
+- *2022.11* Tai Hu Innovation Scholarship 
+- *2022.09* SCUT Third-class Scholarship **(Top 20%)**
+- *2022.09* Huameng Third-class Scholarship **(Top 20%)**
 
 # 🏆 Awards
 
