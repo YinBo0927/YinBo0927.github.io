@@ -26,6 +26,7 @@ My research interest includes computer vision, diffusion model and multi-object 
 
 # 🔥 News
 
+- *2024.10*: I got the No.1 in the Happy Frisbee activity in NUSRI-CQ!
 - *2024.09*: 🌟 I was selected for my favorite FYP project--*Learnable Activation Networks for Vision*.
 - *2024.07*: 🎉🎉 I get the 3+1+1 programme offer from the NUSRI-CQ. 
 - *2024.03*: 🎉 I get the trainee offer from the HSBC Technology China.
@@ -132,5 +133,6 @@ Zhan Zhenrong, **Yin Bo**, Liu Ziyun, Liu Yingying, Chen Boyang, He Yu, Chen Qiy
 
 - *2024.04 - 2024.08*, [HSBC Technology China](https://www.about.hsbc.com.cn/zh-cn/careers/technology), Guangzhou China.
 - *2023.12 - 2024.05*, [TGAILab](https://www.scholat.com/org/tgai), Westlake University, Hangzhou China.
+
  
 
