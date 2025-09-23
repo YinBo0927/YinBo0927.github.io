@@ -17,15 +17,15 @@ redirect_from:
 
 <span class='anchor' id='about-me'></span>
 
-Hi, I am an undergraduate student of South China University of Technology, majoring in Artificial Intelligence. I used to work as an intern in TGAILab, supervised by Prof. [Jin Yaochu](https://www.westlake.edu.cn/faculty/yaochu-jin.html) from Westlake University and conducted research under Prof. [Yan Xueming](https://sist.gdufs.edu.cn/info/1319/3472.htm)'s guidance from Guangdong University of Foreign Studies. I also study in HDMI Lab supervised by Prof. [Xu Yanwu](https://www2.scut.edu.cn/ft/2021/1220/c29779a519449/page.htm) previously. Now, I am going to NUSRI-CQ. and conduct the FYP under the guidance of Prof. [Wang Xinchao](https://cde.nus.edu.sg/ece/staff/wang-xinchao/).
+I am currently pursuing a Master of Science in Computer Engineering at the National University of Singapore (NUS). I obtained my undergraduate degree in Artificial Intelligence from the South China University of Technology (SCUT). I have conducted research as an intern in TGAILab supervised by [Prof. Yaochu Jin](https://www.westlake.edu.cn/faculty/yaochu-jin.html) from Westlake University and under the guidance of [Prof. Xueming Yan](https://sist.gdufs.edu.cn/info/1319/3472.htm). I also worked in the HDMI Lab supervised by [Prof. Yanwu Xu](https://www2.scut.edu.cn/ft/2021/1220/c29779a519449/page.htm) at SCUT. Currently, I am conducting CEG5003 under the guidance of [Prof. Xinchao Wang](https://cde.nus.edu.sg/ece/staff/wang-xinchao/) on LLM safety, while also engaging in research on AIGC in the LV Lab supervised by [Prof. Shuicheng Yan](https://yanshuicheng.info/).
 
-My research interest includes computer vision, diffusion model and multi-object optimization. 
 
 <!-- I have published more than 100 papers at the top international AI conferences with total <a href='https://scholar.google.com/citations?user=DhtAFkwAAAAJ'>google scholar citations <strong><span id='total_cit'>260000+</span></strong></a> (You can also use google scholar badge <a href='https://scholar.google.com/citations?user=DhtAFkwAAAAJ'><img src="https://img.shields.io/endpoint?url={{ url | url_encode }}&logo=Google%20Scholar&labelColor=f6f6f6&color=9cf&style=flat&label=citations"></a>). -->
 
 
 # 🔥 News
 
+- *2025.09*: I submitted 2 papers to ICLR 2026.
 - *2024.10*: I got the No.1 in the Happy Frisbee activity in NUSRI-CQ!
 - *2024.09*: 🌟 I was selected for my favorite FYP project--*Learnable Activation Networks for Vision*.
 - *2024.07*: 🎉🎉 I get the 3+1+1 programme offer from the NUSRI-CQ. 
@@ -48,11 +48,13 @@ My research interest includes computer vision, diffusion model and multi-object 
 </div>
 </div> -->
 
+- [Don't Forget the Nonlinearity: Unlocking Activation Functions in Efficient Fine-Tuning](https://arxiv.org/abs/2509.13240), Bo Yin, Xingyi Yang, Xinchao Wang, <span style="color: red;">**AIPMV 2024**</span>
+
 - [Precise Apple Detection and Localization in Orchards using YOLOv5 for Robotic Harvesting Systems](https://ieeexplore.ieee.org/document/10692278), Jiang Ziyue, **Yin Bo**, Lu Boyun, <span style="color: red;">**AIPMV 2024**</span>
 
 - [A Discussion of Migration of Common Neural Network Regularization Methods on SNNs](https://www.spiedigitallibrary.org/conference-proceedings-of-spie/13291/132915G/A-discussion-of-migration-of-common-neural-network-regularization-methods/10.1117/12.3034448.short), Lv Yilin, **Yin Bo**, <span style="color: red;">**ISAEECE 2024**</span>
 - [SAM-MSF^2: SAM finetune-based Multi-Scale Feature Fusion for Retinal Vessel Segmentation](../bibm.pdf), Yuancong Liang, Huihui Fang, **Bo Yin**, Lingyue Xie, Enqi Ouyang, Kaiyan Chen, Ying Chen, Shiqi Zhou, Hanyi Yu, Yanwu Xu, *Submitted* in <span style="color: red;">**BIBM 2024**</span>
-- [EmoDM: A Diffusion Model for Evolutionary Multi-objective Optimization](https://arxiv.org/abs/2401.15931), Yan Xueming, Jin Yaochu, *Contributer*: **Yin Bo**, *Submitted* in <span style="color: red;">**IEEE**</span>
+<!-- - [EmoDM: A Diffusion Model for Evolutionary Multi-objective Optimization](https://arxiv.org/abs/2401.15931), Yan Xueming, Jin Yaochu, *Contributer*: **Yin Bo**, *Submitted* in <span style="color: red;">**IEEE**</span> -->
 
 # 📚 Research Projects
 
