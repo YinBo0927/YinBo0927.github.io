@@ -48,7 +48,7 @@ I am currently pursuing a Master of Science in Computer Engineering at the Natio
 </div>
 </div> -->
 
-- [Don't Forget the Nonlinearity: Unlocking Activation Functions in Efficient Fine-Tuning](https://arxiv.org/abs/2509.13240), Bo Yin, Xingyi Yang, Xinchao Wang, <span style="color: red;">**AIPMV 2024**</span>
+- [Don't Forget the Nonlinearity: Unlocking Activation Functions in Efficient Fine-Tuning](https://arxiv.org/abs/2509.13240), Bo Yin, Xingyi Yang, Xinchao Wang
 
 - [Precise Apple Detection and Localization in Orchards using YOLOv5 for Robotic Harvesting Systems](https://ieeexplore.ieee.org/document/10692278), Jiang Ziyue, **Yin Bo**, Lu Boyun, <span style="color: red;">**AIPMV 2024**</span>
 
