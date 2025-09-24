@@ -7,7 +7,7 @@
 
 # Site Settings
 title                    : "Yin Bo"
-description              : "Undergraduate student majoring in artificial intelligence"
+description              : "Master student majoring in computer engineering"
 repository               : "YinBo0927/YinBo0927.github.io"
 google_scholar_stats_use_cdn : true
 
@@ -23,8 +23,8 @@ baidu_site_verification  :  # get baidu_site_verification from https://ziyuan.ba
 author:
   name             : "Yin Bo"
   avatar           : "images/photo.jpg"
-  bio              : "SCUT -> NUSRI(Chongqing)"
-  location         : "Guangzhou, China"
+  bio              : "SCUT -> NUSRI(Chongqing) -> NUS"
+  location         : "Singapore"
   employer         :
   pubmed           : 
   googlescholar    : "https://scholar.google.com/citations?user=YSA01EoAAAAJ"
