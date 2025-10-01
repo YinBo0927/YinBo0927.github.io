@@ -18,8 +18,8 @@ main:
   - title: "Educations"
     url: "/#-educations"
 
-  - title: "Overseas Exchange Certificate"
-    url: "/#-overseas-exchange-certificate"
+  # - title: "Overseas Exchange Certificate"
+  #   url: "/#-overseas-exchange-certificate"
 
   - title: "Internships"
     url: "/#-internships"
