@@ -118,17 +118,18 @@ Zhan Zhenrong, **Yin Bo**, Liu Ziyun, Liu Yingying, Chen Boyang, He Yu, Chen Qiy
 - *2021.12*, First Prize in Baidu PaddlePaddle Cup, South China University of Technology
 
 
-# 🌍 Overseas Exchange Certificate
+<!-- # 🌍 Overseas Exchange Certificate
 
 <div style="text-align: center;">
   <img src="images/cambridge.png" alt="alt text" width="500" height="300">
   <img src="images/oxford.png" alt="alt text" width="500" height="300">
-</div>
+</div> -->
 
 # 📖 Educations
 
-- *2024.09 - 2025.06 (now)*, National University of Singapore Research Institute in Chongqing, 3+1+1 Program.
-- *2021.09 - 2025.07 (now)*, South China University of Technology, B.Eng. in Artificial Intelligence.
+- *2025.08 - now*, National University of Singapore, Msc in Computer Engineering.
+- *2024.09 - 2025.06*, National University of Singapore Research Institute in Chongqing, 3+1+1 Program.
+- *2021.09 - 2025.07*, South China University of Technology, B.Eng. in Artificial Intelligence.
 
 <!-- # 💬 Invited Talks
 - *2021.06*, Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus ornare aliquet ipsum, ac tempus justo dapibus sit amet. 
