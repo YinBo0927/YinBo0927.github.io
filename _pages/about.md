@@ -144,7 +144,11 @@ Zhan Zhenrong, **Yin Bo**, Liu Ziyun, Liu Yingying, Chen Boyang, He Yu, Chen Qiy
 
 # 📖 Educations
 
+<<<<<<< HEAD
 - *2025.09 - 2027.01*, National University of Singapore, M.Sc. in Computer Engineering.
+=======
+- *2025.08 - now*, National University of Singapore, Msc in Computer Engineering.
+>>>>>>> eedef9dac00ee352f8cf277303ed126e7b9eaa13
 - *2024.09 - 2025.06*, National University of Singapore Research Institute in Chongqing, 3+1+1 Program.
 - *2021.09 - 2025.07*, South China University of Technology, B.Eng. in Artificial Intelligence.
 
