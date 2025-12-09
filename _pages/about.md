@@ -50,11 +50,30 @@ I am currently pursuing a Master of Science in Computer Engineering at the Natio
 </div> -->
 
 
+
 <div class='paper-box'>
   <div class='paper-box-image'>
     <div>
-      <div class="badge">Preprint</div>
-      <img src='images/paper1.svg' alt="Don't Forget the Nonlinearity" width="100%">
+      <div class="badge">Under Review</div>
+      <img src='images/fera.svg' alt="FeRA: Frequency-Energy Constrained Routing for Effective Diffusion Adaptation Fine-Tuning" width="100%">
+    </div>
+  </div>
+  <div class='paper-box-text' markdown="1">
+
+[FeRA: Frequency-Energy Constrained Routing for Effective Diffusion Adaptation Fine-Tuning](https://arxiv.org/abs/2511.17979)
+
+**Bo Yin**, Xiaobin Hu, Xingyu Zhou, Peng-Tao Jiang, Yue Liao, Junwei Zhu, Jiangning Zhang, Ying Tai, Chengjie Wang, Shuicheng Yan
+
+We present a novel fine-tuning approach for diffusion models, termed Frequency-Energy constrained Routing Adaptation (FeRA), which using frequency domain analysis to guide the fine-tuning process, enhancing both efficiency and effectiveness.
+
+  </div>
+</div>
+
+<div class='paper-box'>
+  <div class='paper-box-image'>
+    <div>
+      <div class="badge">Under Review</div>
+      <img src='images/nora.svg' alt="Don't Forget the Nonlinearity" width="100%">
     </div>
   </div>
   <div class='paper-box-text' markdown="1">
@@ -63,13 +82,15 @@ I am currently pursuing a Master of Science in Computer Engineering at the Natio
 
 **Bo Yin**, Xingyi Yang, Xinchao Wang
 
+We propose a novel and effective fine-tuning paradigm that introduces learnable activation functions to adapt large pre-trained models to downstream tasks while preserving their computational efficiency.
+
   </div>
 </div>
 
 - [Precise Apple Detection and Localization in Orchards using YOLOv5 for Robotic Harvesting Systems](https://ieeexplore.ieee.org/document/10692278), Jiang Ziyue, **Yin Bo**, Lu Boyun, <span style="color: red;">**AIPMV 2024**</span>
 
 - [A Discussion of Migration of Common Neural Network Regularization Methods on SNNs](https://www.spiedigitallibrary.org/conference-proceedings-of-spie/13291/132915G/A-discussion-of-migration-of-common-neural-network-regularization-methods/10.1117/12.3034448.short), Lv Yilin, **Yin Bo**, <span style="color: red;">**ISAEECE 2024**</span>
-- 
+
 <!-- - [SAM-MSF^2: SAM finetune-based Multi-Scale Feature Fusion for Retinal Vessel Segmentation](../bibm.pdf), Yuancong Liang, Huihui Fang, **Bo Yin**, Lingyue Xie, Enqi Ouyang, Kaiyan Chen, Ying Chen, Shiqi Zhou, Hanyi Yu, Yanwu Xu, *Submitted* in <span style="color: red;">**BIBM 2024**</span> -->
 <!-- - [EmoDM: A Diffusion Model for Evolutionary Multi-objective Optimization](https://arxiv.org/abs/2401.15931), Yan Xueming, Jin Yaochu, *Contributer*: **Yin Bo**, *Submitted* in <span style="color: red;">**IEEE**</span> -->
 
@@ -144,11 +165,7 @@ Zhan Zhenrong, **Yin Bo**, Liu Ziyun, Liu Yingying, Chen Boyang, He Yu, Chen Qiy
 
 # 📖 Educations
 
-<<<<<<< HEAD
 - *2025.09 - 2027.01*, National University of Singapore, M.Sc. in Computer Engineering.
-=======
-- *2025.08 - now*, National University of Singapore, Msc in Computer Engineering.
->>>>>>> eedef9dac00ee352f8cf277303ed126e7b9eaa13
 - *2024.09 - 2025.06*, National University of Singapore Research Institute in Chongqing, 3+1+1 Program.
 - *2021.09 - 2025.07*, South China University of Technology, B.Eng. in Artificial Intelligence.
 
