@@ -58,6 +58,7 @@ I am currently pursuing a Master of Science in Computer Engineering at the Natio
 <div class='paper-box'>
   <div class='paper-box-image'>
     <div>
+      <div class="badge">Under Review</div>
       <img src='images/fera.svg' alt="FeRA: Frequency-Energy Constrained Routing for Effective Diffusion Adaptation Fine-Tuning" width="100%">
     </div>
   </div>
@@ -77,6 +78,7 @@ We present a novel fine-tuning approach for diffusion models, termed Frequency-E
 <div class='paper-box'>
   <div class='paper-box-image'>
     <div>
+      <div class="badge">Under Review</div>
       <img src='images/nora.svg' alt="Don't Forget the Nonlinearity" width="100%">
     </div>
   </div>
