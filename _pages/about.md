@@ -58,13 +58,14 @@ I am currently pursuing a Master of Science in Computer Engineering at the Natio
 <div class='paper-box'>
   <div class='paper-box-image'>
     <div>
-      <div class="badge">Under Review</div>
       <img src='images/fera.svg' alt="FeRA: Frequency-Energy Constrained Routing for Effective Diffusion Adaptation Fine-Tuning" width="100%">
     </div>
   </div>
   <div class='paper-box-text' markdown="1">
 
-[FeRA: Frequency-Energy Constrained Routing for Effective Diffusion Adaptation Fine-Tuning](https://arxiv.org/abs/2511.17979)
+FeRA: Frequency-Energy Constrained Routing for Effective Diffusion Adaptation Fine-Tuning
+
+[<img src="https://img.shields.io/badge/arXiv-2511.17979-b31b1b?logo=arxiv&logoColor=white" alt="arXiv" style="height:24px;">](https://arxiv.org/abs/2511.17979)
 
 **Bo Yin**, Xiaobin Hu, Xingyu Zhou, Peng-Tao Jiang, Yue Liao, Junwei Zhu, Jiangning Zhang, Ying Tai, Chengjie Wang, Shuicheng Yan
 
@@ -76,13 +77,14 @@ We present a novel fine-tuning approach for diffusion models, termed Frequency-E
 <div class='paper-box'>
   <div class='paper-box-image'>
     <div>
-      <div class="badge">Under Review</div>
       <img src='images/nora.svg' alt="Don't Forget the Nonlinearity" width="100%">
     </div>
   </div>
   <div class='paper-box-text' markdown="1">
 
-[Don't Forget the Nonlinearity: Unlocking Activation Functions in Efficient Fine-Tuning](https://arxiv.org/abs/2509.13240)
+Don't Forget the Nonlinearity: Unlocking Activation Functions in Efficient Fine-Tuning
+
+[<img src="https://img.shields.io/badge/arXiv-2509.13240-b31b1b?logo=arxiv&logoColor=white" alt="arXiv" style="height:24px;">](https://arxiv.org/abs/2509.13240)
 
 **Bo Yin**, Xingyi Yang, Xinchao Wang
 
