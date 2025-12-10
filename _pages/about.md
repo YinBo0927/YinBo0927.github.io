@@ -145,14 +145,14 @@ Zhan Zhenrong, **Yin Bo**, Liu Ziyun, Liu Yingying, Chen Boyang, He Yu, Chen Qiy
 </div> -->
 
 
-# 🏆 Honors
+# 📌 Honors
 
-- *2024.09* Xiao Noodles Scholarship
-- *2024.09* SCUT Scholarship
+- *2024.09* Xiao Noodles Third-class Scholarship
+- *2024.09* SCUT Third-class Scholarship **(Top 20%)**
 - *2024.05* Tai Hu Innovation Scholarship 
 - *2022.11* Tai Hu Innovation Scholarship 
-- *2022.09* SCUT Scholarship
-- *2022.09* Huameng Scholarship 
+- *2022.09* SCUT Third-class Scholarship **(Top 20%)**
+- *2022.09* Huameng Third-class Scholarship **(Top 20%)**
 
 <!-- # 🏆 Awards
 
