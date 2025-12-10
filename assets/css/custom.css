@@ -33,22 +33,6 @@ html, body{
   margin-left:12px;
 }
 
-/* Ensure masthead layout places actions at the far right */
-.masthead__inner-wrap{
-  display:flex;
-  align-items:center;
-  justify-content:space-between;
-  gap: 12px;
-}
-
-.masthead__menu{
-  flex: 1 1 auto;
-}
-
-.masthead__actions{
-  flex: 0 0 auto;
-}
-
 #theme-toggle{
   background: transparent;
   border: 1px solid rgba(0,0,0,0.08);
