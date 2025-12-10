@@ -1,0 +1,80 @@
+/* Custom site variables and theme support */
+:root{
+  --bg: #ffffff;
+  --surface: #ffffff;
+  --muted: #6b7280; /* gray-500 */
+  --text: #111827; /* gray-900 */
+  --primary: #0066cc; /* site primary color */
+  --accent: #ff6b6b;
+  --card-shadow: 0 6px 18px rgba(16,24,40,0.06);
+  --transition: 200ms ease;
+}
+
+[data-theme="dark"]{
+  --bg: #0b1220;
+  --surface: #071020;
+  --muted: #9ca3af;
+  --text: #e6eef8;
+  --primary: #4ea8ff;
+  --accent: #ff8b8b;
+  --card-shadow: 0 10px 24px rgba(2,6,23,0.6);
+}
+
+html, body{
+  background: var(--bg);
+  color: var(--text);
+  transition: background var(--transition), color var(--transition);
+}
+
+/* Simple adjustments for masthead toggle button */
+.masthead__actions{
+  display:inline-flex;
+  align-items:center;
+  margin-left:12px;
+}
+
+#theme-toggle{
+  background: transparent;
+  border: 1px solid rgba(0,0,0,0.08);
+  color: var(--text);
+  padding:6px 8px;
+  border-radius:6px;
+  cursor:pointer;
+  transition: background var(--transition), color var(--transition), border-color var(--transition);
+}
+
+#theme-toggle:hover{
+  background: rgba(0,0,0,0.04);
+}
+
+/* Make sure links and badges use primary color variable */
+a, .badge{
+  color: var(--primary);
+}
+
+/* Example: paper-box background adjustments */
+.paper-box{
+  background: var(--surface);
+  box-shadow: var(--card-shadow);
+  border-radius:8px;
+  padding: 12px;
+  margin-bottom: 16px;
+}
+
+/* Optional: ensure buttons adapt */
+.btn{
+  background: transparent;
+  border: 1px solid rgba(0,0,0,0.08);
+  color: var(--text);
+}
+
+/* News carousel tweak: use CSS variables */
+.news-carousel .carousel-wrapper{
+  background: var(--surface);
+  border-color: rgba(0,0,0,0.06);
+}
+
+/* Respect reduced-motion */
+@media (prefers-reduced-motion: reduce){
+  *{ transition: none !important; }
+}
