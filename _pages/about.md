@@ -8,6 +8,8 @@ redirect_from:
   - /about.html
 ---
 
+<link rel="stylesheet" href="/assets/css/news-carousel.css">
+
 {% if site.google_scholar_stats_use_cdn %}
 {% assign gsDataBaseUrl = "https://cdn.jsdelivr.net/gh/" | append: site.repository | append: "@" %}
 {% else %}
@@ -19,6 +21,7 @@ redirect_from:
 
 I am currently pursuing a Master of Science in Computer Engineering at the National University of Singapore (NUS). I obtained my undergraduate degree in Artificial Intelligence from the South China University of Technology (SCUT). Currently, I am conducting CEG5003(Research Project) under the guidance of [Prof. Xinchao Wang](https://cde.nus.edu.sg/ece/staff/wang-xinchao/) on LLM safety, while also be an intern in the LV Lab supervised by [Prof. Shuicheng Yan](https://yanshuicheng.info/).
 
+<span style="color: red;">I am looking for summer research internships opportunities in mainland China, feel free to contact me!</span>
 
 <!-- I have published more than 100 papers at the top international AI conferences with total <a href='https://scholar.google.com/citations?user=DhtAFkwAAAAJ'>google scholar citations <strong><span id='total_cit'>260000+</span></strong></a> (You can also use google scholar badge <a href='https://scholar.google.com/citations?user=DhtAFkwAAAAJ'><img src="https://img.shields.io/endpoint?url={{ url | url_encode }}&logo=Google%20Scholar&labelColor=f6f6f6&color=9cf&style=flat&label=citations"></a>). -->
 
@@ -27,6 +30,7 @@ I am currently pursuing a Master of Science in Computer Engineering at the Natio
 
 - *2025.11*: I submitted 1 paper to CVPR 2026.
 - *2025.09*: I submitted 2 papers to ICLR 2026.
+- *2025.08*: 🎉 I join the LV Lab as a research intern, supervised by Prof. [Shuicheng Yan](https://yanshuicheng.info/).
 - *2024.10*: I got the No.1 in the Happy Frisbee activity in NUSRI-CQ!
 - *2024.09*: 🌟 I was selected for my favorite FYP project--*Learnable Activation Networks for Vision*.
 - *2024.07*: 🎉🎉 I get the 3+1+1 programme offer from the NUSRI-CQ. 
