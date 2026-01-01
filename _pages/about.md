@@ -110,7 +110,7 @@ LacaDM: A Latent Causal Diffusion Model for Multiobjective Reinforcement Learnin
 
 Xueming Yan, **Bo Yin**, Yaochu Jin
 
-[<img src="https://img.shields.io/badge/arXiv-2509.08013-b31b1b?logo=arxiv&logoColor=white" alt="arXiv" style="height:20px;">](https://arxiv.org/abs/2512.19516)
+[<img src="https://img.shields.io/badge/arXiv-2512.19516-b31b1b?logo=arxiv&logoColor=white" alt="arXiv" style="height:20px;">](https://arxiv.org/abs/2512.19516)
 
 We propose a novel multi-objective reinforcement learning framework that leverages latent temporal causal structures to enhance generalization and significantly outperform state-of-the-art baselines in complex dynamic environments.
 
