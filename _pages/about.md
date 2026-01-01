@@ -30,16 +30,135 @@ Research Interests: <strong>Parameter Efficient Fine-Tuning(PEFT), AIGC, MLLM</s
 
 # 🔥 News
 
-- *2025.11*: I submitted 1 paper to CVPR 2026.
-- *2025.09*: I submitted 2 papers to ICLR 2026.
-- *2025.08*: 🎉 I join the LV Lab as a research intern, supervised by Prof. [Shuicheng Yan](https://yanshuicheng.info/).
-- *2024.10*: I got the No.1 in the Happy Frisbee activity in NUSRI-CQ!
-- *2024.09*: 🌟 I was selected for my favorite FYP project--*Learnable Activation Networks for Vision*.
-- *2024.07*: 🎉🎉 I get the 3+1+1 programme offer from the NUSRI-CQ. 
-- *2024.03*: 🎉 I get the trainee offer from the HSBC Technology China.
-- *2024.01*: 🎉 I get the excellent group as leader in the winter exchange program in National University of Singapore.
-- *2023.12*: 🎉 I get the intern offer from the TGAILab, supervised by Prof. [Yaochu jin](https://www.westlake.edu.cn/faculty/yaochu-jin.html).
-<!-- - *2022.02*: &nbsp;🎉🎉 Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus ornare aliquet ipsum, ac tempus justo dapibus sit amet.  -->
+<div class="news-slider-container">
+  <div class="news-slider">
+    <div class="news-slider-wrapper">
+      <div class="news-item">- *2025.11*: I submitted 1 paper to CVPR 2026.</div>
+      <div class="news-item">- *2025.09*: I submitted 2 papers to ICLR 2026.</div>
+      <div class="news-item">- *2025.08*: 🎉 I join the LV Lab as a research intern, supervised by Prof. [Shuicheng Yan](https://yanshuicheng.info/).</div>
+      <div class="news-item">- *2024.10*: I got the No.1 in the Happy Frisbee activity in NUSRI-CQ!</div>
+      <div class="news-item">- *2024.09*: 🌟 I was selected for my favorite FYP project--*Learnable Activation Networks for Vision*.</div>
+      <div class="news-item">- *2024.07*: 🎉🎉 I get the 3+1+1 programme offer from the NUSRI-CQ.</div>
+      <div class="news-item">- *2024.03*: 🎉 I get the trainee offer from the HSBC Technology China.</div>
+      <div class="news-item">- *2024.01*: 🎉 I get the excellent group as leader in the winter exchange program in National University of Singapore.</div>
+      <div class="news-item">- *2023.12*: 🎉 I get the intern offer from the TGAILab, supervised by Prof. [Yaochu jin](https://www.westlake.edu.cn/faculty/yaochu-jin.html).</div>
+    </div>
+  </div>
+  <div class="news-slider-controls">
+    <button class="slider-btn slider-btn-up">▲</button>
+    <button class="slider-btn slider-btn-down">▼</button>
+  </div>
+</div>
+
+<style>
+.news-slider-container {
+  display: flex;
+  gap: 10px;
+  align-items: flex-start;
+  margin: 20px 0;
+}
+
+.news-slider {
+  flex: 1;
+  height: 200px;
+  overflow: hidden;
+  border: 1px solid #ddd;
+  border-radius: 8px;
+  background: #f9f9f9;
+}
+
+.news-slider-wrapper {
+  display: flex;
+  flex-direction: column;
+  transition: transform 0.3s ease;
+}
+
+.news-item {
+  flex-shrink: 0;
+  height: 50px;
+  padding: 10px;
+  display: flex;
+  align-items: center;
+  line-height: 1.6;
+  font-size: 14px;
+}
+
+.news-slider-controls {
+  display: flex;
+  flex-direction: column;
+  gap: 5px;
+}
+
+.slider-btn {
+  width: 40px;
+  height: 40px;
+  border: 1px solid #ddd;
+  background: white;
+  border-radius: 4px;
+  cursor: pointer;
+  font-size: 16px;
+  transition: all 0.2s;
+}
+
+.slider-btn:hover {
+  background: #e0e0e0;
+  border-color: #999;
+}
+
+.slider-btn:active {
+  transform: scale(0.95);
+}
+</style>
+
+<script>
+document.addEventListener('DOMContentLoaded', function() {
+  const slider = document.querySelector('.news-slider-wrapper');
+  const upBtn = document.querySelector('.slider-btn-up');
+  const downBtn = document.querySelector('.slider-btn-down');
+  const items = document.querySelectorAll('.news-item');
+  
+  let currentIndex = 0;
+  const itemHeight = 50;
+  const maxIndex = items.length - 4;
+  
+  function updateSlider() {
+    const offset = -currentIndex * itemHeight;
+    slider.style.transform = `translateY(${offset}px)`;
+  }
+  
+  upBtn.addEventListener('click', function() {
+    if (currentIndex > 0) {
+      currentIndex--;
+      updateSlider();
+    }
+  });
+  
+  downBtn.addEventListener('click', function() {
+    if (currentIndex < maxIndex) {
+      currentIndex++;
+      updateSlider();
+    }
+  });
+  
+  // 支持鼠标滚轮
+  const newsSlider = document.querySelector('.news-slider');
+  newsSlider.addEventListener('wheel', function(e) {
+    e.preventDefault();
+    if (e.deltaY > 0) {
+      if (currentIndex < maxIndex) {
+        currentIndex++;
+        updateSlider();
+      }
+    } else {
+      if (currentIndex > 0) {
+        currentIndex--;
+        updateSlider();
+      }
+    }
+  }, { passive: false });
+});
+</script>
+
 
 # 📝 Publications 
 
