@@ -97,6 +97,26 @@ We propose a novel and effective fine-tuning paradigm that introduces learnable 
   </div>
 </div>
 
+<div class='paper-box'>
+  <div class='paper-box-image'>
+    <div>
+      <div class="badge">Under Review</div>
+      <img src='images/lacadm.png' alt="lacadm" width="100%">
+    </div>
+  </div>
+  <div class='paper-box-text' markdown="1">
+
+LacaDM: A Latent Causal Diffusion Model for Multiobjective Reinforcement Learning
+
+Xueming Yan, **Bo Yin**, Yaochu Jin
+
+[<img src="https://img.shields.io/badge/arXiv-2509.08013-b31b1b?logo=arxiv&logoColor=white" alt="arXiv" style="height:20px;">](https://arxiv.org/abs/2512.19516)
+
+We propose a novel multi-objective reinforcement learning framework that leverages latent temporal causal structures to enhance generalization and significantly outperform state-of-the-art baselines in complex dynamic environments.
+
+  </div>
+</div>
+
 - [Precise Apple Detection and Localization in Orchards using YOLOv5 for Robotic Harvesting Systems](https://ieeexplore.ieee.org/document/10692278), Jiang Ziyue, **Yin Bo**, Lu Boyun, <span style="color: red;">**AIPMV 2024**</span>
 
 - [A Discussion of Migration of Common Neural Network Regularization Methods on SNNs](https://www.spiedigitallibrary.org/conference-proceedings-of-spie/13291/132915G/A-discussion-of-migration-of-common-neural-network-regularization-methods/10.1117/12.3034448.short), Lv Yilin, **Yin Bo**, <span style="color: red;">**ISAEECE 2024**</span>
