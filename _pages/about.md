@@ -205,7 +205,7 @@ Zhan Zhenrong, **Yin Bo**, Liu Ziyun, Liu Yingying, Chen Boyang, He Yu, Chen Qiy
 
 # 💻 Internships
 
-- *2025.08 - now*, [LV Lab](https://www.lv-lab.org/nus/index.html), Singapore.
+- *2025.08 - now*, [LV Lab](https://www.lv-lab.org/nus/index.html), National University of Singapore, Singapore.
 - *2024.04 - 2024.08*, [HSBC Technology China](https://www.about.hsbc.com.cn/zh-cn/careers/technology), Guangzhou China.
 - *2023.12 - 2024.05*, [TGAILab](https://www.scholat.com/org/tgai), Westlake University, Hangzhou China.
 
