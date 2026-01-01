@@ -70,7 +70,7 @@ FeRA: Frequency-Energy Constrained Routing for Effective Diffusion Adaptation Fi
 
 **Bo Yin**, Xiaobin Hu, Xingyu Zhou, Peng-Tao Jiang, Yue Liao, Junwei Zhu, Jiangning Zhang, Ying Tai, Chengjie Wang, Shuicheng Yan
 
-[<img src="https://img.shields.io/badge/arXiv-2509.13303-b31b1b?logo=arxiv&logoColor=white" alt="arXiv" style="height:20px;">](https://arxiv.org/abs/2509.13303)
+[<img src="https://img.shields.io/badge/arXiv-2511.17979-b31b1b?logo=arxiv&logoColor=white" alt="arXiv" style="height:20px;">](https://arxiv.org/abs/2511.17979)
 
 We present a novel fine-tuning approach for diffusion models, termed Frequency-Energy constrained Routing Adaptation (FeRA), which using frequency domain analysis to guide the fine-tuning process, enhancing both efficiency and effectiveness.
 
@@ -90,7 +90,7 @@ Don't Forget the Nonlinearity: Unlocking Activation Functions in Efficient Fine-
 
 **Bo Yin**, Xingyi Yang, Xinchao Wang
 
-[<img src="https://img.shields.io/badge/arXiv-2509.08013-b31b1b?logo=arxiv&logoColor=white" alt="arXiv" style="height:20px;">](https://arxiv.org/abs/2509.08013)
+[<img src="https://img.shields.io/badge/arXiv-2509.13240-b31b1b?logo=arxiv&logoColor=white" alt="arXiv" style="height:20px;">](https://arxiv.org/abs/2509.13240)
 
 We propose a novel and effective fine-tuning paradigm that introduces learnable activation functions to adapt large pre-trained models to downstream tasks while preserving their computational efficiency.
 
