@@ -66,7 +66,7 @@ Research Interests: <strong>Parameter Efficient Fine-Tuning(PEFT), AIGC, MLLM</s
   </div>
   <div class='paper-box-text' markdown="1">
 
-FeRA: Frequency-Energy Constrained Routing for Effective Diffusion Adaptation Fine-Tuning
+**FeRA: Frequency-Energy Constrained Routing for Effective Diffusion Adaptation Fine-Tuning**
 
 **Bo Yin**, Xiaobin Hu, Xingyu Zhou, Peng-Tao Jiang, Yue Liao, Junwei Zhu, Jiangning Zhang, Ying Tai, Chengjie Wang, Shuicheng Yan
 
@@ -86,7 +86,7 @@ We present a novel fine-tuning approach for diffusion models, termed Frequency-E
   </div>
   <div class='paper-box-text' markdown="1">
 
-Don't Forget the Nonlinearity: Unlocking Activation Functions in Efficient Fine-Tuning
+**Don't Forget the Nonlinearity: Unlocking Activation Functions in Efficient Fine-Tuning**
 
 **Bo Yin**, Xingyi Yang, Xinchao Wang
 
@@ -106,7 +106,7 @@ We propose a novel and effective fine-tuning paradigm that introduces learnable 
   </div>
   <div class='paper-box-text' markdown="1">
 
-LacaDM: A Latent Causal Diffusion Model for Multiobjective Reinforcement Learning
+**LLacaDM: A Latent Causal Diffusion Model for Multiobjective Reinforcement Learning**
 
 Xueming Yan, **Bo Yin**, Yaochu Jin
 
@@ -199,9 +199,6 @@ Zhan Zhenrong, **Yin Bo**, Liu Ziyun, Liu Yingying, Chen Boyang, He Yu, Chen Qiy
 - *2024.09 - 2025.06*, National University of Singapore Research Institute in Chongqing, 3+1+1 Program.
 - *2021.09 - 2025.07*, South China University of Technology, B.Eng. in Artificial Intelligence.
 
-<!-- # 💬 Invited Talks
-- *2021.06*, Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus ornare aliquet ipsum, ac tempus justo dapibus sit amet. 
-- *2021.03*, Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus ornare aliquet ipsum, ac tempus justo dapibus sit amet.  \| [\[video\]](https://github.com/) -->
 
 # 💻 Internships
 
@@ -209,5 +206,4 @@ Zhan Zhenrong, **Yin Bo**, Liu Ziyun, Liu Yingying, Chen Boyang, He Yu, Chen Qiy
 - *2024.04 - 2024.08*, [HSBC Technology China](https://www.about.hsbc.com.cn/zh-cn/careers/technology), Guangzhou China.
 - *2023.12 - 2024.05*, [TGAILab](https://www.scholat.com/org/tgai), Westlake University, Hangzhou China.
 
- 
 
