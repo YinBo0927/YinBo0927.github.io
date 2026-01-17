@@ -21,7 +21,7 @@ redirect_from:
 
 I am currently pursuing a Master of Science in Computer Engineering at the National University of Singapore (NUS). I obtained my undergraduate degree in Artificial Intelligence from the South China University of Technology (SCUT). Currently, I am conducting CEG5003(Research Project) under the guidance of [Prof. Xinchao Wang](https://cde.nus.edu.sg/ece/staff/wang-xinchao/) on LLM safety, while also be an intern in the LV Lab supervised by [Prof. Shuicheng Yan](https://yanshuicheng.info/).
 
-Research Interests: <strong>Parameter Efficient Fine-Tuning(PEFT), AIGC, MLLM</strong>. If you have interest cooperate with me on related topics, please feel free to reach out!
+Research Interests: **Parameter Efficient Fine-Tuning (PEFT), AIGC, MLLM**. [![Citations](https://img.shields.io/endpoint?url=https%3A%2F%2Fscholar-google-stats.vercel.app%2Fapi%3Fuser%3DYSA01EoAAAAJ%26logo%3Dgoogle-scholar%26label%3DCitations)](https://scholar.google.com/citations?user=YSA01EoAAAAJ) If you are interested in cooperating with me on related topics, please feel free to reach out!
 
 <span style="color: red;">I am looking for summer research internships opportunities in mainland China and the 2027 Spring PhD opportunity, feel free to contact me!</span>
 
