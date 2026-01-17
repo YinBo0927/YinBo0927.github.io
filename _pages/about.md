@@ -55,7 +55,25 @@ Research Interests: <strong>Parameter Efficient Fine-Tuning(PEFT), AIGC, MLLM</s
 </div>
 </div> -->
 
+<div class='paper-box'>
+  <div class='paper-box-image'>
+    <div>
+      <div class="badge">Under Review</div>
+      <img src='images/repro.png' alt="repro" width="100%">
+    </div>
+  </div>
+  <div class='paper-box-text' markdown="1">
 
+**Refinement Provenance Inference: Detecting LLM-Refined Training Prompts from Model Behavior**
+
+**Bo Yin**, Qi Li, Runpeng Yu, Xinchao Wang
+
+[<img src="https://img.shields.io/badge/arXiv-2601.01966-b31b1b?logo=arxiv&logoColor=white" alt="arXiv" style="height:20px;">](https://arxiv.org/abs/2601.01966) [<img src="https://img.shields.io/badge/GitHub-RePro-blue?logo=github&logoColor=white" alt="GitHub" style="height:20px;">](https://github.com/YinBo0927/RePro)
+
+We propose an instance-level auditing method that infers, from a model’s behavior, whether it was trained on an original prompt or an LLM-refined version of that prompt within a mixed training corpus.
+
+  </div>
+</div>
 
 <div class='paper-box'>
   <div class='paper-box-image'>
@@ -202,6 +220,7 @@ Zhan Zhenrong, **Yin Bo**, Liu Ziyun, Liu Yingying, Chen Boyang, He Yu, Chen Qiy
 
 # 💻 Internships
 
+- *2026.01 - now*, [Huawei](https://www.huawei.com/sg/), Singapore.
 - *2025.08 - now*, [LV Lab](https://www.lv-lab.org/nus/index.html), National University of Singapore, Singapore.
 - *2024.04 - 2024.08*, [HSBC Technology China](https://www.about.hsbc.com.cn/zh-cn/careers/technology), Guangzhou China.
 - *2023.12 - 2024.05*, [TGAILab](https://www.scholat.com/org/tgai), Westlake University, Hangzhou China.
