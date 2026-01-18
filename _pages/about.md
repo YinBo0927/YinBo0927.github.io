@@ -222,9 +222,12 @@ Zhan Zhenrong, **Yin Bo**, Liu Ziyun, Liu Yingying, Chen Boyang, He Yu, Chen Qiy
 
 # 💻 Internships
 
-- *2026.01 - now*, [Huawei](https://www.huawei.com/sg/), Singapore.
-- *2025.08 - now*, [LV Lab](https://www.lv-lab.org/nus/index.html), National University of Singapore, Singapore.
-- *2024.04 - 2024.08*, [HSBC Technology China](https://www.about.hsbc.com.cn/zh-cn/careers/technology), Guangzhou China.
-- *2023.12 - 2024.05*, [TGAILab](https://www.scholat.com/org/tgai), Westlake University, Hangzhou China.
+- <img src="images/huawei_logo.jpg" alt="Huawei" style="width:40px; margin-right: 10px;" align="middle"/> [**Huawei**](https://www.huawei.com/sg/), Singapore, *2026.01 - now*
+
+- <img src="images/nus_logo.png" alt="LV Lab" style="width:40px; margin-right: 10px;" align="middle"/> [**LV Lab**](https://www.lv-lab.org/nus/index.html), National University of Singapore, Singapore, *2025.08 - now*
+
+- <img src="images/hsbc_logo.png" alt="HSBC" style="width:40px; margin-right: 10px;" align="middle"/> [**HSBC Technology China**](https://www.about.hsbc.com.cn/zh-cn/careers/technology), Guangzhou China, *2024.04 - 2024.08*
+
+- <img src="images/westlake_logo.jpg" alt="Westlake" style="width:40px; margin-right: 10px;" align="middle"/> [**TGAILab**](https://www.scholat.com/org/tgai), Westlake University, Hangzhou China, *2023.12 - 2024.05*
 
 
