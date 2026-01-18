@@ -213,9 +213,11 @@ Zhan Zhenrong, **Yin Bo**, Liu Ziyun, Liu Yingying, Chen Boyang, He Yu, Chen Qiy
 
 # 📖 Educations
 
-- *2025.09 - 2027.01*, National University of Singapore, M.Sc. in Computer Engineering.
-- *2024.09 - 2025.06*, National University of Singapore Research Institute in Chongqing, 3+1+1 Program.
-- *2021.09 - 2025.07*, South China University of Technology, B.Eng. in Artificial Intelligence.
+- <img src="images/nus_logo.jpg" alt="NUS" style="width:40px; margin-right: 10px;" align="middle"/> **National University of Singapore**, M.Sc. in Computer Engineering, *2025.09 - 2027.01*
+
+- <img src="images/nus_logo.jpg" alt="NUSRI" style="width:40px; margin-right: 10px;" align="middle"/> **NUS Research Institute in Chongqing**, 3+1+1 Program, *2024.09 - 2025.06*
+
+- <img src="images/scut_logo.jpg" alt="SCUT" style="width:40px; margin-right: 10px;" align="middle"/> **South China University of Technology**, B.Eng. in Artificial Intelligence, *2021.09 - 2025.07*
 
 
 # 💻 Internships
