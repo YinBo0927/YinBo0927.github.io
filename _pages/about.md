@@ -124,7 +124,7 @@ We propose a novel and effective fine-tuning paradigm that introduces learnable 
   </div>
   <div class='paper-box-text' markdown="1">
 
-**LLacaDM: A Latent Causal Diffusion Model for Multiobjective Reinforcement Learning**
+**LacaDM: A Latent Causal Diffusion Model for Multiobjective Reinforcement Learning**
 
 Xueming Yan, **Bo Yin**, Yaochu Jin
 
