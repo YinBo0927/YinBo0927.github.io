@@ -232,7 +232,7 @@ Zhan Zhenrong, **Yin Bo**, Liu Ziyun, Liu Yingying, Chen Boyang, He Yu, Chen Qiy
 
 
 <div style="text-align: center;">
-<a href='https://mapmyvisitors.com/web/1c23n'  title='Visit tracker'><img src='https://mapmyvisitors.com/map.png?cl=ffffff&w=590&t=n&d=kCmh38oCjEhDlhfTENopYvuYyGl8-Ubmj25c5TG9DP8'/></a>
+<a href='https://mapmyvisitors.com/web/1c23n'  title='Visit tracker'><img src='https://mapmyvisitors.com/map.png?cl=ffffff&w=a&t=tt&d=kCmh38oCjEhDlhfTENopYvuYyGl8-Ubmj25c5TG9DP8'/></a>
 </div>
 
 
