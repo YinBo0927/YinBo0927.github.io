@@ -213,7 +213,7 @@ Zhan Zhenrong, **Yin Bo**, Liu Ziyun, Liu Yingying, Chen Boyang, He Yu, Chen Qiy
 
 # 📖 Educations
 
-- <img src="images/nus_logo.jpg" alt="NUS" style="width:40px; margin-right: 10px;" align="middle"/> **National University of Singapore**, M.Sc. in Computer Engineering, *2025.09 - 2027.01*
+- <img src="images/nus_logo.jpg" alt="NUS" style="width:40px; margin-right: 10px;" align="middle"/> **National University of Singapore**, M.Sc. in Computer Engineering, *2025.08 - 2027.01*
 
 - <img src="images/nus_logo.jpg" alt="NUSRI" style="width:40px; margin-right: 10px;" align="middle"/> **NUS Research Institute in Chongqing**, 3+1+1 Program, *2024.09 - 2025.06*
 
