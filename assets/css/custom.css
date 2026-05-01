@@ -61,6 +61,19 @@ body{
   text-decoration-color: rgba(56, 87, 111, 0.65);
 }
 
+a:focus:not(:focus-visible),
+button:focus:not(:focus-visible){
+  outline: none !important;
+  box-shadow: none !important;
+}
+
+a:focus-visible,
+button:focus-visible{
+  outline: 2px solid rgba(0, 102, 204, 0.32) !important;
+  outline-offset: 3px;
+  border-radius: 4px;
+}
+
 .author__urls a,
 .author__urls a:visited{
   color: #494e52;

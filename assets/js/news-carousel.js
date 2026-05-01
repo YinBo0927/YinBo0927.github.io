@@ -9,6 +9,10 @@ document.addEventListener('DOMContentLoaded', function() {
   if (!container || items.length === 0 || !prevBtn || !nextBtn) return;
   
   let currentIndex = 0;
+  let lastWheelTime = 0;
+  let wheelAccumulator = 0;
+  const wheelCooldown = 850;
+  const wheelStepThreshold = 35;
 
   function itemHeight() {
     return items[0].getBoundingClientRect().height || 52;
@@ -50,12 +54,28 @@ document.addEventListener('DOMContentLoaded', function() {
   
   // 鼠标滚轮支持
   carousel.addEventListener('wheel', function(e) {
+    const scrollingDown = e.deltaY > 0;
+    const canMove = scrollingDown ? currentIndex < maxIndex() : currentIndex > 0;
+    if (!canMove) {
+      wheelAccumulator = 0;
+      return;
+    }
+
     e.preventDefault();
-    if (e.deltaY > 0) {
+    wheelAccumulator += e.deltaY;
+
+    const now = Date.now();
+    if (Math.abs(wheelAccumulator) < wheelStepThreshold || now - lastWheelTime < wheelCooldown) {
+      return;
+    }
+
+    if (wheelAccumulator > 0) {
       nextItem();
     } else {
       prevItem();
     }
+    wheelAccumulator = 0;
+    lastWheelTime = now;
   }, { passive: false });
   
   // 触摸滑动支持
