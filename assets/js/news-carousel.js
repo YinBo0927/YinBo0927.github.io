@@ -6,18 +6,32 @@ document.addEventListener('DOMContentLoaded', function() {
   const items = carousel.querySelectorAll('.carousel-item');
   const prevBtn = carousel.querySelector('.carousel-btn-prev');
   const nextBtn = carousel.querySelector('.carousel-btn-next');
+  if (!container || items.length === 0 || !prevBtn || !nextBtn) return;
   
   let currentIndex = 0;
-  const itemHeight = 60; // 每条news的高度 (px)
-  const visibleItems = 3; // 同时显示的条数
+
+  function itemHeight() {
+    return items[0].getBoundingClientRect().height || 52;
+  }
+
+  function visibleItems() {
+    return 4;
+  }
+
+  function maxIndex() {
+    return Math.max(0, items.length - visibleItems());
+  }
   
   function updateCarousel() {
-    const offset = -currentIndex * itemHeight;
+    currentIndex = Math.min(currentIndex, maxIndex());
+    const offset = -currentIndex * itemHeight();
     container.style.transform = `translateY(${offset}px)`;
+    prevBtn.disabled = currentIndex === 0;
+    nextBtn.disabled = currentIndex >= maxIndex();
   }
   
   function nextItem() {
-    if (currentIndex < items.length - visibleItems) {
+    if (currentIndex < maxIndex()) {
       currentIndex++;
       updateCarousel();
     }
@@ -32,6 +46,7 @@ document.addEventListener('DOMContentLoaded', function() {
   
   prevBtn.addEventListener('click', prevItem);
   nextBtn.addEventListener('click', nextItem);
+  window.addEventListener('resize', updateCarousel);
   
   // 鼠标滚轮支持
   carousel.addEventListener('wheel', function(e) {
@@ -60,4 +75,6 @@ document.addEventListener('DOMContentLoaded', function() {
       }
     }
   });
+
+  updateCarousel();
 });

@@ -19,26 +19,37 @@ redirect_from:
 
 <span class='anchor' id='about-me'></span>
 
-I am currently pursuing a Master of Science in Computer Engineering at the National University of Singapore (NUS). I obtained my undergraduate degree in Artificial Intelligence from the South China University of Technology (SCUT). Currently, I am conducting CEG5003(Research Project) under the guidance of [Prof. Xinchao Wang](https://cde.nus.edu.sg/ece/staff/wang-xinchao/) on LLM safety, while also be an intern in the LV Lab supervised by [Prof. Shuicheng Yan](https://yanshuicheng.info/).
+I am currently pursuing a Master of Science in Computer Engineering at the National University of Singapore (NUS). I obtained my undergraduate degree in Artificial Intelligence from the South China University of Technology (SCUT). I am conducting CEG5003 (Research Project) under the guidance of [Prof. Xinchao Wang](https://cde.nus.edu.sg/ece/staff/wang-xinchao/) on LLM safety, while also interning at the LV Lab supervised by [Prof. Shuicheng Yan](https://yanshuicheng.info/).
 
-Research Interests: <strong>PEFT, AIGC, MLLM, (Visual)Multi-agent System</strong>. If you have interest cooperate with me on related topics, please feel free to reach out!
+Research Interests: <strong>PEFT, AIGC, MLLM</strong>. If you are interested in collaborating on related topics, please feel free to reach out!
 
-<span style="color: red;">I am looking for summer research internships opportunities in mainland China and the 2027 Spring PhD opportunity, feel free to contact me!</span>
+<p class="notice-line">I am looking for summer research internship opportunities in mainland China and 2027 Spring PhD opportunities. Please feel free to contact me!</p>
 
 <!-- I have published more than 100 papers at the top international AI conferences with total <a href='https://scholar.google.com/citations?user=DhtAFkwAAAAJ'>google scholar citations <strong><span id='total_cit'>260000+</span></strong></a> (You can also use google scholar badge <a href='https://scholar.google.com/citations?user=DhtAFkwAAAAJ'><img src="https://img.shields.io/endpoint?url={{ url | url_encode }}&logo=Google%20Scholar&labelColor=f6f6f6&color=9cf&style=flat&label=citations"></a>). -->
 
 
 # 🔥 News
 
-- *2025.11*: I submitted 1 paper to CVPR 2026.
-- *2025.09*: I submitted 2 papers to ICLR 2026.
-- *2025.08*: 🎉 I join the LV Lab as a research intern, supervised by Prof. [Shuicheng Yan](https://yanshuicheng.info/).
-- *2024.10*: I got the No.1 in the Happy Frisbee activity in NUSRI-CQ!
-- *2024.09*: 🌟 I was selected for my favorite FYP project--*Learnable Activation Networks for Vision*.
-- *2024.07*: 🎉🎉 I get the 3+1+1 programme offer from the NUSRI-CQ. 
-- *2024.03*: 🎉 I get the trainee offer from the HSBC Technology China.
-- *2024.01*: 🎉 I get the excellent group as leader in the winter exchange program in National University of Singapore.
-- *2023.12*: 🎉 I get the intern offer from the TGAILab, supervised by Prof. [Yaochu jin](https://www.westlake.edu.cn/faculty/yaochu-jin.html).
+<div class="news-carousel" aria-label="News">
+  <div class="carousel-wrapper">
+    <div class="carousel-container">
+      <div class="carousel-item"><span class="news-date">2026.05</span><span>🎉 Three papers, <strong>FeRA</strong>, <strong>L2-VMAS</strong>, and <strong>VPD-100K</strong>, were accepted by <strong>ICML 2026</strong>.</span></div>
+      <div class="carousel-item"><span class="news-date">2025.11</span><span>I submitted 1 paper to CVPR 2026.</span></div>
+      <div class="carousel-item"><span class="news-date">2025.09</span><span>I submitted 2 papers to ICLR 2026.</span></div>
+      <div class="carousel-item"><span class="news-date">2025.08</span><span>🎉 I join the LV Lab as a research intern, supervised by Prof. <a href="https://yanshuicheng.info/">Shuicheng Yan</a>.</span></div>
+      <div class="carousel-item"><span class="news-date">2024.10</span><span>I got the No.1 in the Happy Frisbee activity in NUSRI-CQ!</span></div>
+      <div class="carousel-item"><span class="news-date">2024.09</span><span>🌟 I was selected for my favorite FYP project--<em>Learnable Activation Networks for Vision</em>.</span></div>
+      <div class="carousel-item"><span class="news-date">2024.07</span><span>🎉🎉 I get the 3+1+1 programme offer from the NUSRI-CQ.</span></div>
+      <div class="carousel-item"><span class="news-date">2024.03</span><span>🎉 I get the trainee offer from the HSBC Technology China.</span></div>
+      <div class="carousel-item"><span class="news-date">2024.01</span><span>🎉 I get the excellent group as leader in the winter exchange program in National University of Singapore.</span></div>
+      <div class="carousel-item"><span class="news-date">2023.12</span><span>🎉 I get the intern offer from the TGAILab, supervised by Prof. <a href="https://www.westlake.edu.cn/faculty/yaochu-jin.html">Yaochu Jin</a>.</span></div>
+    </div>
+  </div>
+  <div class="carousel-buttons">
+    <button class="carousel-btn carousel-btn-prev" type="button" aria-label="Show newer news">↑ Newer</button>
+    <button class="carousel-btn carousel-btn-next" type="button" aria-label="Show older news">Older ↓</button>
+  </div>
+</div>
 
 
 # 📝 Publications 
@@ -58,27 +69,7 @@ Research Interests: <strong>PEFT, AIGC, MLLM, (Visual)Multi-agent System</strong
 <div class='paper-box'>
   <div class='paper-box-image'>
     <div>
-      <div class="badge">Under Review</div>
-      <img src='images/repro.png' alt="repro" width="100%">
-    </div>
-  </div>
-  <div class='paper-box-text' markdown="1">
-
-**Refinement Provenance Inference: Detecting LLM-Refined Training Prompts from Model Behavior**
-
-**Bo Yin**, Qi Li, Runpeng Yu, Xinchao Wang
-
-[<img src="https://img.shields.io/badge/arXiv-2601.01966-b31b1b?logo=arxiv&logoColor=white" alt="arXiv" style="height:20px;">](https://arxiv.org/abs/2601.01966) [<img src="https://img.shields.io/badge/GitHub-RePro-blue?logo=github&logoColor=white" alt="GitHub" style="height:20px;">](https://github.com/YinBo0927/RePro)
-
-We propose an instance-level auditing method that infers, from a model’s behavior, whether it was trained on an original prompt or an LLM-refined version of that prompt within a mixed training corpus.
-
-  </div>
-</div>
-
-<div class='paper-box'>
-  <div class='paper-box-image'>
-    <div>
-      <div class="badge">Under Review</div>
+      <div class="badge badge-accepted">ICML 2026</div>
       <img src='images/fera.svg' alt="FeRA: Frequency-Energy Constrained Routing for Effective Diffusion Adaptation Fine-Tuning" width="100%">
     </div>
   </div>
@@ -90,7 +81,7 @@ We propose an instance-level auditing method that infers, from a model’s behav
 
 [<img src="https://img.shields.io/badge/arXiv-2511.17979-b31b1b?logo=arxiv&logoColor=white" alt="arXiv" style="height:20px;">](https://arxiv.org/abs/2511.17979) [<img src="https://img.shields.io/badge/GitHub-FeRA-blue?logo=github&logoColor=white" alt="GitHub" style="height:20px;">](https://github.com/YinBo0927/FeRA)
 
-We present a novel fine-tuning approach for diffusion models, termed Frequency-Energy constrained Routing Adaptation (FeRA), which using frequency domain analysis to guide the fine-tuning process, enhancing both efficiency and effectiveness.
+We present a novel fine-tuning approach for diffusion models, termed Frequency-Energy constrained Routing Adaptation (FeRA), which uses frequency-domain analysis to guide the fine-tuning process, enhancing both efficiency and effectiveness.
 
   </div>
 </div>
@@ -98,7 +89,87 @@ We present a novel fine-tuning approach for diffusion models, termed Frequency-E
 <div class='paper-box'>
   <div class='paper-box-image'>
     <div>
-      <div class="badge">Under Review</div>
+      <div class="badge badge-accepted">ICML 2026</div>
+      <img src='images/vpd_100k_framework.png' alt="VPD-100K frequency-enhanced detection framework" width="100%">
+    </div>
+  </div>
+  <div class='paper-box-text' markdown="1">
+
+**VPD-100K: Towards Generalizable and Fine-grained Visual Privacy Protection**
+
+Xiaobin Hu, Enpu Zuo, Lanping Hu, Kaiwen Yang, Dianshu Liao, Tianyi Zhang, **Bo Yin**, Yinsi Zhou, Shidong Pan, Xiaoyu Sun
+
+We present VPD-100K, a large-scale fine-grained visual privacy dataset with 100,000 images, 33 classes, and over 190,000 object instances, together with a frequency-enhanced lightweight mechanism for robust privacy detection.
+
+  </div>
+</div>
+
+<div class='paper-box'>
+  <div class='paper-box-image'>
+    <div>
+      <div class="badge badge-accepted">ICML 2026</div>
+      <img src='images/l2_vmas_framework.png' alt="Dual Latent Memory for Visual Multi-agent System framework" width="100%">
+    </div>
+  </div>
+  <div class='paper-box-text' markdown="1">
+
+**Dual Latent Memory for Visual Multi-agent System**
+
+Xinlei Yu, Chengming Xu, Zhangquan Chen, **Bo Yin**, Cheng Yang, Yongbo He, Yihao Hu, Jiangning Zhang, Cheng Tan, Xiaobin Hu, Shuicheng Yan
+
+[<img src="https://img.shields.io/badge/arXiv-2602.00471-b31b1b?logo=arxiv&logoColor=white" alt="arXiv" style="height:20px;">](https://arxiv.org/abs/2602.00471) [<img src="https://img.shields.io/badge/GitHub-L2--VMAS-blue?logo=github&logoColor=white" alt="GitHub" style="height:20px;">](https://github.com/YU-deep/L2-VMAS)
+
+We introduce L<sup>2</sup>-VMAS, a model-agnostic framework that enables visual multi-agent collaboration through dual latent memories, improving scalability while reducing token-heavy text communication.
+
+  </div>
+</div>
+
+<div class='paper-box'>
+  <div class='paper-box-image'>
+    <div>
+      <div class="badge badge-preprint">arXiv 2026</div>
+      <img src='images/vla_safety_framework.png' alt="Vision-Language-Action Safety landscape framework" width="100%">
+    </div>
+  </div>
+  <div class='paper-box-text' markdown="1">
+
+**Vision-Language-Action Safety: Threats, Challenges, Evaluations, and Mechanisms**
+
+Qi Li<sup>*</sup>, **Bo Yin**<sup>*</sup>, Weiqi Huang<sup>*</sup>, Ruhao Liu<sup>*</sup>, Bojun Zou, Runpeng Yu, Jingwen Ye, Weihao Yu, Xinchao Wang
+
+<span class="contribution-note"><sup>*</sup> Equal contribution.</span>
+
+[<img src="https://img.shields.io/badge/arXiv-2604.23775-b31b1b?logo=arxiv&logoColor=white" alt="arXiv" style="height:20px;">](https://arxiv.org/abs/2604.23775) [<img src="https://img.shields.io/badge/GitHub-VLA--Safety-blue?logo=github&logoColor=white" alt="GitHub" style="height:20px;">](https://github.com/LiQiiiii/Awesome-VLA-Safety)
+
+We survey VLA safety across threats, defenses, evaluation, and deployment, highlighting the unique risks introduced by embodied vision-language-action systems.
+
+  </div>
+</div>
+
+<div class='paper-box'>
+  <div class='paper-box-image'>
+    <div>
+      <div class="badge badge-under-review">Under Review</div>
+      <img src='images/repro.png' alt="repro" width="100%">
+    </div>
+  </div>
+  <div class='paper-box-text' markdown="1">
+
+**Refinement Provenance Inference: Detecting LLM-Refined Training Prompts from Model Behavior**
+
+**Bo Yin**, Qi Li, Runpeng Yu, Xinchao Wang
+
+[<img src="https://img.shields.io/badge/arXiv-2601.01966-b31b1b?logo=arxiv&logoColor=white" alt="arXiv" style="height:20px;">](https://arxiv.org/abs/2601.01966) [<img src="https://img.shields.io/badge/GitHub-RePro-blue?logo=github&logoColor=white" alt="GitHub" style="height:20px;">](https://github.com/YinBo0927/RePro)
+
+We propose an instance-level auditing method that infers, from a model's behavior, whether it was trained on an original prompt or an LLM-refined version of that prompt within a mixed training corpus.
+
+  </div>
+</div>
+
+<div class='paper-box'>
+  <div class='paper-box-image'>
+    <div>
+      <div class="badge badge-under-review">Under Review</div>
       <img src='images/nora.svg' alt="Don't Forget the Nonlinearity" width="100%">
     </div>
   </div>
@@ -118,7 +189,7 @@ We propose a novel and effective fine-tuning paradigm that introduces learnable 
 <div class='paper-box'>
   <div class='paper-box-image'>
     <div>
-      <div class="badge">Under Review</div>
+      <div class="badge badge-under-review">Under Review</div>
       <img src='images/lacadm.png' alt="lacadm" width="100%">
     </div>
   </div>
@@ -135,9 +206,9 @@ We propose a novel multi-objective reinforcement learning framework that leverag
   </div>
 </div>
 
-- [Precise Apple Detection and Localization in Orchards using YOLOv5 for Robotic Harvesting Systems](https://ieeexplore.ieee.org/document/10692278), Jiang Ziyue, **Yin Bo**, Lu Boyun, <span style="color: red;">**AIPMV 2024**</span>
+- [Precise Apple Detection and Localization in Orchards using YOLOv5 for Robotic Harvesting Systems](https://ieeexplore.ieee.org/document/10692278), Jiang Ziyue, **Yin Bo**, Lu Boyun, <span class="venue-label">**AIPMV 2024**</span>
 
-- [A Discussion of Migration of Common Neural Network Regularization Methods on SNNs](https://www.spiedigitallibrary.org/conference-proceedings-of-spie/13291/132915G/A-discussion-of-migration-of-common-neural-network-regularization-methods/10.1117/12.3034448.short), Lv Yilin, **Yin Bo**, <span style="color: red;">**ISAEECE 2024**</span>
+- [A Discussion of Migration of Common Neural Network Regularization Methods on SNNs](https://www.spiedigitallibrary.org/conference-proceedings-of-spie/13291/132915G/A-discussion-of-migration-of-common-neural-network-regularization-methods/10.1117/12.3034448.short), Lv Yilin, **Yin Bo**, <span class="venue-label">**ISAEECE 2024**</span>
 
 <!-- - [SAM-MSF^2: SAM finetune-based Multi-Scale Feature Fusion for Retinal Vessel Segmentation](../bibm.pdf), Yuancong Liang, Huihui Fang, **Bo Yin**, Lingyue Xie, Enqi Ouyang, Kaiyan Chen, Ying Chen, Shiqi Zhou, Hanyi Yu, Yanwu Xu, *Submitted* in <span style="color: red;">**BIBM 2024**</span> -->
 <!-- - [EmoDM: A Diffusion Model for Evolutionary Multi-objective Optimization](https://arxiv.org/abs/2401.15931), Yan Xueming, Jin Yaochu, *Contributer*: **Yin Bo**, *Submitted* in <span style="color: red;">**IEEE**</span> -->
@@ -229,10 +300,3 @@ Zhan Zhenrong, **Yin Bo**, Liu Ziyun, Liu Yingying, Chen Boyang, He Yu, Chen Qiy
 - <img src="images/hsbc_logo.png" alt="HSBC" style="width:40px; margin-right: 10px;" align="middle"/> [**HSBC Technology China**](https://www.about.hsbc.com.cn/zh-cn/careers/technology), Guangzhou China, *2024.04 - 2024.08*
 
 - <img src="images/westlake_logo.png" alt="Westlake" style="width:40px; margin-right: 10px;" align="middle"/> [**TGAILab**](https://www.scholat.com/org/tgai), Westlake University, Hangzhou China, *2023.12 - 2024.05*
-
-
-<div style="text-align: center;">
-<a href='https://mapmyvisitors.com/web/1c23n'  title='Visit tracker'><img src='https://mapmyvisitors.com/map.png?cl=ffffff&w=a&t=tt&d=kCmh38oCjEhDlhfTENopYvuYyGl8-Ubmj25c5TG9DP8'/></a>
-</div>
-
-
