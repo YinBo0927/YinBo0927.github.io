@@ -7,7 +7,7 @@
 
 # Site Settings
 title                    : "Yin Bo"
-description              : #"Master student majoring in computer engineering"
+description              : "Master student majoring in computer engineering"
 repository               : "YinBo0927/YinBo0927.github.io"
 google_scholar_stats_use_cdn : true
 
@@ -23,7 +23,7 @@ baidu_site_verification  :  # get baidu_site_verification from https://ziyuan.ba
 author:
   name             : "Yin Bo"
   avatar           : "images/photo.jpg"
-  bio              : "INFJ-T"
+  bio              : #"INFJ-T"
   location         : "Singapore"
   employer         :
   pubmed           : 
