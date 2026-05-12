@@ -150,6 +150,24 @@ We survey VLA safety across threats, defenses, evaluation, and deployment, highl
   <div class='paper-box-image'>
     <div>
       <div class="badge badge-under-review">Under Review</div>
+      <img src='images/spote_framework.png' alt="SPOT-E test-time visual spotlight framework" width="100%">
+    </div>
+  </div>
+  <div class='paper-box-text' markdown="1">
+
+**SPOT-E: Test-Time Entropy Shaping with Visual Spotlights for Frozen VLMs**
+
+**Bo Yin**, Xiaobin Hu, Chengming Xu, Ruolin Shen, Mo Yang, Jiangning Zhang, Peng-Tao Jiang, Cheng Tan, Shuicheng Yan
+
+We introduce SPOT-E, a plug-and-play test-time visual adaptation framework that keeps the VLM frozen while optimizing question-conditioned visual spotlights through entropy shaping, improving evidence utilization without model retraining.
+
+  </div>
+</div>
+
+<div class='paper-box'>
+  <div class='paper-box-image'>
+    <div>
+      <div class="badge badge-under-review">Under Review</div>
       <img src='images/repro.png' alt="repro" width="100%">
     </div>
   </div>
