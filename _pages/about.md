@@ -150,6 +150,24 @@ We survey VLA safety across threats, defenses, evaluation, and deployment, highl
   <div class='paper-box-image'>
     <div>
       <div class="badge badge-under-review">Under Review</div>
+      <img src='images/fate_framework.png' alt="FATE on-policy self-evolution framework" width="100%">
+    </div>
+  </div>
+  <div class='paper-box-text' markdown="1">
+
+**On-Policy Self-Evolution via Failure Trajectories for Agentic Safety Alignment**
+
+**Bo Yin**, Qi Li, Xinchao Wang
+
+We introduce FATE, an on-policy self-evolving framework that converts verifier-scored failure trajectories into repair supervision and uses Pareto-Front Policy Optimization to improve trajectory-level safety while preserving utility.
+
+  </div>
+</div>
+
+<div class='paper-box'>
+  <div class='paper-box-image'>
+    <div>
+      <div class="badge badge-under-review">Under Review</div>
       <img src='images/spote_framework.png' alt="SPOT-E test-time visual spotlight framework" width="100%">
     </div>
   </div>
