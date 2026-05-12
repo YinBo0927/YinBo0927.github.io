@@ -7,6 +7,17 @@
 <meta name="msapplication-TileImage" content="images/mstile-144x144.png?v=M44lzPylqQ">
 <meta name="msapplication-config" content="images/browserconfig.xml?v=M44lzPylqQ">
 <meta name="theme-color" content="#ffffff">
+<script>
+  (function() {
+    try {
+      var storedTheme = localStorage.getItem('yinbo-theme');
+      var systemTheme = window.matchMedia && window.matchMedia('(prefers-color-scheme: dark)').matches ? 'dark' : 'light';
+      var theme = storedTheme || systemTheme;
+      document.documentElement.setAttribute('data-theme', theme);
+      document.documentElement.style.colorScheme = theme;
+    } catch (error) {}
+  })();
+</script>
 <link rel="stylesheet" href="assets/css/academicons.css"/>
 <link rel="stylesheet" href="assets/css/custom.css"/>
 
