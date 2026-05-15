@@ -21,7 +21,6 @@ redirect_from:
 
 I am currently pursuing a Master of Science in Computer Engineering at the National University of Singapore (NUS). I obtained my undergraduate degree in Artificial Intelligence from the South China University of Technology (SCUT). 
 
-<!-- I am conducting CEG5003 (Research Project) under the guidance of [Prof. Xinchao Wang](https://cde.nus.edu.sg/ece/staff/wang-xinchao/) on LLM safety, while also interning at the LV Lab supervised by [Prof. Shuicheng Yan](https://yanshuicheng.info/). -->
 
 Research Interests: <strong>PEFT, AIGC, MLLM</strong>. If you are interested in collaborating on related topics, please feel free to reach out!
 
