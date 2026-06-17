@@ -159,6 +159,8 @@ We survey VLA safety across threats, defenses, evaluation, and deployment, highl
 
 **Bo Yin**, Qi Li, Xinchao Wang
 
+[<img src="https://img.shields.io/badge/arXiv-2605.11882-b31b1b?logo=arxiv&logoColor=white" alt="arXiv" style="height:20px;">](https://arxiv.org/abs/2605.11882) [<img src="https://img.shields.io/badge/GitHub-FATE-blue?logo=github&logoColor=white" alt="GitHub" style="height:20px;">](https://github.com/YinBo0927/FATE)
+
 We introduce FATE, an on-policy self-evolving framework that converts verifier-scored failure trajectories into repair supervision and uses Pareto-Front Policy Optimization to improve trajectory-level safety while preserving utility.
 
   </div>
