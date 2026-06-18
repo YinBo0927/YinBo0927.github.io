@@ -69,6 +69,24 @@ Research Interests: <strong>PEFT, AIGC, MLLM</strong>. If you are interested in 
 <div class='paper-box'>
   <div class='paper-box-image'>
     <div>
+      <div class="badge badge-accepted">ECCV 2026</div>
+      <img src='images/spote_framework.png' alt="SPOT-E test-time visual spotlight framework" width="100%">
+    </div>
+  </div>
+  <div class='paper-box-text' markdown="1">
+
+**SPOT-E: Test-Time Entropy Shaping with Visual Spotlights for Frozen VLMs**
+
+**Bo Yin**, Xiaobin Hu, Chengming Xu, Ruolin Shen, Mo Yang, Jiangning Zhang, Peng-Tao Jiang, Cheng Tan, Shuicheng Yan
+
+We introduce SPOT-E, a plug-and-play test-time visual adaptation framework that keeps the VLM frozen while optimizing question-conditioned visual spotlights through entropy shaping, improving evidence utilization without model retraining.
+
+  </div>
+</div>
+
+<div class='paper-box'>
+  <div class='paper-box-image'>
+    <div>
       <div class="badge badge-accepted">ICML 2026</div>
       <img src='images/fera.svg' alt="FeRA: Frequency-Energy Constrained Routing for Effective Diffusion Adaptation Fine-Tuning" width="100%">
     </div>
@@ -162,24 +180,6 @@ We survey VLA safety across threats, defenses, evaluation, and deployment, highl
 [<img src="https://img.shields.io/badge/arXiv-2605.11882-b31b1b?logo=arxiv&logoColor=white" alt="arXiv" style="height:20px;">](https://arxiv.org/abs/2605.11882) [<img src="https://img.shields.io/badge/GitHub-FATE-blue?logo=github&logoColor=white" alt="GitHub" style="height:20px;">](https://github.com/YinBo0927/FATE)
 
 We introduce FATE, an on-policy self-evolving framework that converts verifier-scored failure trajectories into repair supervision and uses Pareto-Front Policy Optimization to improve trajectory-level safety while preserving utility.
-
-  </div>
-</div>
-
-<div class='paper-box'>
-  <div class='paper-box-image'>
-    <div>
-      <div class="badge badge-under-review">Under Review</div>
-      <img src='images/spote_framework.png' alt="SPOT-E test-time visual spotlight framework" width="100%">
-    </div>
-  </div>
-  <div class='paper-box-text' markdown="1">
-
-**SPOT-E: Test-Time Entropy Shaping with Visual Spotlights for Frozen VLMs**
-
-**Bo Yin**, Xiaobin Hu, Chengming Xu, Ruolin Shen, Mo Yang, Jiangning Zhang, Peng-Tao Jiang, Cheng Tan, Shuicheng Yan
-
-We introduce SPOT-E, a plug-and-play test-time visual adaptation framework that keeps the VLM frozen while optimizing question-conditioned visual spotlights through entropy shaping, improving evidence utilization without model retraining.
 
   </div>
 </div>
