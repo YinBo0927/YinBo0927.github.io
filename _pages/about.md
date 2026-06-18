@@ -33,6 +33,7 @@ Research Interests: <strong>PEFT, AIGC, MLLM</strong>. If you are interested in 
 <div class="news-carousel" aria-label="News">
   <div class="carousel-wrapper">
     <div class="carousel-container">
+      <div class="carousel-item"><span class="news-date">2026.06</span><span>🎉 <strong>SPOT-E</strong> was accepted by <strong>ECCV 2026</strong>.</span></div>
       <div class="carousel-item"><span class="news-date">2026.05</span><span>🎉 Three papers, <strong>FeRA</strong>, <strong>L2-VMAS</strong>, and <strong>VPD-100K</strong>, were accepted by <strong>ICML 2026</strong>.</span></div>
       <div class="carousel-item"><span class="news-date">2025.11</span><span>I submitted 1 paper to CVPR 2026.</span></div>
       <div class="carousel-item"><span class="news-date">2025.09</span><span>I submitted 2 papers to ICLR 2026.</span></div>
