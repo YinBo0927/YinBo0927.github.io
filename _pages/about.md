@@ -332,7 +332,7 @@ Zhan Zhenrong, **Yin Bo**, Liu Ziyun, Liu Yingying, Chen Boyang, He Yu, Chen Qiy
 
 # 💻 Internships
 
-- <img src="images/huawei_logo.jpg" alt="Huawei" style="width:40px; margin-right: 10px;" align="middle"/> [**Huawei**](https://www.huawei.com/sg/), Singapore, *2026.01 - now*
+- <img src="images/huawei_logo.jpg" alt="Huawei" style="width:40px; margin-right: 10px;" align="middle"/> [**Huawei**](https://www.huawei.com/sg/), Singapore, *2026.01 - 2026.05*
 
 - <img src="images/nus_logo.jpg" alt="LV Lab" style="width:40px; margin-right: 10px;" align="middle"/> [**LV Lab**](https://www.lv-lab.org/nus/index.html), National University of Singapore, Singapore, *2025.08 - now*
 
