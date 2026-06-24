@@ -80,6 +80,8 @@ Research Interests: <strong>PEFT, AIGC, MLLM</strong>. If you are interested in 
 
 **Bo Yin**, Xiaobin Hu, Chengming Xu, Ruolin Shen, Mo Yang, Jiangning Zhang, Peng-Tao Jiang, Cheng Tan, Shuicheng Yan
 
+[<img src="https://img.shields.io/badge/arXiv-2606.20244-b31b1b?logo=arxiv&logoColor=white" alt="arXiv" style="height:20px;">](https://arxiv.org/abs/2606.20244) [<img src="https://img.shields.io/badge/GitHub-SPOT--E-blue?logo=github&logoColor=white" alt="GitHub" style="height:20px;">](https://github.com/YinBo0927/SPOT-E)
+
 We introduce SPOT-E, a plug-and-play test-time visual adaptation framework that keeps the VLM frozen while optimizing question-conditioned visual spotlights through entropy shaping, improving evidence utilization without model retraining.
 
   </div>
