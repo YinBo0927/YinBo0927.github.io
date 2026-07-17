@@ -120,6 +120,8 @@ We present a novel fine-tuning approach for diffusion models, termed Frequency-E
 
 Xiaobin Hu, Enpu Zuo, Lanping Hu, Kaiwen Yang, Dianshu Liao, Tianyi Zhang, **Bo Yin**, Yinsi Zhou, Shidong Pan, Xiaoyu Sun
 
+[<img src="https://img.shields.io/badge/arXiv-2605.10229-b31b1b?logo=arxiv&logoColor=white" alt="arXiv" style="height:20px;">](https://arxiv.org/abs/2605.10229) [<img src="https://img.shields.io/badge/Project-VPD--100K-2f855a?logo=githubpages&logoColor=white" alt="Project" style="height:20px;">](https://vpd-100k.github.io/)
+
 We present VPD-100K, a large-scale fine-grained visual privacy dataset with 100,000 images, 33 classes, and over 190,000 object instances, together with a frequency-enhanced lightweight mechanism for robust privacy detection.
 
   </div>
