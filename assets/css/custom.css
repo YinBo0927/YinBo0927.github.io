@@ -281,6 +281,37 @@ html[data-theme="dark"] .paper-box .paper-box-image img{
   font-size: .92em;
 }
 
+.visitor-map{
+  margin-top: 1rem;
+  text-align: center;
+}
+
+.visitor-map img{
+  max-width: 100%;
+  border-radius: 6px;
+}
+
+.visitor-globe{
+  display: flex;
+  justify-content: center;
+  min-height: 210px;
+  overflow: visible;
+}
+
+.visitor-globe #mmvst_a,
+.visitor-globe .mmvst_outer{
+  display: inline-block !important;
+  width: 200px !important;
+  max-width: 100% !important;
+  margin: 0 auto !important;
+}
+
+.visitor-globe .mmvst_inner,
+.visitor-globe .mmvst_globe{
+  display: block !important;
+  margin: 0 auto !important;
+}
+
 .btn{
   background: var(--surface);
   border: 1px solid var(--border);
@@ -365,6 +396,9 @@ html[data-theme="dark"] .page__footer{
     order: 2;
   }
 
+  .visitor-map{
+    display: none;
+  }
 }
 
 @media (prefers-reduced-motion: reduce){
