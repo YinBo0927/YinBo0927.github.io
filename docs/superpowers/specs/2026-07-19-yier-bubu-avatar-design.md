@@ -28,10 +28,11 @@ should add personality without competing with the academic content.
 ## Interaction
 
 - Keep the decoration still by default.
-- On mouse hover or keyboard focus within the avatar area, move it upward by
-  3 pixels and apply one small side-to-side rotation over 450 milliseconds.
+- On mouse hover within the avatar area, move it upward by 3 pixels and apply
+  one small side-to-side rotation over 450 milliseconds.
 - Do not run a looping animation and do not make the decoration clickable.
 - Mark the image as decorative and remove it from the accessibility tree.
+- Do not add a keyboard focus stop for this purely decorative element.
 - Disable all movement when `prefers-reduced-motion: reduce` is active.
 
 ## Theme And Responsive Behavior
