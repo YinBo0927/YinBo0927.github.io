@@ -1,12 +1,13 @@
 require "minitest/autorun"
 
 class VisitorGlobeTest < Minitest::Test
-  EXACT_SCRIPT = '<script type="text/javascript" id="mmvst_globe" src="//mapmyvisitors.com/globe.js?d=qf6kvMTFW8RNu_6-0h0vn-ssyA9rmp4q8SUzZruuBS4"></script>'
+  EXACT_SCRIPT = %q{<script type='text/javascript' id='mapmyvisitors' src='https://mapmyvisitors.com/map.js?cl=080808&amp;w=a&amp;t=tt&amp;d=M01uwhY-dXdWK9hCoU4QUc9PMERHOsej8TDziOxqKDo&amp;co=ffffff&amp;ct=808080&amp;cmo=3acc3a&amp;cmn=ff5353'></script>}
 
   def test_profile_contains_exact_tracking_script_once
     profile = File.read("_includes/author-profile.html")
 
     assert_equal 1, profile.scan(EXACT_SCRIPT).length
+    refute_includes profile, "globe.js"
     assert_includes profile, '<div class="visitor-map visitor-globe" aria-label="Visitor globe">'
   end
 
