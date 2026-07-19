@@ -166,11 +166,27 @@ html[data-theme="dark"] .author__urls .ai{
   overflow: visible;
 }
 
+.profile_box > .author__avatar > img.author__avatar:not(.author__avatar-decoration){
+  display: block;
+  box-sizing: border-box;
+  width: 164px;
+  max-width: 164px;
+  min-width: 164px;
+  aspect-ratio: 4 / 5;
+  padding: 0;
+  border: 1px solid var(--border);
+  border-radius: 12px;
+  object-fit: cover;
+  object-position: 50% 58%;
+  box-shadow: var(--card-shadow);
+  transition: border-color var(--transition), box-shadow var(--transition);
+}
+
 .profile_box > .author__avatar > .author__avatar-decoration{
   position: absolute;
   z-index: 2;
-  right: -10px;
-  bottom: -8px;
+  right: -14px;
+  bottom: -10px;
   width: 74px;
   min-width: 0;
   max-width: none;
@@ -437,6 +453,12 @@ html[data-theme="dark"] .page__footer{
 
   .visitor-map{
     display: none;
+  }
+
+  .profile_box > .author__avatar > img.author__avatar:not(.author__avatar-decoration){
+    width: 75px;
+    max-width: 75px;
+    min-width: 75px;
   }
 
   .profile_box > .author__avatar > .author__avatar-decoration{

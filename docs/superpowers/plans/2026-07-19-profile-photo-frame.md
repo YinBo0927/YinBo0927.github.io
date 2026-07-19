@@ -133,10 +133,11 @@ Expected: Jekyll exits with status 0 and generates `_site/index.html`.
 Run:
 
 ```bash
-rg -n "aspect-ratio: 4 / 5|border-radius: 12px|object-position: 50% 58%" _site/assets/css/main.css
+rg -n "aspect-ratio: 4 / 5|border-radius: 12px|object-position: 50% 58%" _site/assets/css/custom.css
 ```
 
-Expected: the generated stylesheet contains all three profile frame rules.
+Expected: the generated custom stylesheet contains all three profile frame
+rules.
 
 - [ ] **Step 7: Perform responsive visual QA**
 
