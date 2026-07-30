@@ -21,9 +21,9 @@ redirect_from:
 
 I am currently pursuing a Master of Science in Computer Engineering at the National University of Singapore (NUS). I obtained my undergraduate degree in Artificial Intelligence from the South China University of Technology (SCUT).
 
-Research Interests: <strong>PEFT, AIGC, MLLM</strong>. If you are interested in collaborating on related topics, please feel free to reach out!
+Research Interests: <strong>Efficient AI, Diffusion Model, MLLM, World Model</strong>.
 
-<p class="notice-line">I am looking for summer research internship opportunities in mainland China and 2027 Spring PhD opportunities. Please feel free to contact me!</p>
+<p class="collaboration-line">I am always open to research collaborations. Please feel free to contact me if you are interested in working together!</p>
 
 <!-- I have published more than 100 papers at the top international AI conferences with total <a href='https://scholar.google.com/citations?user=DhtAFkwAAAAJ'>google scholar citations <strong><span id='total_cit'>260000+</span></strong></a> (You can also use google scholar badge <a href='https://scholar.google.com/citations?user=DhtAFkwAAAAJ'><img src="https://img.shields.io/endpoint?url={{ url | url_encode }}&logo=Google%20Scholar&labelColor=f6f6f6&color=9cf&style=flat&label=citations"></a>). -->
 
@@ -165,6 +165,26 @@ Qi Li<sup>*</sup>, **Bo Yin**<sup>*</sup>, Weiqi Huang<sup>*</sup>, Ruhao Liu<su
 [<img src="https://img.shields.io/badge/arXiv-2604.23775-b31b1b?logo=arxiv&logoColor=white" alt="arXiv" style="height:20px;">](https://arxiv.org/abs/2604.23775) [<img src="https://img.shields.io/badge/GitHub-VLA--Safety-blue?logo=github&logoColor=white" alt="GitHub" style="height:20px;">](https://github.com/LiQiiiii/Awesome-VLA-Safety)
 
 We survey VLA safety across threats, defenses, evaluation, and deployment, highlighting the unique risks introduced by embodied vision-language-action systems.
+
+  </div>
+</div>
+
+<div class='paper-box'>
+  <div class='paper-box-image'>
+    <div>
+      <div class="badge badge-under-review">Under Review</div>
+      <img src='images/mambaadv2_framework.png' alt="MambaADv2 architecture framework" width="100%">
+    </div>
+  </div>
+  <div class='paper-box-text' markdown="1">
+
+**MambaADv2: Evolving Duality-enhanced State Space Model for Unsupervised Anomaly Detection**
+
+Xiaobin Hu, Haoyang He, **Bo Yin**, Yu He, Lei Xie, Jiangning Zhang, Yu-Gang Jiang, Shuicheng Yan
+
+[<img src="https://img.shields.io/badge/arXiv-2606.23126-b31b1b?logo=arxiv&logoColor=white" alt="arXiv" style="height:20px;">](https://arxiv.org/abs/2606.23126)
+
+We introduce MambaADv2, a multi-class unsupervised anomaly detection framework that combines a frozen encoder with a Mamba-inspired decoder using Duality-enhanced State Space modules to jointly model global, local, and frequency information with linear complexity.
 
   </div>
 </div>

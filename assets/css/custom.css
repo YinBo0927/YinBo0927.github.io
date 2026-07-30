@@ -216,20 +216,16 @@ html[data-theme="dark"] .author__urls .ai{
   }
 }
 
-.notice-line{
-  display: block;
-  margin: 1rem 0 1.25rem;
-  padding: .75rem .9rem;
-  border: 1px solid #fecaca;
-  border-radius: 8px;
-  background: #fff7f7;
-  color: #b91c1c;
+p.collaboration-line{
+  margin: .9rem 0 1.35rem;
+  color: #d00000;
+  font-size: 1.08em;
+  font-weight: 700;
+  line-height: 1.5;
 }
 
-html[data-theme="dark"] .notice-line{
-  border-color: rgba(248, 113, 113, 0.38);
-  background: rgba(127, 29, 29, 0.24);
-  color: #fecaca;
+html[data-theme="dark"] p.collaboration-line{
+  color: #ff6b6b;
 }
 
 .paper-box{
