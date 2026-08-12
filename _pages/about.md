@@ -19,11 +19,11 @@ redirect_from:
 
 <span class='anchor' id='about-me'></span>
 
-I am currently pursuing a Master of Science in Computer Engineering at the National University of Singapore (NUS). I obtained my undergraduate degree in Artificial Intelligence from the South China University of Technology (SCUT).
+I am currently pursuing a Master of Science in Computer Engineering at the National University of Singapore (NUS). I obtained my undergraduate degree in Artificial Intelligence from the South China University of Technology (SCUT). I am also a research intern at the [NUS LV Lab](https://www.lv-lab.org/nus/index.html), supervised by Prof. [Shuicheng Yan](https://yanshuicheng.info/).
 
 Research Interests: <strong>Efficient AI, Diffusion Model, MLLM, World Model</strong>.
 
-<p class="collaboration-line">I am always open to research collaborations. Please feel free to contact me if you are interested in working together!</p>
+<p class="collaboration-line">I am currently seeking Spring/Fall 2027 PhD opportunities and am always open to research collaborations. Please feel free to contact me!</p>
 
 <!-- I have published more than 100 papers at the top international AI conferences with total <a href='https://scholar.google.com/citations?user=DhtAFkwAAAAJ'>google scholar citations <strong><span id='total_cit'>260000+</span></strong></a> (You can also use google scholar badge <a href='https://scholar.google.com/citations?user=DhtAFkwAAAAJ'><img src="https://img.shields.io/endpoint?url={{ url | url_encode }}&logo=Google%20Scholar&labelColor=f6f6f6&color=9cf&style=flat&label=citations"></a>). -->
 

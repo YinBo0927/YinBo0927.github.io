@@ -1,7 +1,7 @@
 require "minitest/autorun"
 
 class CollaborationLineTest < Minitest::Test
-  MESSAGE = "I am always open to research collaborations. Please feel free to contact me if you are interested in working together!"
+  MESSAGE = "I am currently seeking Spring/Fall 2027 PhD opportunities and am always open to research collaborations. Please feel free to contact me!"
   RESEARCH_INTERESTS = "Efficient AI, Diffusion Model, MLLM, World Model"
 
   def test_homepage_uses_one_standalone_collaboration_line
@@ -33,5 +33,12 @@ class CollaborationLineTest < Minitest::Test
 
     assert_includes homepage, "Research Interests: <strong>#{RESEARCH_INTERESTS}</strong>."
     refute_includes homepage, "PEFT, AIGC, MLLM"
+  end
+
+  def test_homepage_lists_lv_lab_internship
+    homepage = File.read("_pages/about.md")
+
+    assert_includes homepage, "[NUS LV Lab](https://www.lv-lab.org/nus/index.html)"
+    assert_includes homepage, "Prof. [Shuicheng Yan](https://yanshuicheng.info/)"
   end
 end
