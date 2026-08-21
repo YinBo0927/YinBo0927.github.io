@@ -33,6 +33,7 @@ Research Interests: <strong>Efficient AI, Diffusion Model, MLLM, World Model</st
 <div class="news-carousel" aria-label="News">
   <div class="carousel-wrapper">
     <div class="carousel-container">
+      <div class="carousel-item"><span class="news-date">2026.08</span><span>🎉 <strong>RePro</strong> was accepted by <strong>EMNLP 2026 Findings</strong>.</span></div>
       <div class="carousel-item"><span class="news-date">2026.06</span><span>🎉 <strong>SPOT-E</strong> was accepted by <strong>ECCV 2026</strong>.</span></div>
       <div class="carousel-item"><span class="news-date">2026.05</span><span>🎉 Three papers, <strong>FeRA</strong>, <strong>L2-VMAS</strong>, and <strong>VPD-100K</strong>, were accepted by <strong>ICML 2026</strong>.</span></div>
       <div class="carousel-item"><span class="news-date">2025.11</span><span>I submitted 1 paper to CVPR 2026.</span></div>
@@ -212,7 +213,7 @@ We introduce FATE, an on-policy self-evolving framework that converts verifier-s
 <div class='paper-box'>
   <div class='paper-box-image'>
     <div>
-      <div class="badge badge-under-review">Under Review</div>
+      <div class="badge badge-accepted">EMNLP 2026 Findings</div>
       <img src='images/repro.png' alt="repro" width="100%">
     </div>
   </div>
