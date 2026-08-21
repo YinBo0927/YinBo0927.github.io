@@ -71,6 +71,26 @@ Research Interests: <strong>Efficient AI, Diffusion Model, MLLM, World Model</st
 <div class='paper-box'>
   <div class='paper-box-image'>
     <div>
+      <div class="badge badge-accepted">EMNLP 2026 Findings</div>
+      <img src='images/repro.png' alt="repro" width="100%">
+    </div>
+  </div>
+  <div class='paper-box-text' markdown="1">
+
+**Refinement Provenance Inference: Detecting LLM-Refined Training Prompts from Model Behavior**
+
+**Bo Yin**, Qi Li, Runpeng Yu, Xinchao Wang
+
+[<img src="https://img.shields.io/badge/arXiv-2601.01966-b31b1b?logo=arxiv&logoColor=white" alt="arXiv" style="height:20px;">](https://arxiv.org/abs/2601.01966) [<img src="https://img.shields.io/badge/GitHub-RePro-blue?logo=github&logoColor=white" alt="GitHub" style="height:20px;">](https://github.com/YinBo0927/RePro)
+
+We propose an instance-level auditing method that infers, from a model's behavior, whether it was trained on an original prompt or an LLM-refined version of that prompt within a mixed training corpus.
+
+  </div>
+</div>
+
+<div class='paper-box'>
+  <div class='paper-box-image'>
+    <div>
       <div class="badge badge-accepted">ECCV 2026</div>
       <img src='images/spote_framework.png' alt="SPOT-E test-time visual spotlight framework" width="100%">
     </div>
@@ -206,26 +226,6 @@ We introduce MambaADv2, a multi-class unsupervised anomaly detection framework t
 [<img src="https://img.shields.io/badge/arXiv-2605.11882-b31b1b?logo=arxiv&logoColor=white" alt="arXiv" style="height:20px;">](https://arxiv.org/abs/2605.11882) [<img src="https://img.shields.io/badge/GitHub-FATE-blue?logo=github&logoColor=white" alt="GitHub" style="height:20px;">](https://github.com/YinBo0927/FATE)
 
 We introduce FATE, an on-policy self-evolving framework that converts verifier-scored failure trajectories into repair supervision and uses Pareto-Front Policy Optimization to improve trajectory-level safety while preserving utility.
-
-  </div>
-</div>
-
-<div class='paper-box'>
-  <div class='paper-box-image'>
-    <div>
-      <div class="badge badge-accepted">EMNLP 2026 Findings</div>
-      <img src='images/repro.png' alt="repro" width="100%">
-    </div>
-  </div>
-  <div class='paper-box-text' markdown="1">
-
-**Refinement Provenance Inference: Detecting LLM-Refined Training Prompts from Model Behavior**
-
-**Bo Yin**, Qi Li, Runpeng Yu, Xinchao Wang
-
-[<img src="https://img.shields.io/badge/arXiv-2601.01966-b31b1b?logo=arxiv&logoColor=white" alt="arXiv" style="height:20px;">](https://arxiv.org/abs/2601.01966) [<img src="https://img.shields.io/badge/GitHub-RePro-blue?logo=github&logoColor=white" alt="GitHub" style="height:20px;">](https://github.com/YinBo0927/RePro)
-
-We propose an instance-level auditing method that infers, from a model's behavior, whether it was trained on an original prompt or an LLM-refined version of that prompt within a mixed training corpus.
 
   </div>
 </div>
