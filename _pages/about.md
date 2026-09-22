@@ -31,7 +31,7 @@ Research Interests: <strong>Efficient AI, Diffusion Model, MLLM, World Model</st
 # 🔥 News
 
 <div class="news-carousel" aria-label="News">
-  <div class="carousel-wrapper">
+  <div class="carousel-wrapper" role="region" aria-label="News archive" tabindex="0">
     <div class="carousel-container">
       <div class="carousel-item"><span class="news-date">2026.08</span><span>🎉 <strong>RePro</strong> was accepted by <strong>EMNLP 2026 Findings</strong>.</span></div>
       <div class="carousel-item"><span class="news-date">2026.06</span><span>🎉 <strong>SPOT-E</strong> was accepted by <strong>ECCV 2026</strong>.</span></div>
@@ -46,10 +46,6 @@ Research Interests: <strong>Efficient AI, Diffusion Model, MLLM, World Model</st
       <div class="carousel-item"><span class="news-date">2024.01</span><span>🎉 I get the excellent group as leader in the winter exchange program in National University of Singapore.</span></div>
       <div class="carousel-item"><span class="news-date">2023.12</span><span>🎉 I get the intern offer from the TGAILab, supervised by Prof. <a href="https://www.westlake.edu.cn/faculty/yaochu-jin.html">Yaochu Jin</a>.</span></div>
     </div>
-  </div>
-  <div class="carousel-buttons">
-    <button class="carousel-btn carousel-btn-prev" type="button" aria-label="Show newer news">↑ Newer</button>
-    <button class="carousel-btn carousel-btn-next" type="button" aria-label="Show older news">Older ↓</button>
   </div>
 </div>
 
@@ -69,19 +65,26 @@ Research Interests: <strong>Efficient AI, Diffusion Model, MLLM, World Model</st
 </div> -->
 
 <div class='paper-box'>
+  <div class='paper-heading' markdown="1">
+
+<div class="badge badge-accepted">ECCV 2026</div>
+
+**SPOT-E: Test-Time Entropy Shaping with Visual Spotlights for Frozen VLMs**
+{: .paper-title}
+
+  </div>
   <div class='paper-box-image'>
     <div>
-      <div class="badge badge-accepted">ECCV 2026</div>
       <img src='images/spote_framework.png' alt="SPOT-E test-time visual spotlight framework" width="100%">
     </div>
   </div>
   <div class='paper-box-text' markdown="1">
 
-**SPOT-E: Test-Time Entropy Shaping with Visual Spotlights for Frozen VLMs**
-
 **Bo Yin**, Xiaobin Hu, Chengming Xu, Ruolin Shen, Mo Yang, Jiangning Zhang, Peng-Tao Jiang, Cheng Tan, Shuicheng Yan
+{: .paper-authors}
 
-[<img src="https://img.shields.io/badge/arXiv-2606.20244-b31b1b?logo=arxiv&logoColor=white" alt="arXiv" style="height:20px;">](https://arxiv.org/abs/2606.20244) [<img src="https://img.shields.io/badge/GitHub-SPOT--E-blue?logo=github&logoColor=white" alt="GitHub" style="height:20px;">](https://github.com/YinBo0927/SPOT-E)
+<a class="paper-link" href="https://arxiv.org/abs/2606.20244"><i class="fas fa-file-alt" aria-hidden="true"></i> arXiv</a> <a class="paper-link" href="https://github.com/YinBo0927/SPOT-E"><i class="fab fa-github" aria-hidden="true"></i> GitHub</a>
+{: .paper-links}
 
 We introduce SPOT-E, a plug-and-play test-time visual adaptation framework that keeps the VLM frozen while optimizing question-conditioned visual spotlights through entropy shaping, improving evidence utilization without model retraining.
 
@@ -89,19 +92,26 @@ We introduce SPOT-E, a plug-and-play test-time visual adaptation framework that 
 </div>
 
 <div class='paper-box'>
+  <div class='paper-heading' markdown="1">
+
+<div class="badge badge-accepted">ICML 2026</div>
+
+**FeRA: Frequency-Energy Constrained Routing for Effective Diffusion Adaptation Fine-Tuning**
+{: .paper-title}
+
+  </div>
   <div class='paper-box-image'>
     <div>
-      <div class="badge badge-accepted">ICML 2026</div>
       <img src='images/fera.svg' alt="FeRA: Frequency-Energy Constrained Routing for Effective Diffusion Adaptation Fine-Tuning" width="100%">
     </div>
   </div>
   <div class='paper-box-text' markdown="1">
 
-**FeRA: Frequency-Energy Constrained Routing for Effective Diffusion Adaptation Fine-Tuning**
-
 **Bo Yin**, Xiaobin Hu, Xingyu Zhou, Peng-Tao Jiang, Yue Liao, Junwei Zhu, Jiangning Zhang, Ying Tai, Chengjie Wang, Shuicheng Yan
+{: .paper-authors}
 
-[<img src="https://img.shields.io/badge/arXiv-2511.17979-b31b1b?logo=arxiv&logoColor=white" alt="arXiv" style="height:20px;">](https://arxiv.org/abs/2511.17979) [<img src="https://img.shields.io/badge/GitHub-FeRA-blue?logo=github&logoColor=white" alt="GitHub" style="height:20px;">](https://github.com/YinBo0927/FeRA)
+<a class="paper-link" href="https://arxiv.org/abs/2511.17979"><i class="fas fa-file-alt" aria-hidden="true"></i> arXiv</a> <a class="paper-link" href="https://github.com/YinBo0927/FeRA"><i class="fab fa-github" aria-hidden="true"></i> GitHub</a>
+{: .paper-links}
 
 We present a novel fine-tuning approach for diffusion models, termed Frequency-Energy constrained Routing Adaptation (FeRA), which uses frequency-domain analysis to guide the fine-tuning process, enhancing both efficiency and effectiveness.
 
@@ -109,19 +119,26 @@ We present a novel fine-tuning approach for diffusion models, termed Frequency-E
 </div>
 
 <div class='paper-box'>
+  <div class='paper-heading' markdown="1">
+
+<div class="badge badge-accepted">ICML 2026</div>
+
+**VPD-100K: Towards Generalizable and Fine-grained Visual Privacy Protection**
+{: .paper-title}
+
+  </div>
   <div class='paper-box-image'>
     <div>
-      <div class="badge badge-accepted">ICML 2026</div>
       <img src='images/vpd_100k_framework.png' alt="VPD-100K frequency-enhanced detection framework" width="100%">
     </div>
   </div>
   <div class='paper-box-text' markdown="1">
 
-**VPD-100K: Towards Generalizable and Fine-grained Visual Privacy Protection**
-
 Xiaobin Hu, Enpu Zuo, Lanping Hu, Kaiwen Yang, Dianshu Liao, Tianyi Zhang, **Bo Yin**, Yinsi Zhou, Shidong Pan, Xiaoyu Sun
+{: .paper-authors}
 
-[<img src="https://img.shields.io/badge/arXiv-2605.10229-b31b1b?logo=arxiv&logoColor=white" alt="arXiv" style="height:20px;">](https://arxiv.org/abs/2605.10229) [<img src="https://img.shields.io/badge/Project-VPD--100K-2f855a?logo=githubpages&logoColor=white" alt="Project" style="height:20px;">](https://vpd-100k.github.io/)
+<a class="paper-link" href="https://arxiv.org/abs/2605.10229"><i class="fas fa-file-alt" aria-hidden="true"></i> arXiv</a> <a class="paper-link" href="https://vpd-100k.github.io/"><i class="fas fa-globe" aria-hidden="true"></i> Project</a>
+{: .paper-links}
 
 We present VPD-100K, a large-scale fine-grained visual privacy dataset with 100,000 images, 33 classes, and over 190,000 object instances, together with a frequency-enhanced lightweight mechanism for robust privacy detection.
 
@@ -129,19 +146,26 @@ We present VPD-100K, a large-scale fine-grained visual privacy dataset with 100,
 </div>
 
 <div class='paper-box'>
+  <div class='paper-heading' markdown="1">
+
+<div class="badge badge-accepted">ICML 2026</div>
+
+**Dual Latent Memory for Visual Multi-agent System**
+{: .paper-title}
+
+  </div>
   <div class='paper-box-image'>
     <div>
-      <div class="badge badge-accepted">ICML 2026</div>
       <img src='images/l2_vmas_framework.png' alt="Dual Latent Memory for Visual Multi-agent System framework" width="100%">
     </div>
   </div>
   <div class='paper-box-text' markdown="1">
 
-**Dual Latent Memory for Visual Multi-agent System**
-
 Xinlei Yu, Chengming Xu, Zhangquan Chen, **Bo Yin**, Cheng Yang, Yongbo He, Yihao Hu, Jiangning Zhang, Cheng Tan, Xiaobin Hu, Shuicheng Yan
+{: .paper-authors}
 
-[<img src="https://img.shields.io/badge/arXiv-2602.00471-b31b1b?logo=arxiv&logoColor=white" alt="arXiv" style="height:20px;">](https://arxiv.org/abs/2602.00471) [<img src="https://img.shields.io/badge/GitHub-L2--VMAS-blue?logo=github&logoColor=white" alt="GitHub" style="height:20px;">](https://github.com/YU-deep/L2-VMAS)
+<a class="paper-link" href="https://arxiv.org/abs/2602.00471"><i class="fas fa-file-alt" aria-hidden="true"></i> arXiv</a> <a class="paper-link" href="https://github.com/YU-deep/L2-VMAS"><i class="fab fa-github" aria-hidden="true"></i> GitHub</a>
+{: .paper-links}
 
 We introduce L<sup>2</sup>-VMAS, a model-agnostic framework that enables visual multi-agent collaboration through dual latent memories, improving scalability while reducing token-heavy text communication.
 
@@ -149,19 +173,26 @@ We introduce L<sup>2</sup>-VMAS, a model-agnostic framework that enables visual 
 </div>
 
 <div class='paper-box'>
+  <div class='paper-heading' markdown="1">
+
+<div class="badge badge-accepted">EMNLP 2026 Findings</div>
+
+**Refinement Provenance Inference: Detecting LLM-Refined Training Prompts from Model Behavior**
+{: .paper-title}
+
+  </div>
   <div class='paper-box-image'>
     <div>
-      <div class="badge badge-accepted">EMNLP 2026 Findings</div>
       <img src='images/repro.png' alt="repro" width="100%">
     </div>
   </div>
   <div class='paper-box-text' markdown="1">
 
-**Refinement Provenance Inference: Detecting LLM-Refined Training Prompts from Model Behavior**
-
 **Bo Yin**, Qi Li, Runpeng Yu, Xinchao Wang
+{: .paper-authors}
 
-[<img src="https://img.shields.io/badge/arXiv-2601.01966-b31b1b?logo=arxiv&logoColor=white" alt="arXiv" style="height:20px;">](https://arxiv.org/abs/2601.01966) [<img src="https://img.shields.io/badge/GitHub-RePro-blue?logo=github&logoColor=white" alt="GitHub" style="height:20px;">](https://github.com/YinBo0927/RePro)
+<a class="paper-link" href="https://arxiv.org/abs/2601.01966"><i class="fas fa-file-alt" aria-hidden="true"></i> arXiv</a> <a class="paper-link" href="https://github.com/YinBo0927/RePro"><i class="fab fa-github" aria-hidden="true"></i> GitHub</a>
+{: .paper-links}
 
 We propose an instance-level auditing method that infers, from a model's behavior, whether it was trained on an original prompt or an LLM-refined version of that prompt within a mixed training corpus.
 
@@ -169,21 +200,28 @@ We propose an instance-level auditing method that infers, from a model's behavio
 </div>
 
 <div class='paper-box'>
+  <div class='paper-heading' markdown="1">
+
+<div class="badge badge-preprint">arXiv 2026</div>
+
+**Vision-Language-Action Safety: Threats, Challenges, Evaluations, and Mechanisms**
+{: .paper-title}
+
+  </div>
   <div class='paper-box-image'>
     <div>
-      <div class="badge badge-preprint">arXiv 2026</div>
       <img src='images/vla_safety_framework.png' alt="Vision-Language-Action Safety landscape framework" width="100%">
     </div>
   </div>
   <div class='paper-box-text' markdown="1">
 
-**Vision-Language-Action Safety: Threats, Challenges, Evaluations, and Mechanisms**
-
 Qi Li<sup>*</sup>, **Bo Yin**<sup>*</sup>, Weiqi Huang<sup>*</sup>, Ruhao Liu<sup>*</sup>, Bojun Zou, Runpeng Yu, Jingwen Ye, Weihao Yu, Xinchao Wang
+{: .paper-authors}
 
 <span class="contribution-note"><sup>*</sup> Equal contribution.</span>
 
-[<img src="https://img.shields.io/badge/arXiv-2604.23775-b31b1b?logo=arxiv&logoColor=white" alt="arXiv" style="height:20px;">](https://arxiv.org/abs/2604.23775) [<img src="https://img.shields.io/badge/GitHub-VLA--Safety-blue?logo=github&logoColor=white" alt="GitHub" style="height:20px;">](https://github.com/LiQiiiii/Awesome-VLA-Safety)
+<a class="paper-link" href="https://arxiv.org/abs/2604.23775"><i class="fas fa-file-alt" aria-hidden="true"></i> arXiv</a> <a class="paper-link" href="https://github.com/LiQiiiii/Awesome-VLA-Safety"><i class="fab fa-github" aria-hidden="true"></i> GitHub</a>
+{: .paper-links}
 
 We survey VLA safety across threats, defenses, evaluation, and deployment, highlighting the unique risks introduced by embodied vision-language-action systems.
 
@@ -191,19 +229,26 @@ We survey VLA safety across threats, defenses, evaluation, and deployment, highl
 </div>
 
 <div class='paper-box'>
+  <div class='paper-heading' markdown="1">
+
+<div class="badge badge-under-review">Under Review</div>
+
+**MambaADv2: Evolving Duality-enhanced State Space Model for Unsupervised Anomaly Detection**
+{: .paper-title}
+
+  </div>
   <div class='paper-box-image'>
     <div>
-      <div class="badge badge-under-review">Under Review</div>
       <img src='images/mambaadv2_framework.png' alt="MambaADv2 architecture framework" width="100%">
     </div>
   </div>
   <div class='paper-box-text' markdown="1">
 
-**MambaADv2: Evolving Duality-enhanced State Space Model for Unsupervised Anomaly Detection**
-
 Xiaobin Hu, Haoyang He, **Bo Yin**, Yu He, Lei Xie, Jiangning Zhang, Yu-Gang Jiang, Shuicheng Yan
+{: .paper-authors}
 
-[<img src="https://img.shields.io/badge/arXiv-2606.23126-b31b1b?logo=arxiv&logoColor=white" alt="arXiv" style="height:20px;">](https://arxiv.org/abs/2606.23126)
+<a class="paper-link" href="https://arxiv.org/abs/2606.23126"><i class="fas fa-file-alt" aria-hidden="true"></i> arXiv</a>
+{: .paper-links}
 
 We introduce MambaADv2, a multi-class unsupervised anomaly detection framework that combines a frozen encoder with a Mamba-inspired decoder using Duality-enhanced State Space modules to jointly model global, local, and frequency information with linear complexity.
 
@@ -211,19 +256,26 @@ We introduce MambaADv2, a multi-class unsupervised anomaly detection framework t
 </div>
 
 <div class='paper-box'>
+  <div class='paper-heading' markdown="1">
+
+<div class="badge badge-under-review">Under Review</div>
+
+**On-Policy Self-Evolution via Failure Trajectories for Agentic Safety Alignment**
+{: .paper-title}
+
+  </div>
   <div class='paper-box-image'>
     <div>
-      <div class="badge badge-under-review">Under Review</div>
       <img src='images/fate_framework.png' alt="FATE on-policy self-evolution framework" width="100%">
     </div>
   </div>
   <div class='paper-box-text' markdown="1">
 
-**On-Policy Self-Evolution via Failure Trajectories for Agentic Safety Alignment**
-
 **Bo Yin**, Qi Li, Xinchao Wang
+{: .paper-authors}
 
-[<img src="https://img.shields.io/badge/arXiv-2605.11882-b31b1b?logo=arxiv&logoColor=white" alt="arXiv" style="height:20px;">](https://arxiv.org/abs/2605.11882) [<img src="https://img.shields.io/badge/GitHub-FATE-blue?logo=github&logoColor=white" alt="GitHub" style="height:20px;">](https://github.com/YinBo0927/FATE)
+<a class="paper-link" href="https://arxiv.org/abs/2605.11882"><i class="fas fa-file-alt" aria-hidden="true"></i> arXiv</a> <a class="paper-link" href="https://github.com/YinBo0927/FATE"><i class="fab fa-github" aria-hidden="true"></i> GitHub</a>
+{: .paper-links}
 
 We introduce FATE, an on-policy self-evolving framework that converts verifier-scored failure trajectories into repair supervision and uses Pareto-Front Policy Optimization to improve trajectory-level safety while preserving utility.
 
@@ -231,19 +283,26 @@ We introduce FATE, an on-policy self-evolving framework that converts verifier-s
 </div>
 
 <div class='paper-box'>
+  <div class='paper-heading' markdown="1">
+
+<div class="badge badge-under-review">Under Review</div>
+
+**Don't Forget the Nonlinearity: Unlocking Activation Functions in Efficient Fine-Tuning**
+{: .paper-title}
+
+  </div>
   <div class='paper-box-image'>
     <div>
-      <div class="badge badge-under-review">Under Review</div>
       <img src='images/nora.svg' alt="Don't Forget the Nonlinearity" width="100%">
     </div>
   </div>
   <div class='paper-box-text' markdown="1">
 
-**Don't Forget the Nonlinearity: Unlocking Activation Functions in Efficient Fine-Tuning**
-
 **Bo Yin**, Xingyi Yang, Xinchao Wang
+{: .paper-authors}
 
-[<img src="https://img.shields.io/badge/arXiv-2509.13240-b31b1b?logo=arxiv&logoColor=white" alt="arXiv" style="height:20px;">](https://arxiv.org/abs/2509.13240) [<img src="https://img.shields.io/badge/GitHub-NoRA-blue?logo=github&logoColor=white" alt="GitHub" style="height:20px;">](https://github.com/YinBo0927/NoRA)
+<a class="paper-link" href="https://arxiv.org/abs/2509.13240"><i class="fas fa-file-alt" aria-hidden="true"></i> arXiv</a> <a class="paper-link" href="https://github.com/YinBo0927/NoRA"><i class="fab fa-github" aria-hidden="true"></i> GitHub</a>
+{: .paper-links}
 
 We propose a novel and effective fine-tuning paradigm that introduces learnable activation functions to adapt large pre-trained models to downstream tasks while preserving their computational efficiency.
 
@@ -251,19 +310,26 @@ We propose a novel and effective fine-tuning paradigm that introduces learnable 
 </div>
 
 <div class='paper-box'>
+  <div class='paper-heading' markdown="1">
+
+<div class="badge badge-under-review">Under Review</div>
+
+**LacaDM: A Latent Causal Diffusion Model for Multiobjective Reinforcement Learning**
+{: .paper-title}
+
+  </div>
   <div class='paper-box-image'>
     <div>
-      <div class="badge badge-under-review">Under Review</div>
       <img src='images/lacadm.png' alt="lacadm" width="100%">
     </div>
   </div>
   <div class='paper-box-text' markdown="1">
 
-**LacaDM: A Latent Causal Diffusion Model for Multiobjective Reinforcement Learning**
-
 Xueming Yan, **Bo Yin**, Yaochu Jin
+{: .paper-authors}
 
-[<img src="https://img.shields.io/badge/arXiv-2512.19516-b31b1b?logo=arxiv&logoColor=white" alt="arXiv" style="height:20px;">](https://arxiv.org/abs/2512.19516)
+<a class="paper-link" href="https://arxiv.org/abs/2512.19516"><i class="fas fa-file-alt" aria-hidden="true"></i> arXiv</a>
+{: .paper-links}
 
 We propose a novel multi-objective reinforcement learning framework that leverages latent temporal causal structures to enhance generalization and significantly outperform state-of-the-art baselines in complex dynamic environments.
 

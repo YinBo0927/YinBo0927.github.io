@@ -1,148 +1,68 @@
-/* News Carousel Styles */
+/* Native scrolling news archive */
 .news-carousel {
-  position: relative;
   width: 100%;
   max-width: 900px;
   margin: 10px 0 22px;
-  padding: 0;
 }
 
 .carousel-wrapper {
-  position: relative;
-  height: 208px; /* 4 items × 52px */
-  overflow: hidden;
-  border: 1px solid #e5e7eb;
-  border-left: 4px solid #00369f;
-  border-radius: 8px;
-  background: #fbfcfe;
-  box-shadow: 0 6px 18px rgba(16, 24, 40, 0.045);
+  height: 208px;
+  overflow-y: auto;
+  overscroll-behavior-y: contain;
+  scrollbar-width: thin;
+  scrollbar-color: rgba(126, 147, 171, 0.4) transparent;
+  scrollbar-gutter: stable;
+  border: 1px solid rgba(139, 161, 185, 0.2);
+  border-radius: 14px;
+  background: linear-gradient(125deg, rgba(226, 237, 247, 0.65), rgba(250, 252, 255, 0.45) 48%, rgba(232, 237, 247, 0.6));
+  -webkit-backdrop-filter: blur(14px);
+  backdrop-filter: blur(14px);
+  box-shadow: inset 0 2px 7px rgba(48, 72, 99, 0.07), inset 0 -1px 0 rgba(255, 255, 255, 0.9);
 }
 
-.carousel-container {
-  position: relative;
-  display: flex;
-  flex-direction: column;
-  transition: transform 0.5s ease-out;
-  width: 100%;
+html[data-theme="dark"] .carousel-wrapper {
+  border-color: rgba(148, 174, 204, 0.18);
+  background: linear-gradient(125deg, rgba(40, 59, 82, 0.55), rgba(22, 32, 49, 0.35) 48%, rgba(43, 49, 75, 0.45));
+  box-shadow: inset 0 2px 8px rgba(0, 0, 0, 0.22), inset 0 -1px 0 rgba(190, 213, 240, 0.08);
+}
+
+.carousel-wrapper:focus-visible {
+  outline: 2px solid var(--primary);
+  outline-offset: 3px;
 }
 
 .carousel-item {
-  flex-shrink: 0;
-  height: 52px;
+  min-height: 52px;
   display: flex;
-  align-items: center;
-  gap: 10px;
-  padding: 8px 14px;
-  border-bottom: 1px solid #edf0f3;
+  align-items: baseline;
+  gap: 12px;
+  padding: 14px 16px;
   font-size: 14px;
-  line-height: 1.35;
-  color: #333;
+  line-height: 1.5;
+  color: var(--text);
   box-sizing: border-box;
-  overflow: hidden;
 }
 
 .carousel-item span:last-child {
-  display: -webkit-box;
-  overflow: hidden;
-  -webkit-box-orient: vertical;
-  -webkit-line-clamp: 2;
-}
-
-.carousel-item:last-child {
-  border-bottom: none;
+  min-width: 0;
+  overflow-wrap: anywhere;
 }
 
 .carousel-item .news-date {
   flex: 0 0 auto;
-  min-width: 68px;
-  padding: 3px 7px;
-  border-radius: 999px;
-  background: #eef4ff;
-  color: #00369f;
-  font-style: normal;
-  font-weight: 700;
-  text-align: center;
+  color: var(--muted);
+  font-family: ui-monospace, SFMono-Regular, Consolas, monospace;
   font-size: 12px;
+  font-variant-numeric: tabular-nums;
 }
 
-/* Carousel Buttons */
-.carousel-buttons {
-  display: flex;
-  justify-content: flex-end;
-  align-items: center;
-  margin-top: 7px;
-  gap: 8px;
-}
-
-.carousel-btn {
-  flex: 0 0 auto;
-  min-width: 86px;
-  padding: 6px 10px;
-  border: 1px solid #d8dee6;
-  background: #fff;
-  border-radius: 999px;
-  cursor: pointer;
-  font-size: 12px;
-  font-weight: 500;
-  color: #555;
-  transition: all 0.2s ease;
-}
-
-.carousel-btn:hover {
-  background: #f0f0f0;
-  border-color: #999;
-}
-
-.carousel-btn:active {
-  background: #e8e8e8;
-}
-
-.carousel-btn:disabled {
-  opacity: 0.5;
-  cursor: not-allowed;
-}
-
-html[data-theme="dark"] .carousel-wrapper {
-  border-color: #334155;
-  border-left-color: #60a5fa;
-  background: #111827;
-  box-shadow: 0 8px 24px rgba(0, 0, 0, 0.24);
-}
-
-html[data-theme="dark"] .carousel-item {
-  border-bottom-color: #243044;
-  color: #e5e7eb;
-}
-
-html[data-theme="dark"] .carousel-item .news-date {
-  background: rgba(96, 165, 250, 0.16);
-  color: #93c5fd;
-}
-
-html[data-theme="dark"] .carousel-btn {
-  border-color: #334155;
-  background: #111827;
-  color: #cbd5e1;
-}
-
-html[data-theme="dark"] .carousel-btn:hover {
-  border-color: #475569;
-  background: #1f2937;
-}
-
-/* Responsive */
 @media (max-width: 768px) {
   .carousel-wrapper {
-    height: 248px; /* 4 items */
-  }
-  
-  .carousel-item {
-    height: 62px;
-    font-size: 13px;
-    padding: 10px 12px;
+    height: 248px;
   }
 
-  .carousel-item .news-date {
-    min-width: 62px;
+  .carousel-item {
+    gap: 10px;
+    padding: 12px;
   }
 }
