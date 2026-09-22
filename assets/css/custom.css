@@ -224,6 +224,8 @@ html[data-theme="dark"] p.collaboration-line{
 
 .paper-box{
   position: relative;
+  width: 100%;
+  max-width: 900px;
   display: grid;
   grid-template-columns: minmax(0, 1fr);
   align-items: start;
