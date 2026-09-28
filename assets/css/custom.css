@@ -243,6 +243,46 @@ html[data-theme="dark"] p.collaboration-line{
   border-color: var(--border-strong);
 }
 
+.education-list{
+  max-width: 900px;
+}
+
+.education-item{
+  display: grid;
+  grid-template-columns: 82px minmax(0, 1fr) auto;
+  align-items: center;
+  gap: 1.25rem;
+  padding: 1.1rem 0;
+}
+
+.education-logo{
+  display: block;
+  width: 82px;
+  height: 82px;
+  object-fit: contain;
+}
+
+.education-details{
+  display: grid;
+  gap: .3rem;
+  min-width: 0;
+}
+
+.education-details strong{
+  color: var(--text);
+  font-size: 1.1em;
+}
+
+.education-details span,
+.education-date{
+  color: var(--muted);
+}
+
+.education-date{
+  align-self: center;
+  white-space: nowrap;
+}
+
 .paper-box .paper-box-image{
   align-items: start;
   min-width: 0;
@@ -473,6 +513,22 @@ html[data-theme="dark"] .page__footer{
 @media (max-width: 767px){
   .paper-box{
     padding: .85rem;
+  }
+
+  .education-item{
+    grid-template-columns: 56px minmax(0, 1fr);
+    gap: .25rem .85rem;
+  }
+
+  .education-logo{
+    width: 56px;
+    height: 56px;
+    grid-row: span 2;
+  }
+
+  .education-date{
+    grid-column: 2;
+    font-size: .9em;
   }
 
   .visitor-map{

@@ -414,11 +414,32 @@ Zhan Zhenrong, **Yin Bo**, Liu Ziyun, Liu Yingying, Chen Boyang, He Yu, Chen Qiy
 
 # 📖 Educations
 
-- <img src="images/nus_logo.jpg" alt="NUS" style="width:40px; margin-right: 10px;" align="middle"/> **National University of Singapore**, M.Sc. in Computer Engineering, *2025.08 - 2027.01*
-
-- <img src="images/nus_logo.jpg" alt="NUSRI" style="width:40px; margin-right: 10px;" align="middle"/> **NUS Research Institute in Chongqing**, 3+1+1 Program, *2024.09 - 2025.06*
-
-- <img src="images/scut_logo.jpg" alt="SCUT" style="width:40px; margin-right: 10px;" align="middle"/> **South China University of Technology**, B.Eng. in Artificial Intelligence, *2021.09 - 2025.07*
+<div class="education-list">
+  <div class="education-item">
+    <img src="images/nus_logo.jpg" alt="" class="education-logo">
+    <div class="education-details">
+      <strong>National University of Singapore</strong>
+      <span>M.Sc. in Computer Engineering</span>
+    </div>
+    <span class="education-date">Aug 2025 – Jan 2027</span>
+  </div>
+  <div class="education-item">
+    <img src="images/nus_logo.jpg" alt="" class="education-logo">
+    <div class="education-details">
+      <strong>NUS Research Institute in Chongqing</strong>
+      <span>3+1+1 Program</span>
+    </div>
+    <span class="education-date">Sep 2024 – Jun 2025</span>
+  </div>
+  <div class="education-item">
+    <img src="images/scut_logo.jpg" alt="" class="education-logo">
+    <div class="education-details">
+      <strong>South China University of Technology</strong>
+      <span>B.Eng. in Artificial Intelligence</span>
+    </div>
+    <span class="education-date">Sep 2021 – Jul 2025</span>
+  </div>
+</div>
 
 
 # 💻 Internships
