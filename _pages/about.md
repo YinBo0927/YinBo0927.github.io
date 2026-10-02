@@ -202,6 +202,33 @@ We propose an instance-level auditing method that infers, from a model's behavio
 <div class='paper-box'>
   <div class='paper-heading' markdown="1">
 
+<div class="badge badge-under-review">Under Review</div>
+
+**FrameMorrow: Future-guided Frame Selection with Prospective Tokens for Long-Horizon Video Generation**
+{: .paper-title}
+
+  </div>
+  <div class='paper-box-image'>
+    <div>
+      <img src='images/framemorrow_overview.png' alt="FrameMorrow prospective frame selection and training overview" width="100%">
+    </div>
+  </div>
+  <div class='paper-box-text' markdown="1">
+
+**Bo Yin**, Xiaobin Hu, Jiaqi Zhao, Shuicheng Yan
+{: .paper-authors}
+
+<a class="paper-link" href="https://arxiv.org/abs/2609.38839"><i class="fas fa-file-alt" aria-hidden="true"></i> arXiv</a>
+{: .paper-links}
+
+FrameMorrow predicts compact prospective tokens to select historical frames according to future information needs, improving long-horizon video generation across diverse models.
+
+  </div>
+</div>
+
+<div class='paper-box'>
+  <div class='paper-heading' markdown="1">
+
 <div class="badge badge-preprint">arXiv 2026</div>
 
 **Vision-Language-Action Safety: Threats, Challenges, Evaluations, and Mechanisms**
