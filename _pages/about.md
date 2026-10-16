@@ -33,6 +33,7 @@ Research Interests: <strong>Efficient AI, Diffusion Model, MLLM, World Model</st
 <div class="news-carousel" aria-label="News">
   <div class="carousel-wrapper" role="region" aria-label="News archive" tabindex="0">
     <div class="carousel-container">
+      <div class="carousel-item"><span class="news-date">2026.10</span><span>🎉 <a href="https://huggingface.co/papers/2609.38839"><strong>FrameMorrow</strong></a> was ranked <a href="https://huggingface.co/papers/date/2026-10-05"><strong>#2 Paper of the Day</strong></a> on Hugging Face Daily Papers.</span></div>
       <div class="carousel-item"><span class="news-date">2026.08</span><span>🎉 <strong>RePro</strong> was accepted by <strong>EMNLP 2026 Findings</strong>.</span></div>
       <div class="carousel-item"><span class="news-date">2026.06</span><span>🎉 <strong>SPOT-E</strong> was accepted by <strong>ECCV 2026</strong>.</span></div>
       <div class="carousel-item"><span class="news-date">2026.05</span><span>🎉 Three papers, <strong>FeRA</strong>, <strong>L2-VMAS</strong>, and <strong>VPD-100K</strong>, were accepted by <strong>ICML 2026</strong>.</span></div>
