@@ -19,7 +19,7 @@ redirect_from:
 
 <span class='anchor' id='about-me'></span>
 
-I am currently pursuing a Master of Science in Computer Engineering at the National University of Singapore (NUS). I obtained my undergraduate degree in Artificial Intelligence from the South China University of Technology (SCUT). I am also a research intern at the [NUS LV Lab](https://www.lv-lab.org/nus/index.html), supervised by Prof. [Shuicheng Yan](https://yanshuicheng.info/).
+I am currently pursuing a Master of Science in Computer Engineering at the National University of Singapore (NUS). I obtained my undergraduate degree in Artificial Intelligence from the South China University of Technology (SCUT). I am also a research intern at the [NUS LV Lab](https://www.lv-lab.org/nus/index.html), supervised by Prof. [Shuicheng Yan](https://yanshuicheng.info/). I work closely with Dr. Xiaobin Hu.
 
 Research Interests: <strong>Efficient AI, Diffusion Model, MLLM, World Model</strong>.
 
