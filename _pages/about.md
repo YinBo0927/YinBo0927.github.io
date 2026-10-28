@@ -52,6 +52,13 @@ Research Interests: <strong>Efficient AI, Diffusion Model, MLLM, World Model</st
 
 # 📝 Publications 
 
+<div class="publication-filters" role="group" aria-label="Filter publications">
+  <button type="button" class="publication-filter" data-filter="selected" aria-pressed="true">Selected Publications</button>
+  <button type="button" class="publication-filter" data-filter="all" aria-pressed="false">All</button>
+</div>
+<span class="publication-status" role="status" aria-live="polite"></span>
+<noscript><style>.publication-filters{display:none}.paper-box[hidden]{display:grid}</style></noscript>
+
 <!-- <div class='paper-box'><div class='paper-box-image'><div><div class="badge">CVPR 2016</div><img src='images/500x300.png' alt="sym" width="100%"></div></div>
 <div class='paper-box-text' markdown="1">
 
@@ -64,7 +71,7 @@ Research Interests: <strong>Efficient AI, Diffusion Model, MLLM, World Model</st
 </div>
 </div> -->
 
-<div class='paper-box'>
+<div class='paper-box' data-selected='true'>
   <div class='paper-heading' markdown="1">
 
 <div class="badge badge-accepted">ECCV 2026</div>
@@ -91,7 +98,7 @@ We introduce SPOT-E, a plug-and-play test-time visual adaptation framework that 
   </div>
 </div>
 
-<div class='paper-box'>
+<div class='paper-box' data-selected='true'>
   <div class='paper-heading' markdown="1">
 
 <div class="badge badge-accepted">ICML 2026</div>
@@ -118,7 +125,7 @@ We present a novel fine-tuning approach for diffusion models, termed Frequency-E
   </div>
 </div>
 
-<div class='paper-box'>
+<div class='paper-box' data-selected='false' hidden>
   <div class='paper-heading' markdown="1">
 
 <div class="badge badge-accepted">ICML 2026</div>
@@ -145,7 +152,7 @@ We present VPD-100K, a large-scale fine-grained visual privacy dataset with 100,
   </div>
 </div>
 
-<div class='paper-box'>
+<div class='paper-box' data-selected='false' hidden>
   <div class='paper-heading' markdown="1">
 
 <div class="badge badge-accepted">ICML 2026</div>
@@ -172,7 +179,7 @@ We introduce L<sup>2</sup>-VMAS, a model-agnostic framework that enables visual 
   </div>
 </div>
 
-<div class='paper-box'>
+<div class='paper-box' data-selected='true'>
   <div class='paper-heading' markdown="1">
 
 <div class="badge badge-accepted">EMNLP 2026 Findings</div>
@@ -199,7 +206,7 @@ We propose an instance-level auditing method that infers, from a model's behavio
   </div>
 </div>
 
-<div class='paper-box'>
+<div class='paper-box' data-selected='true'>
   <div class='paper-heading' markdown="1">
 
 <div class="badge badge-under-review">Under Review</div>
@@ -226,7 +233,7 @@ FrameMorrow predicts compact prospective tokens to select historical frames acco
   </div>
 </div>
 
-<div class='paper-box'>
+<div class='paper-box' data-selected='true'>
   <div class='paper-heading' markdown="1">
 
 <div class="badge badge-preprint">arXiv 2026</div>
@@ -255,7 +262,7 @@ We survey VLA safety across threats, defenses, evaluation, and deployment, highl
   </div>
 </div>
 
-<div class='paper-box'>
+<div class='paper-box' data-selected='false' hidden>
   <div class='paper-heading' markdown="1">
 
 <div class="badge badge-under-review">Under Review</div>
@@ -282,7 +289,7 @@ We introduce MambaADv2, a multi-class unsupervised anomaly detection framework t
   </div>
 </div>
 
-<div class='paper-box'>
+<div class='paper-box' data-selected='true'>
   <div class='paper-heading' markdown="1">
 
 <div class="badge badge-under-review">Under Review</div>
@@ -309,7 +316,7 @@ We introduce FATE, an on-policy self-evolving framework that converts verifier-s
   </div>
 </div>
 
-<div class='paper-box'>
+<div class='paper-box' data-selected='true'>
   <div class='paper-heading' markdown="1">
 
 <div class="badge badge-under-review">Under Review</div>
@@ -336,7 +343,7 @@ We propose a novel and effective fine-tuning paradigm that introduces learnable 
   </div>
 </div>
 
-<div class='paper-box'>
+<div class='paper-box' data-selected='false' hidden>
   <div class='paper-heading' markdown="1">
 
 <div class="badge badge-under-review">Under Review</div>
@@ -362,10 +369,6 @@ We propose a novel multi-objective reinforcement learning framework that leverag
 
   </div>
 </div>
-
-- [Precise Apple Detection and Localization in Orchards using YOLOv5 for Robotic Harvesting Systems](https://ieeexplore.ieee.org/document/10692278), Jiang Ziyue, **Yin Bo**, Lu Boyun, <span class="venue-label">**AIPMV 2024**</span>
-
-- [A Discussion of Migration of Common Neural Network Regularization Methods on SNNs](https://www.spiedigitallibrary.org/conference-proceedings-of-spie/13291/132915G/A-discussion-of-migration-of-common-neural-network-regularization-methods/10.1117/12.3034448.short), Lv Yilin, **Yin Bo**, <span class="venue-label">**ISAEECE 2024**</span>
 
 <!-- - [SAM-MSF^2: SAM finetune-based Multi-Scale Feature Fusion for Retinal Vessel Segmentation](../bibm.pdf), Yuancong Liang, Huihui Fang, **Bo Yin**, Lingyue Xie, Enqi Ouyang, Kaiyan Chen, Ying Chen, Shiqi Zhou, Hanyi Yu, Yanwu Xu, *Submitted* in <span style="color: red;">**BIBM 2024**</span> -->
 <!-- - [EmoDM: A Diffusion Model for Evolutionary Multi-objective Optimization](https://arxiv.org/abs/2401.15931), Yan Xueming, Jin Yaochu, *Contributer*: **Yin Bo**, *Submitted* in <span style="color: red;">**IEEE**</span> -->

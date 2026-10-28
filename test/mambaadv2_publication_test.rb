@@ -9,7 +9,7 @@ class MambaADv2PublicationTest < Minitest::Test
 
     assert_equal 1, homepage.scan(TITLE).length
     assert_includes homepage, AUTHORS
-    card = homepage.split("<div class='paper-box'>").find { |part| part.include?(TITLE) }
+    card = homepage.split(/<div class='paper-box'[^>]*>/).find { |part| part.include?(TITLE) }
     assert_includes card, 'class="badge badge-under-review">Under Review</div>'
     assert_includes card, "images/mambaadv2_framework.png"
     assert_includes homepage, "https://arxiv.org/abs/2606.23126"
