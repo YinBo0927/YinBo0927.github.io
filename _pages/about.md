@@ -30,24 +30,29 @@ Research Interests: <strong>Efficient AI, Diffusion Model, MLLM, World Model</st
 
 # 🔥 News
 
-<div class="news-carousel" aria-label="News">
-  <div class="carousel-wrapper" role="region" aria-label="News archive" tabindex="0">
-    <div class="carousel-container">
-      <div class="carousel-item"><span class="news-date">2026.08</span><span>🎉 <strong>RePro</strong> was accepted by <strong>EMNLP 2026 Findings</strong>.</span></div>
-      <div class="carousel-item"><span class="news-date">2026.06</span><span>🎉 <strong>SPOT-E</strong> was accepted by <strong>ECCV 2026</strong>.</span></div>
-      <div class="carousel-item"><span class="news-date">2026.05</span><span>🎉 Three papers, <strong>FeRA</strong>, <strong>L2-VMAS</strong>, and <strong>VPD-100K</strong>, were accepted by <strong>ICML 2026</strong>.</span></div>
-      <div class="carousel-item"><span class="news-date">2025.11</span><span>I submitted 1 paper to CVPR 2026.</span></div>
-      <div class="carousel-item"><span class="news-date">2025.09</span><span>I submitted 2 papers to ICLR 2026.</span></div>
-      <div class="carousel-item"><span class="news-date">2025.08</span><span>🎉 I join the LV Lab as a research intern, supervised by Prof. <a href="https://yanshuicheng.info/">Shuicheng Yan</a>.</span></div>
-      <div class="carousel-item"><span class="news-date">2024.10</span><span>I got the No.1 in the Happy Frisbee activity in NUSRI-CQ!</span></div>
-      <div class="carousel-item"><span class="news-date">2024.09</span><span>🌟 I was selected for my favorite FYP project--<em>Learnable Activation Networks for Vision</em>.</span></div>
-      <div class="carousel-item"><span class="news-date">2024.07</span><span>🎉🎉 I get the 3+1+1 programme offer from the NUSRI-CQ.</span></div>
-      <div class="carousel-item"><span class="news-date">2024.03</span><span>🎉 I get the trainee offer from the HSBC Technology China.</span></div>
-      <div class="carousel-item"><span class="news-date">2024.01</span><span>🎉 I get the excellent group as leader in the winter exchange program in National University of Singapore.</span></div>
-      <div class="carousel-item"><span class="news-date">2023.12</span><span>🎉 I get the intern offer from the TGAILab, supervised by Prof. <a href="https://www.westlake.edu.cn/faculty/yaochu-jin.html">Yaochu Jin</a>.</span></div>
+<section class="news-panel" aria-label="News">
+  <ol class="news-list">
+    <li class="news-item"><time class="news-date" datetime="2026-08">2026.08</time><span class="news-copy"><strong>RePro</strong> was accepted by <strong>EMNLP 2026 Findings</strong>.</span></li>
+    <li class="news-item"><time class="news-date" datetime="2026-06">2026.06</time><span class="news-copy"><strong>SPOT-E</strong> was accepted by <strong>ECCV 2026</strong>.</span></li>
+    <li class="news-item"><time class="news-date" datetime="2026-05">2026.05</time><span class="news-copy">Three papers, <strong>FeRA</strong>, <strong>L2-VMAS</strong>, and <strong>VPD-100K</strong>, were accepted by <strong>ICML 2026</strong>.</span></li>
+  </ol>
+  <div class="news-archive" id="earlier-news">
+    <div class="news-archive-inner">
+      <ol class="news-list">
+        <li class="news-item"><time class="news-date" datetime="2025-11">2025.11</time><span class="news-copy">I submitted 1 paper to CVPR 2026.</span></li>
+        <li class="news-item"><time class="news-date" datetime="2025-09">2025.09</time><span class="news-copy">I submitted 2 papers to ICLR 2026.</span></li>
+        <li class="news-item"><time class="news-date" datetime="2025-08">2025.08</time><span class="news-copy">I join the LV Lab as a research intern, supervised by Prof. <a href="https://yanshuicheng.info/">Shuicheng Yan</a>.</span></li>
+        <li class="news-item"><time class="news-date" datetime="2024-10">2024.10</time><span class="news-copy">I got the No.1 in the Happy Frisbee activity in NUSRI-CQ!</span></li>
+        <li class="news-item"><time class="news-date" datetime="2024-09">2024.09</time><span class="news-copy">I was selected for my favorite FYP project--<em>Learnable Activation Networks for Vision</em>.</span></li>
+        <li class="news-item"><time class="news-date" datetime="2024-07">2024.07</time><span class="news-copy">I get the 3+1+1 programme offer from the NUSRI-CQ.</span></li>
+        <li class="news-item"><time class="news-date" datetime="2024-03">2024.03</time><span class="news-copy">I get the trainee offer from the HSBC Technology China.</span></li>
+        <li class="news-item"><time class="news-date" datetime="2024-01">2024.01</time><span class="news-copy">I get the excellent group as leader in the winter exchange program in National University of Singapore.</span></li>
+        <li class="news-item"><time class="news-date" datetime="2023-12">2023.12</time><span class="news-copy">I get the intern offer from the TGAILab, supervised by Prof. <a href="https://www.westlake.edu.cn/faculty/yaochu-jin.html">Yaochu Jin</a>.</span></li>
+      </ol>
     </div>
   </div>
-</div>
+  <button class="news-toggle" type="button" aria-expanded="false" aria-controls="earlier-news" hidden><span>Earlier updates</span><i class="fas fa-chevron-down" aria-hidden="true"></i></button>
+</section>
 
 
 # 📝 Publications 
