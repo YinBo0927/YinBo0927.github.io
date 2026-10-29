@@ -337,7 +337,7 @@ html[data-theme="dark"] p.collaboration-line{
   box-sizing: border-box;
   border: 1px solid var(--border);
   border-radius: 12px;
-  background: var(--surface-muted);
+  background: transparent;
 }
 
 .service-row{
