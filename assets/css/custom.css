@@ -323,44 +323,103 @@ html[data-theme="dark"] p.collaboration-line{
   border-color: var(--border-strong);
 }
 
-.education-list{
+#-educations,
+#-internships{
+  scroll-margin-top: 76px;
+}
+
+.experience-list{
   max-width: 900px;
 }
 
-.education-item{
+.experience-item{
   display: grid;
-  grid-template-columns: 82px minmax(0, 1fr) auto;
+  grid-template-columns: 64px minmax(0, 1fr) auto;
   align-items: center;
-  gap: 1.25rem;
-  padding: 1.1rem 0;
+  gap: 20px;
+  padding: 20px 8px;
+  border-bottom: 1px solid var(--border);
+  border-radius: 10px;
+  transition: background var(--transition);
 }
 
-.education-logo{
+.experience-item:last-child{
+  border-bottom-color: transparent;
+}
+
+@media (hover: hover){
+  .experience-item:hover{
+    background: var(--surface-muted);
+  }
+}
+
+.experience-logo{
+  width: 64px;
+  height: 64px;
+  padding: 9px;
+  box-sizing: border-box;
+  overflow: hidden;
+  border: 1px solid rgba(139, 161, 185, 0.18);
+  border-radius: 12px;
+  background: #fff;
+}
+
+.experience-logo img{
   display: block;
-  width: 82px;
-  height: 82px;
+  width: 100%;
+  height: 100%;
   object-fit: contain;
 }
 
-.education-details{
+.experience-logo-nus img{
+  /* Compensate for the white margin in the original NUS logo. */
+  transform: scale(1.4);
+}
+
+.experience-details{
   display: grid;
-  gap: .3rem;
+  gap: 5px;
   min-width: 0;
 }
 
-.education-details strong{
+.page__content .experience-name{
   color: var(--text);
-  font-size: 1.1em;
+  font-size: 16px;
+  font-weight: 600;
+  line-height: 1.45;
+  text-decoration: none;
 }
 
-.education-details span,
-.education-date{
+.page__content a.experience-name:hover{
+  color: var(--primary);
+}
+
+.experience-details > span,
+.experience-date{
   color: var(--muted);
+  font-size: 13px;
+  line-height: 1.6;
 }
 
-.education-date{
-  align-self: center;
+.experience-date{
+  align-self: start;
+  margin-top: 8px;
   white-space: nowrap;
+  font-variant-numeric: tabular-nums;
+}
+
+.experience-current{
+  display: inline-block;
+  padding: 1px 7px;
+  border-radius: 5px;
+  background: rgba(0, 102, 204, 0.07);
+  color: var(--primary);
+  font-size: 11px;
+  font-weight: 600;
+}
+
+html[data-theme="dark"] .experience-current{
+  background: rgba(142, 202, 255, 0.1);
 }
 
 .paper-box .paper-box-image{
@@ -595,20 +654,28 @@ html[data-theme="dark"] .page__footer{
     padding: .85rem;
   }
 
-  .education-item{
-    grid-template-columns: 56px minmax(0, 1fr);
-    gap: .25rem .85rem;
+  .experience-item{
+    grid-template-columns: 54px minmax(0, 1fr);
+    gap: 5px 14px;
+    padding: 18px 0;
   }
 
-  .education-logo{
-    width: 56px;
-    height: 56px;
+  .experience-logo{
+    width: 54px;
+    height: 54px;
+    padding: 7px;
     grid-row: span 2;
+    align-self: start;
   }
 
-  .education-date{
+  .page__content .experience-name{
+    font-size: 15px;
+  }
+
+  .experience-date{
     grid-column: 2;
-    font-size: .9em;
+    margin-top: 0;
+    font-size: 12px;
   }
 
   .visitor-map{

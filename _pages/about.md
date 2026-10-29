@@ -447,42 +447,69 @@ Zhan Zhenrong, **Yin Bo**, Liu Ziyun, Liu Yingying, Chen Boyang, He Yu, Chen Qiy
   <img src="images/oxford.png" alt="alt text" width="500" height="300">
 </div> -->
 
-# 📖 Educations
+<h1 id="-educations">📖 Education</h1>
 
-<div class="education-list">
-  <div class="education-item">
-    <img src="images/nus_logo.jpg" alt="" class="education-logo">
-    <div class="education-details">
-      <strong>National University of Singapore</strong>
+<div class="experience-list" role="list" aria-label="Education">
+  <div class="experience-item" role="listitem">
+    <div class="experience-logo experience-logo-nus"><img src="images/nus_logo.jpg" alt=""></div>
+    <div class="experience-details">
+      <strong class="experience-name">National University of Singapore</strong>
       <span>M.Sc. in Computer Engineering</span>
     </div>
-    <span class="education-date">Aug 2025 – Jan 2027</span>
+    <span class="experience-date">Aug 2025 – Jan 2027</span>
   </div>
-  <div class="education-item">
-    <img src="images/nus_logo.jpg" alt="" class="education-logo">
-    <div class="education-details">
-      <strong>NUS Research Institute in Chongqing</strong>
+  <div class="experience-item" role="listitem">
+    <div class="experience-logo experience-logo-nus"><img src="images/nus_logo.jpg" alt=""></div>
+    <div class="experience-details">
+      <strong class="experience-name">NUS Research Institute in Chongqing</strong>
       <span>3+1+1 Program</span>
     </div>
-    <span class="education-date">Sep 2024 – Jun 2025</span>
+    <span class="experience-date">Sep 2024 – Jun 2025</span>
   </div>
-  <div class="education-item">
-    <img src="images/scut_logo.jpg" alt="" class="education-logo">
-    <div class="education-details">
-      <strong>South China University of Technology</strong>
+  <div class="experience-item" role="listitem">
+    <div class="experience-logo"><img src="images/scut_logo.jpg" alt=""></div>
+    <div class="experience-details">
+      <strong class="experience-name">South China University of Technology</strong>
       <span>B.Eng. in Artificial Intelligence</span>
     </div>
-    <span class="education-date">Sep 2021 – Jul 2025</span>
+    <span class="experience-date">Sep 2021 – Jul 2025</span>
   </div>
 </div>
 
 
 # 💻 Internships
 
-- <img src="images/huawei_logo.jpg" alt="Huawei" style="width:40px; margin-right: 10px;" align="middle"/> [**Huawei**](https://www.huawei.com/sg/), Singapore, *2026.01 - 2026.05*
-
-- <img src="images/nus_logo.jpg" alt="LV Lab" style="width:40px; margin-right: 10px;" align="middle"/> [**LV Lab**](https://www.lv-lab.org/nus/index.html), National University of Singapore, Singapore, *2025.08 - now*
-
-- <img src="images/hsbc_logo.png" alt="HSBC" style="width:40px; margin-right: 10px;" align="middle"/> [**HSBC Technology China**](https://www.about.hsbc.com.cn/zh-cn/careers/technology), Guangzhou China, *2024.04 - 2024.08*
-
-- <img src="images/westlake_logo.png" alt="Westlake" style="width:40px; margin-right: 10px;" align="middle"/> [**TGAILab**](https://www.scholat.com/org/tgai), Westlake University, Hangzhou China, *2023.12 - 2024.05*
+<div class="experience-list" role="list" aria-label="Internships">
+  <div class="experience-item" role="listitem">
+    <div class="experience-logo experience-logo-nus"><img src="images/nus_logo.jpg" alt=""></div>
+    <div class="experience-details">
+      <a class="experience-name" href="https://www.lv-lab.org/nus/index.html">NUS LV Lab</a>
+      <span>Research Intern · Singapore</span>
+    </div>
+    <span class="experience-date">Aug 2025 – <span class="experience-current">Present</span></span>
+  </div>
+  <div class="experience-item" role="listitem">
+    <div class="experience-logo"><img src="images/huawei_logo.jpg" alt=""></div>
+    <div class="experience-details">
+      <a class="experience-name" href="https://www.huawei.com/sg/">Huawei</a>
+      <span>Singapore</span>
+    </div>
+    <span class="experience-date">Jan 2026 – May 2026</span>
+  </div>
+  <div class="experience-item" role="listitem">
+    <div class="experience-logo"><img src="images/hsbc_logo.png" alt=""></div>
+    <div class="experience-details">
+      <a class="experience-name" href="https://www.about.hsbc.com.cn/zh-cn/careers/technology">HSBC Technology China</a>
+      <span>Guangzhou, China</span>
+    </div>
+    <span class="experience-date">Apr 2024 – Aug 2024</span>
+  </div>
+  <div class="experience-item" role="listitem">
+    <div class="experience-logo"><img src="images/westlake_logo.png" alt=""></div>
+    <div class="experience-details">
+      <a class="experience-name" href="https://www.scholat.com/org/tgai">TGAILab</a>
+      <span>Westlake University · Hangzhou, China</span>
+    </div>
+    <span class="experience-date">Dec 2023 – May 2024</span>
+  </div>
+</div>
