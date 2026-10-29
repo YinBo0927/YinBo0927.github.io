@@ -421,32 +421,6 @@ Zhan Zhenrong, **Yin Bo**, Liu Ziyun, Liu Yingying, Chen Boyang, He Yu, Chen Qiy
 </div> -->
 
 
-# 📌 Honors
-
-- *2024.09* Xiao Noodles Third-class Scholarship
-- *2024.09* SCUT Academic Scholarship
-- *2024.05* Tai Hu Innovation Scholarship 
-- *2022.11* Tai Hu Innovation Scholarship 
-- *2022.09* SCUT Academic Scholarship
-- *2022.09* Huameng Scholarship
-
-<!-- # 🏆 Awards
-
-- *2024.02*, Honorable Mention in Mathematical Contest in Modeling (MCM), the Consortium for Mathematics and Its Applications
-- *2023.11*, Second Prize in Guangdong Division of Contemporary Undergraduate Mathematical Contest in Modeling (CUMCM), China Society for Industrial and Applied Mathematics
-- *2023.06*, Second Prize in MathorCup Mathematical Contest in Modeling, Chinese Society of Optimization, Overall Planning and Economical Mathematics
-- *2023.05*, Second Prize in SCUT Division of Mathematical Contest in Modeling for Universities in Guangzhou City, South China University of Technology
-- *2023.03*, Third Prize in Challenge Cup of South China University of Technology, South China University of Technology
-- *2021.12*, First Prize in Baidu PaddlePaddle Cup, South China University of Technology -->
-
-
-<!-- # 🌍 Overseas Exchange Certificate
-
-<div style="text-align: center;">
-  <img src="images/cambridge.png" alt="alt text" width="500" height="300">
-  <img src="images/oxford.png" alt="alt text" width="500" height="300">
-</div> -->
-
 <h1 id="-educations">📖 Education</h1>
 
 <div class="experience-list" role="list" aria-label="Education">
@@ -511,5 +485,51 @@ Zhan Zhenrong, **Yin Bo**, Liu Ziyun, Liu Yingying, Chen Boyang, He Yu, Chen Qiy
       <span>Westlake University · Hangzhou, China</span>
     </div>
     <span class="experience-date">Dec 2023 – May 2024</span>
+  </div>
+</div>
+
+
+# 📌 Honors
+
+- *2024.09* Xiao Noodles Third-class Scholarship
+- *2024.09* SCUT Academic Scholarship
+- *2024.05* Tai Hu Innovation Scholarship
+- *2022.11* Tai Hu Innovation Scholarship
+- *2022.09* SCUT Academic Scholarship
+- *2022.09* Huameng Scholarship
+
+<!-- # 🏆 Awards
+
+- *2024.02*, Honorable Mention in Mathematical Contest in Modeling (MCM), the Consortium for Mathematics and Its Applications
+- *2023.11*, Second Prize in Guangdong Division of Contemporary Undergraduate Mathematical Contest in Modeling (CUMCM), China Society for Industrial and Applied Mathematics
+- *2023.06*, Second Prize in MathorCup Mathematical Contest in Modeling, Chinese Society of Optimization, Overall Planning and Economical Mathematics
+- *2023.05*, Second Prize in SCUT Division of Mathematical Contest in Modeling for Universities in Guangzhou City, South China University of Technology
+- *2023.03*, Third Prize in Challenge Cup of South China University of Technology, South China University of Technology
+- *2021.12*, First Prize in Baidu PaddlePaddle Cup, South China University of Technology -->
+
+
+<!-- # 🌍 Overseas Exchange Certificate
+
+<div style="text-align: center;">
+  <img src="images/cambridge.png" alt="alt text" width="500" height="300">
+  <img src="images/oxford.png" alt="alt text" width="500" height="300">
+</div> -->
+
+
+<h1 id="academic-service">🎓 Academic Service</h1>
+
+<div class="service-panel">
+  <div class="service-row">
+    <div class="service-role"><i class="fas fa-clipboard-check" aria-hidden="true"></i> Conference Reviewer</div>
+    <ul class="service-venues" role="list" aria-label="Conferences reviewed">
+      <li><strong>ICLR</strong><span>2027</span></li>
+      <li><strong>ACL</strong><span>2026</span></li>
+    </ul>
+  </div>
+  <div class="service-row">
+    <div class="service-role"><i class="fas fa-book-open" aria-hidden="true"></i> Journal Reviewer</div>
+    <ul class="service-venues" role="list" aria-label="Journals reviewed">
+      <li><strong>Neurocomputing</strong></li>
+    </ul>
   </div>
 </div>

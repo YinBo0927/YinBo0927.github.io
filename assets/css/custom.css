@@ -323,9 +323,85 @@ html[data-theme="dark"] p.collaboration-line{
   border-color: var(--border-strong);
 }
 
+#academic-service,
 #-educations,
 #-internships{
   scroll-margin-top: 76px;
+}
+
+.service-panel{
+  display: grid;
+  gap: 16px;
+  max-width: 900px;
+  padding: 20px 24px;
+  box-sizing: border-box;
+  border: 1px solid var(--border);
+  border-radius: 12px;
+  background: var(--surface-muted);
+}
+
+.service-row{
+  display: grid;
+  grid-template-columns: 190px minmax(0, 1fr);
+  align-items: center;
+  gap: 12px 20px;
+}
+
+.service-row + .service-row{
+  padding-top: 16px;
+  border-top: 1px solid var(--border);
+}
+
+.service-role{
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  color: var(--muted);
+  font-size: 14px;
+}
+
+.service-role i{
+  color: var(--primary);
+}
+
+.page__content .service-venues{
+  display: flex;
+  flex-wrap: wrap;
+  gap: 10px;
+  margin: 0;
+  padding: 0;
+  list-style: none;
+}
+
+.service-venues li{
+  display: flex;
+  align-items: baseline;
+  gap: 8px;
+  margin: 0;
+  padding: 6px 12px;
+  border: 1px solid var(--border);
+  border-radius: 6px;
+  background: var(--surface);
+  font-size: 13px;
+}
+
+.service-venues strong{
+  font-weight: 600;
+}
+
+.service-venues span{
+  color: var(--muted);
+  font-variant-numeric: tabular-nums;
+}
+
+@media (max-width: 600px){
+  .service-panel{
+    padding: 18px;
+  }
+
+  .service-row{
+    grid-template-columns: minmax(0, 1fr);
+  }
 }
 
 .experience-list{
