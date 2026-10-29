@@ -242,7 +242,9 @@ html[data-theme="dark"] .author__urls .ai{
 }
 
 .avatar-pet[data-state="right"] .avatar-pet-sprite{
-  background-position: 100% 0;
+  background-image: url('/images/avatar-pet-right.png');
+  background-size: 100% 100%;
+  background-position: 0 0;
 }
 
 .avatar-pet[data-state="happy"] .avatar-pet-sprite,

@@ -9,6 +9,7 @@ class AvatarDecorationTest < Minitest::Test
     assert_equal 1, profile.scan(MARKUP).length
     assert File.exist?("images/yier_bubu_avatar.png")
     assert File.exist?("images/avatar-pet-sprites.png")
+    assert File.exist?("images/avatar-pet-right.png")
     assert_includes profile, 'aria-label="Play with Yier and Bubu"'
     assert_includes profile, 'aria-describedby="avatar-pet-help"'
     assert_includes profile, 'aria-label="Feed a little paper to Yier and Bubu"'
