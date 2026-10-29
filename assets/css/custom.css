@@ -335,8 +335,6 @@ html[data-theme="dark"] p.collaboration-line{
   max-width: 900px;
   padding: 20px 24px;
   box-sizing: border-box;
-  border: 1px solid var(--border);
-  border-radius: 12px;
   background: transparent;
 }
 
