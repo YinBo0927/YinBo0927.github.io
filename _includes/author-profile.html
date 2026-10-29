@@ -6,7 +6,20 @@
 
   <div class="author__avatar">
     <img src="{{ author.avatar }}" class="author__avatar" alt="{{ author.name }}">
-    <img src="/images/yier_bubu_avatar.png" class="author__avatar-decoration" alt="" aria-hidden="true">
+    <div class="avatar-pet" data-state="idle">
+      <button class="avatar-pet-button" type="button" aria-label="Play with Yier and Bubu" aria-describedby="avatar-pet-help" disabled>
+        <span class="avatar-pet-art" aria-hidden="true">
+          <img src="/images/yier_bubu_avatar.png" class="avatar-pet-original" alt="" draggable="false">
+          <span class="avatar-pet-sprite"></span>
+        </span>
+      </button>
+      <div class="avatar-pet-tray">
+        <span class="avatar-pet-message" role="status" aria-live="polite">Click or drag us!</span>
+        <button class="avatar-pet-feed" type="button" aria-label="Feed a little paper to Yier and Bubu" title="Feed a little paper"><i class="fas fa-file-alt" aria-hidden="true"></i></button>
+      </div>
+      <span class="avatar-pet-snack" aria-hidden="true"><i class="fas fa-file-alt"></i></span>
+      <span class="sr-only" id="avatar-pet-help">Click or press Enter to pet us. Drag and release to lift us. Use the paper button to feed us.</span>
+    </div>
   </div>
 
   <div class="author__content">

@@ -1,27 +1,30 @@
 require "minitest/autorun"
 
 class AvatarDecorationTest < Minitest::Test
-  MARKUP = '<img src="/images/yier_bubu_avatar.png" class="author__avatar-decoration" alt="" aria-hidden="true">'
+  MARKUP = '<img src="/images/yier_bubu_avatar.png" class="avatar-pet-original" alt="" draggable="false">'
 
-  def test_profile_renders_one_decorative_image
+  def test_pet_keeps_original_art_and_accessible_controls
     profile = File.read("_includes/author-profile.html")
 
     assert_equal 1, profile.scan(MARKUP).length
     assert File.exist?("images/yier_bubu_avatar.png")
+    assert File.exist?("images/avatar-pet-sprites.png")
+    assert_includes profile, 'aria-label="Play with Yier and Bubu"'
+    assert_includes profile, 'aria-describedby="avatar-pet-help"'
+    assert_includes profile, 'aria-label="Feed a little paper to Yier and Bubu"'
   end
 
   def test_decoration_has_scoped_layout_and_motion
     css = File.read("assets/css/custom.css")
 
     assert_includes css, ".profile_box > .author__avatar"
-    assert_includes css, ".author__avatar-decoration"
+    assert_includes css, ".avatar-pet"
     assert_includes css, "width: 74px;"
     assert_includes css, "right: -14px;"
     assert_includes css, "bottom: -10px;"
-    assert_includes css, "@keyframes yier-bubu-peek"
-    assert_includes css, "animation: yier-bubu-peek 450ms ease-out;"
-    assert_match(/@media \(max-width: 767px\).*?\.author__avatar-decoration\s*\{.*?width: 56px;/m, css)
-    assert_match(/@media \(prefers-reduced-motion: reduce\).*?\.author__avatar-decoration\s*\{.*?animation: none !important;/m, css)
+    assert_includes css, "touch-action: none;"
+    assert_match(/@media \(max-width: 767px\).*?\.avatar-pet\s*\{.*?width: 56px;/m, css)
+    assert_match(/@media \(prefers-reduced-motion: reduce\).*?\.avatar-pet-art\s*\{.*?animation: none !important;/m, css)
   end
 
   def test_profile_photo_uses_vertical_rounded_frame
