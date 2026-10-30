@@ -79,11 +79,10 @@
       eyes.forEach(function(eye) {
         const dx = pointer.x - rect.left - Number(eye.dataset.x) / 400 * rect.width;
         const dy = pointer.y - rect.top - Number(eye.dataset.y) / 390 * rect.height;
-        const distance = Math.hypot(dx, dy);
-        // Elliptical travel stays inside each face, even at the viewport edges.
-        const reach = Math.min(distance / 90, 1);
-        eye.style.setProperty('--eye-x', (distance ? dx / distance * reach * 7 : 0) + 'px');
-        eye.style.setProperty('--eye-y', (distance ? dy / distance * reach * 5 : 0) + 'px');
+        // Each pair shares a gaze origin; perspective eases into the travel limit.
+        const depth = Math.hypot(dx, dy, 220);
+        eye.style.setProperty('--eye-x', dx / depth * 3.5 + 'px');
+        eye.style.setProperty('--eye-y', dy / depth * 2.3 + 'px');
       });
       if (!reactionTimer) pet.dataset.state = 'idle';
       scheduleSleep();

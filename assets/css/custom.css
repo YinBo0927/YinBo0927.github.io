@@ -221,11 +221,25 @@ html[data-theme="dark"] .author__urls .ai{
 
 .avatar-pet-eye{
   transform: translate(var(--eye-x, 0px), var(--eye-y, 0px));
-  transition: transform 100ms ease-out;
+  transition: transform 160ms cubic-bezier(.2, .65, .3, 1);
 }
 
 .avatar-pet-pupil{
   transition: transform 180ms ease;
+}
+
+.avatar-pet.is-ready[data-state="idle"] .avatar-pet-pupil{
+  animation: avatar-pet-blink 6.7s linear infinite;
+}
+
+.avatar-pet.is-ready[data-state="idle"] .avatar-pet-eye[data-y="237.5"] .avatar-pet-pupil{
+  animation-duration: 8.3s;
+  animation-delay: 1.2s;
+}
+
+@keyframes avatar-pet-blink{
+  0%, 94%, 98%, 100%{ transform: scaleY(1); }
+  96%{ transform: scaleY(.1); }
 }
 
 .avatar-pet[data-state="happy"] .avatar-pet-pupil{
@@ -912,6 +926,7 @@ html[data-theme="dark"] .page__footer{
     transform: none;
   }
 
+  .avatar-pet-pupil,
   .avatar-pet-art{
     animation: none !important;
     transform: none !important;

@@ -24,7 +24,7 @@ function setup(reduced = false) {
     };
   }
   const pet = element(), button = element(), feed = element(), snack = element(), message = element(), portrait = element();
-  const eyes = [[95.5,182],[175.5,158],[124.5,251],[208,224]].map(([x,y]) => Object.assign(element(), {dataset:{x,y}}));
+  const eyes = [[135.5,170],[135.5,170],[166.25,237.5],[166.25,237.5]].map(([x,y]) => Object.assign(element(), {dataset:{x,y}}));
   portrait.getBoundingClientRect = () => ({left:100,top:200,right:174,bottom:272.15,width:74,height:72.15});
   const elements = {'.avatar-pet-button':button,'.avatar-pet-feed':feed,'.avatar-pet-message':message,'.avatar-pet-snack':snack,'.avatar-pet-portrait':portrait};
   pet.querySelector = selector => elements[selector];
@@ -123,18 +123,34 @@ test('each eye follows the latest pointer smoothly within its elliptical travel'
   h.eyes.forEach(eye => {
     const x = parseFloat(eye.style['--eye-x']), y = parseFloat(eye.style['--eye-y']);
     assert.ok(x > 0 && y > 0);
-    assert.ok((x / 7) ** 2 + (y / 5) ** 2 <= 1.000001);
+    assert.ok((x / 3.5) ** 2 + (y / 2.3) ** 2 <= 1.000001);
   });
-  assert.notEqual(h.eyes[0].style['--eye-x'], h.eyes[1].style['--eye-x']);
+  assert.equal(h.eyes[0].style['--eye-x'], h.eyes[1].style['--eye-x']);
+  assert.equal(h.eyes[2].style['--eye-y'], h.eyes[3].style['--eye-y']);
+  assert.notEqual(h.eyes[0].style['--eye-y'], h.eyes[2].style['--eye-y']);
   assert.equal(h.pet.dataset.state, 'idle');
   h.document.documentElement.emit('pointerleave');
   h.eyes.forEach(eye => assert.equal(eye.style['--eye-x'], '0px'));
   const eye = h.eyes[0];
-  h.document.emit('pointermove',{pointerType:'mouse',clientX:100 + 95.5 / 400 * 74,clientY:200 + 182 / 390 * 72.15});
+  h.document.emit('pointermove',{pointerType:'mouse',clientX:100 + 135.5 / 400 * 74,clientY:200 + 170 / 390 * 72.15});
   h.tick(16);
   assert.ok(Number.isFinite(parseFloat(eye.style['--eye-x'])));
   assert.ok(Math.abs(parseFloat(eye.style['--eye-x'])) < 0.00001);
   h.document.emit('pointermove',{pointerType:'touch',clientX:1000,clientY:800});
   h.tick(16);
   assert.ok(Math.abs(parseFloat(eye.style['--eye-x'])) < 0.00001);
+});
+
+test('gaze approaches its limit gradually and makes small near-face movements', () => {
+  const h = setup();
+  const centerX = 100 + 135.5 / 400 * 74;
+  const centerY = 200 + 170 / 390 * 72.15;
+  const look = distance => {
+    h.document.emit('pointermove',{pointerType:'mouse',clientX:centerX + distance,clientY:centerY});
+    h.tick(16);
+    return parseFloat(h.eyes[0].style['--eye-x']);
+  };
+  const near = look(40), middle = look(200), far = look(1000);
+  assert.ok(near > 0 && near < 1);
+  assert.ok(near < middle && middle < far && far < 3.5);
 });
