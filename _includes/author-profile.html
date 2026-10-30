@@ -9,8 +9,34 @@
     <div class="avatar-pet" data-state="idle">
       <button class="avatar-pet-button" type="button" aria-label="Play with Yier and Bubu" aria-describedby="avatar-pet-help" disabled>
         <span class="avatar-pet-art" aria-hidden="true">
-          <img src="/images/yier_bubu_avatar.png" class="avatar-pet-original" alt="" draggable="false">
-          <span class="avatar-pet-sprite"></span>
+          <svg class="avatar-pet-portrait" viewBox="0 0 400 390" focusable="false" aria-hidden="true">
+            <defs>
+              <mask id="avatar-pet-eye-mask" maskUnits="userSpaceOnUse" x="0" y="0" width="400" height="390">
+                <rect width="400" height="390" fill="white"/>
+                <g fill="black">
+                  <circle cx="95.5" cy="182" r="12"/>
+                  <circle cx="175.5" cy="158" r="12"/>
+                  <circle cx="124.5" cy="251" r="12"/>
+                  <circle cx="208" cy="224" r="12"/>
+                </g>
+              </mask>
+            </defs>
+            <g fill="#fff">
+              <circle cx="95.5" cy="182" r="13"/>
+              <circle cx="175.5" cy="158" r="13"/>
+            </g>
+            <g fill="#dda78f">
+              <circle cx="124.5" cy="251" r="13"/>
+              <circle cx="208" cy="224" r="13"/>
+            </g>
+            <image href="/images/yier_bubu_avatar.png" width="400" height="390" mask="url(#avatar-pet-eye-mask)"/>
+            <g fill="#4b2924">
+              <g transform="translate(95.5 182)"><g class="avatar-pet-eye" data-x="95.5" data-y="182"><ellipse class="avatar-pet-pupil" rx="9.5" ry="9.8"/></g></g>
+              <g transform="translate(175.5 158)"><g class="avatar-pet-eye" data-x="175.5" data-y="158"><ellipse class="avatar-pet-pupil" rx="9.5" ry="9.8"/></g></g>
+              <g transform="translate(124.5 251)"><g class="avatar-pet-eye" data-x="124.5" data-y="251"><ellipse class="avatar-pet-pupil" rx="9.8" ry="10"/></g></g>
+              <g transform="translate(208 224)"><g class="avatar-pet-eye" data-x="208" data-y="224"><ellipse class="avatar-pet-pupil" rx="9.8" ry="10"/></g></g>
+            </g>
+          </svg>
         </span>
       </button>
       <div class="avatar-pet-tray">

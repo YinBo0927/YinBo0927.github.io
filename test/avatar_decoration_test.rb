@@ -1,15 +1,16 @@
 require "minitest/autorun"
 
 class AvatarDecorationTest < Minitest::Test
-  MARKUP = '<img src="/images/yier_bubu_avatar.png" class="avatar-pet-original" alt="" draggable="false">'
+  MARKUP = '<image href="/images/yier_bubu_avatar.png"'
 
   def test_pet_keeps_original_art_and_accessible_controls
     profile = File.read("_includes/author-profile.html")
 
     assert_equal 1, profile.scan(MARKUP).length
     assert File.exist?("images/yier_bubu_avatar.png")
-    assert File.exist?("images/avatar-pet-sprites.png")
-    assert File.exist?("images/avatar-pet-right.png")
+    assert_equal 4, profile.scan('class="avatar-pet-eye"').length
+    refute_includes profile, 'avatar-pet-sprite'
+    assert_includes profile, 'mask="url(#avatar-pet-eye-mask)"'
     assert_includes profile, 'aria-label="Play with Yier and Bubu"'
     assert_includes profile, 'aria-describedby="avatar-pet-help"'
     assert_includes profile, 'aria-label="Feed a little paper to Yier and Bubu"'

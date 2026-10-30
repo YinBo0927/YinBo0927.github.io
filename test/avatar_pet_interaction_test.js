@@ -11,7 +11,7 @@ function setup(reduced = false) {
     const handlers = new Map(), classes = new Set(), captures = new Set();
     return {
       dataset: { state: 'idle' },
-      style: { transform: '', setProperty() {} },
+      style: { transform: '', setProperty(name, value) { this[name] = value; } },
       classList: { add: (...names) => names.forEach(n => classes.add(n)), remove: n => classes.delete(n), contains: n => classes.has(n) },
       addEventListener(name, fn) { handlers.set(name, [...(handlers.get(name) || []), fn]); },
       emit(name, event = {}) { (handlers.get(name) || []).forEach(fn => fn(event)); },
@@ -23,10 +23,13 @@ function setup(reduced = false) {
       releasePointerCapture: id => captures.delete(id)
     };
   }
-  const pet = element(), button = element(), feed = element(), snack = element(), message = element();
-  const elements = {'.avatar-pet-button':button,'.avatar-pet-feed':feed,'.avatar-pet-message':message,'.avatar-pet-snack':snack};
+  const pet = element(), button = element(), feed = element(), snack = element(), message = element(), portrait = element();
+  const eyes = [[95.5,182],[175.5,158],[124.5,251],[208,224]].map(([x,y]) => Object.assign(element(), {dataset:{x,y}}));
+  portrait.getBoundingClientRect = () => ({left:100,top:200,right:174,bottom:272.15,width:74,height:72.15});
+  const elements = {'.avatar-pet-button':button,'.avatar-pet-feed':feed,'.avatar-pet-message':message,'.avatar-pet-snack':snack,'.avatar-pet-portrait':portrait};
   pet.querySelector = selector => elements[selector];
-  const document = Object.assign(element(), {hidden:false,querySelector:()=>pet});
+  pet.querySelectorAll = () => eyes;
+  const document = Object.assign(element(), {hidden:false,querySelector:()=>pet,documentElement:element()});
   const window = Object.assign(element(), {innerWidth:390,innerHeight:844,matchMedia:()=>({matches:reduced})});
   const schedule = (fn, delay) => { const id=nextId++; timers.set(id,{fn,at:now+delay}); return id; };
   function tick(ms) {
@@ -43,7 +46,7 @@ function setup(reduced = false) {
     requestAnimationFrame:fn=>schedule(fn,16),cancelAnimationFrame:id=>timers.delete(id),
     performance:{now:()=>now}
   });
-  return {pet,button,feed,message,document,window,tick,animations};
+  return {pet,button,feed,message,document,window,tick,animations,eyes};
 }
 
 test('idle sleeps, pointer wakes, and petting and feeding react', () => {
@@ -53,7 +56,8 @@ test('idle sleeps, pointer wakes, and petting and feeding react', () => {
   assert.equal(h.pet.dataset.state,'sleeping');
   h.document.emit('pointermove',{pointerType:'mouse',clientX:0,clientY:200});
   h.tick(16);
-  assert.equal(h.pet.dataset.state,'left');
+  assert.equal(h.pet.dataset.state,'idle');
+  assert.ok(parseFloat(h.eyes[0].style['--eye-x']) < 0);
   h.button.emit('click',{detail:0});
   assert.equal(h.pet.dataset.state,'happy');
   assert.equal(h.message.textContent,'Hi, paper friend!');
@@ -109,4 +113,28 @@ test('hidden pages pause idle timer; resize safely cancels a drag', () => {
   h.window.emit('resize');
   assert.equal(h.button.style.transform,'');
   assert.equal(h.button.hasPointerCapture(3),false);
+});
+
+test('each eye follows the latest pointer smoothly within its elliptical travel', () => {
+  const h = setup();
+  h.document.emit('pointermove',{pointerType:'mouse',clientX:-1000,clientY:200});
+  h.document.emit('pointermove',{pointerType:'mouse',clientX:1000,clientY:800});
+  h.tick(16);
+  h.eyes.forEach(eye => {
+    const x = parseFloat(eye.style['--eye-x']), y = parseFloat(eye.style['--eye-y']);
+    assert.ok(x > 0 && y > 0);
+    assert.ok((x / 7) ** 2 + (y / 5) ** 2 <= 1.000001);
+  });
+  assert.notEqual(h.eyes[0].style['--eye-x'], h.eyes[1].style['--eye-x']);
+  assert.equal(h.pet.dataset.state, 'idle');
+  h.document.documentElement.emit('pointerleave');
+  h.eyes.forEach(eye => assert.equal(eye.style['--eye-x'], '0px'));
+  const eye = h.eyes[0];
+  h.document.emit('pointermove',{pointerType:'mouse',clientX:100 + 95.5 / 400 * 74,clientY:200 + 182 / 390 * 72.15});
+  h.tick(16);
+  assert.ok(Number.isFinite(parseFloat(eye.style['--eye-x'])));
+  assert.ok(Math.abs(parseFloat(eye.style['--eye-x'])) < 0.00001);
+  h.document.emit('pointermove',{pointerType:'touch',clientX:1000,clientY:800});
+  h.tick(16);
+  assert.ok(Math.abs(parseFloat(eye.style['--eye-x'])) < 0.00001);
 });

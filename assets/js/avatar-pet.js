@@ -6,18 +6,22 @@
   const feed = pet.querySelector('.avatar-pet-feed');
   const message = pet.querySelector('.avatar-pet-message');
   const snack = pet.querySelector('.avatar-pet-snack');
+  const portrait = pet.querySelector('.avatar-pet-portrait');
+  const eyes = pet.querySelectorAll('.avatar-pet-eye');
   const reducedMotion = window.matchMedia('(prefers-reduced-motion: reduce)');
   let idleTimer, reactionTimer, trayTimer, frame;
   let drag = null;
+  let pointer = null;
   let ignoreClickUntil = 0;
   let greeting = 0;
   const greetings = ['Hi, paper friend!', 'That tickles!', 'Good luck with your research!', 'Another little paper?'];
   const clamp = (value, min, max) => Math.max(min, Math.min(max, value));
 
   function resetLook() {
-    pet.style.setProperty('--pet-look-x', '0px');
-    pet.style.setProperty('--pet-look-y', '0px');
-    pet.style.setProperty('--pet-look-tilt', '0deg');
+    eyes.forEach(function(eye) {
+      eye.style.setProperty('--eye-x', '0px');
+      eye.style.setProperty('--eye-y', '0px');
+    });
   }
 
   function scheduleSleep() {
@@ -64,21 +68,32 @@
   });
 
   document.addEventListener('pointermove', function(event) {
-    if (event.pointerType === 'touch' || drag || reactionTimer || frame) return;
-    const rect = pet.getBoundingClientRect();
+    if (event.pointerType === 'touch' || drag || document.hidden) return;
+    pointer = { x: event.clientX, y: event.clientY };
+    if (frame) return;
+    const rect = portrait.getBoundingClientRect();
     if (rect.bottom < 0 || rect.top > window.innerHeight) return;
     frame = requestAnimationFrame(function() {
       frame = null;
-      if (drag || reactionTimer) return;
-      const x = clamp((event.clientX - rect.left - rect.width / 2) / 180, -1, 1);
-      const y = clamp((event.clientY - rect.top - rect.height / 2) / 180, -1, 1);
-      pet.dataset.state = x < 0 ? 'left' : 'right';
-      pet.style.setProperty('--pet-look-x', x * 2 + 'px');
-      pet.style.setProperty('--pet-look-y', y + 'px');
-      pet.style.setProperty('--pet-look-tilt', x * 3 + 'deg');
+      if (drag || !pointer) return;
+      eyes.forEach(function(eye) {
+        const dx = pointer.x - rect.left - Number(eye.dataset.x) / 400 * rect.width;
+        const dy = pointer.y - rect.top - Number(eye.dataset.y) / 390 * rect.height;
+        const distance = Math.hypot(dx, dy);
+        // Elliptical travel stays inside each face, even at the viewport edges.
+        const reach = Math.min(distance / 90, 1);
+        eye.style.setProperty('--eye-x', (distance ? dx / distance * reach * 7 : 0) + 'px');
+        eye.style.setProperty('--eye-y', (distance ? dy / distance * reach * 5 : 0) + 'px');
+      });
+      if (!reactionTimer) pet.dataset.state = 'idle';
       scheduleSleep();
     });
   }, { passive: true });
+
+  document.documentElement.addEventListener('pointerleave', function() {
+    pointer = null;
+    resetLook();
+  });
 
   button.addEventListener('pointerdown', function(event) {
     if (event.button !== 0 || drag) return;
@@ -137,7 +152,10 @@
   button.addEventListener('pointerup', () => finishDrag(false));
   button.addEventListener('pointercancel', () => finishDrag(true));
   button.addEventListener('lostpointercapture', () => finishDrag(true));
-  window.addEventListener('resize', () => finishDrag(true));
+  window.addEventListener('resize', function() {
+    finishDrag(true);
+    resetLook();
+  });
 
   feed.addEventListener('click', function() {
     react('Nom nom… more papers!');

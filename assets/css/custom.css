@@ -208,52 +208,32 @@ html[data-theme="dark"] .author__urls .ai{
   position: relative;
   width: 100%;
   height: 100%;
-  transform: translate(var(--pet-look-x, 0px), var(--pet-look-y, 0px)) rotate(var(--pet-look-tilt, 0deg));
-  transform-origin: 50% 85%;
-  transition: transform 180ms ease;
   pointer-events: none;
 }
 
-.profile_box .avatar-pet-original{
+.avatar-pet-portrait{
   display: block;
   width: 100%;
   height: auto;
-  max-width: none;
-  padding: 0;
-  border: 0;
-  border-radius: 0;
+  overflow: visible;
   user-select: none;
-  -webkit-user-drag: none;
 }
 
-.avatar-pet-sprite{
-  position: absolute;
-  inset: 0;
-  background: url('/images/avatar-pet-sprites.png') 0 0 / 200% 200% no-repeat;
-  opacity: 0;
+.avatar-pet-eye{
+  transform: translate(var(--eye-x, 0px), var(--eye-y, 0px));
+  transition: transform 100ms ease-out;
 }
 
-.avatar-pet:not([data-state="idle"]) .avatar-pet-original{
-  opacity: 0;
+.avatar-pet-pupil{
+  transition: transform 180ms ease;
 }
 
-.avatar-pet:not([data-state="idle"]) .avatar-pet-sprite{
-  opacity: 1;
+.avatar-pet[data-state="happy"] .avatar-pet-pupil{
+  transform: scaleY(.65);
 }
 
-.avatar-pet[data-state="right"] .avatar-pet-sprite{
-  background-image: url('/images/avatar-pet-right.png');
-  background-size: 100% 100%;
-  background-position: 0 0;
-}
-
-.avatar-pet[data-state="happy"] .avatar-pet-sprite,
-.avatar-pet[data-state="lifted"] .avatar-pet-sprite{
-  background-position: 0 100%;
-}
-
-.avatar-pet[data-state="sleeping"] .avatar-pet-sprite{
-  background-position: 100% 100%;
+.avatar-pet[data-state="sleeping"] .avatar-pet-pupil{
+  transform: scaleY(.12) rotate(-12deg);
 }
 
 .avatar-pet[data-state="sleeping"] .avatar-pet-art{
