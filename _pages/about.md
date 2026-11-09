@@ -23,7 +23,11 @@ I am currently pursuing a Master of Science in Computer Engineering at the Natio
 
 Research Interests: <strong>Efficient AI, Diffusion Model, MLLM, World Model</strong>.
 
-<p class="collaboration-line">I am seeking PhD positions for Fall 2027 and am also open to industry opportunities and research collaborations. Please feel free to contact me!</p>
+<div class="opportunities-note">
+  <span class="opportunities-label">Open to opportunities</span>
+  <p>I am seeking <strong>Fall 2027 PhD positions</strong> and am open to <strong>industry opportunities</strong> and research collaborations.</p>
+  <a href="mailto:yb0927@outlook.com">Contact me <span aria-hidden="true">↗</span></a>
+</div>
 
 <!-- I have published more than 100 papers at the top international AI conferences with total <a href='https://scholar.google.com/citations?user=DhtAFkwAAAAJ'>google scholar citations <strong><span id='total_cit'>260000+</span></strong></a> (You can also use google scholar badge <a href='https://scholar.google.com/citations?user=DhtAFkwAAAAJ'><img src="https://img.shields.io/endpoint?url={{ url | url_encode }}&logo=Google%20Scholar&labelColor=f6f6f6&color=9cf&style=flat&label=citations"></a>). -->
 
