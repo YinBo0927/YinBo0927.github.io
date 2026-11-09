@@ -474,18 +474,19 @@ html[data-theme="dark"] .opportunities-label{
   display: grid;
   grid-template-columns: minmax(0, 1fr);
   align-items: start;
-  gap: .85rem 1.5rem;
-  margin: 1.15rem 0 1.6rem;
-  padding: 1.25rem;
+  gap: .55rem 1.35rem;
+  margin: 1rem 0 1.25rem;
+  padding: 1.2rem;
   border: 1px solid var(--border);
   border-radius: 12px;
   background: var(--surface);
   box-shadow: none;
-  transition: border-color var(--transition);
+  transition: border-color var(--transition), box-shadow var(--transition);
 }
 
 .paper-box:hover{
   border-color: var(--border-strong);
+  box-shadow: 0 8px 24px rgba(16, 40, 70, .07);
 }
 
 #academic-service,
@@ -675,25 +676,30 @@ html[data-theme="dark"] .experience-current{
   align-items: center;
   justify-content: center;
   overflow: hidden;
-  border: 0;
-  border-radius: 8px;
-  background: var(--surface);
+  aspect-ratio: 3 / 2;
+  padding: .55rem;
+  box-sizing: border-box;
+  border: 1px solid rgba(126, 155, 184, .12);
+  border-radius: 9px;
+  background: #f5f8fc;
 }
 
-html[data-theme="dark"] .paper-box .paper-box-image img{
-  background: #ffffff;
+html[data-theme="dark"] .paper-box .paper-box-image > div{
+  background: #eaf0f6;
 }
 
 .paper-box .paper-box-image img{
   display: block;
   width: 100%;
   max-width: none;
-  height: auto;
+  height: 100%;
   object-fit: contain;
   box-shadow: none;
 }
 
 .paper-box .paper-box-text{
+  display: flex;
+  flex-direction: column;
   min-width: 0;
   max-width: none;
   padding-left: 0;
@@ -701,7 +707,7 @@ html[data-theme="dark"] .paper-box .paper-box-image img{
 }
 
 .paper-heading{
-  grid-column: 1 / -1;
+  grid-column: auto;
 }
 
 .paper-box .paper-box-text p{
@@ -734,6 +740,9 @@ html[data-theme="dark"] .paper-box .paper-box-image img{
   display: flex;
   flex-wrap: wrap;
   gap: .5rem;
+  order: 1;
+  margin-top: .15rem;
+  margin-bottom: 0;
 }
 
 .paper-box a.paper-link{
@@ -885,12 +894,40 @@ html[data-theme="dark"] .page__footer{
 @media (min-width: 768px){
   .paper-box{
     grid-template-columns: minmax(0, 32%) minmax(0, 1fr);
+    grid-template-rows: auto 1fr;
+  }
+
+  .paper-box .paper-box-image{
+    grid-column: 1;
+    grid-row: 1 / 3;
+  }
+
+  .paper-heading{
+    grid-column: 2;
+    grid-row: 1;
+  }
+
+  .paper-box .paper-box-text{
+    grid-column: 2;
+    grid-row: 2;
   }
 }
 
 @media (max-width: 767px){
   .paper-box{
     padding: .85rem;
+  }
+
+  .paper-box .paper-box-image{
+    grid-row: 1;
+  }
+
+  .paper-heading{
+    grid-row: 2;
+  }
+
+  .paper-box .paper-box-text{
+    grid-row: 3;
   }
 
   .experience-item{
