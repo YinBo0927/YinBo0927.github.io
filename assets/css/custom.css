@@ -497,9 +497,9 @@ html[data-theme="dark"] .opportunities-label{
 
 .service-panel{
   display: grid;
-  gap: 16px;
+  gap: 14px;
   max-width: 900px;
-  padding: 20px 24px;
+  padding: 12px 0 20px;
   box-sizing: border-box;
   background: transparent;
 }
@@ -511,11 +511,6 @@ html[data-theme="dark"] .opportunities-label{
   gap: 12px 20px;
 }
 
-.service-row + .service-row{
-  padding-top: 16px;
-  border-top: 1px solid var(--border);
-}
-
 .service-role{
   display: flex;
   align-items: center;
@@ -525,13 +520,13 @@ html[data-theme="dark"] .opportunities-label{
 }
 
 .service-role i{
-  color: var(--primary);
+  display: none;
 }
 
 .page__content .service-venues{
   display: flex;
   flex-wrap: wrap;
-  gap: 10px;
+  gap: 4px 12px;
   margin: 0;
   padding: 0;
   list-style: none;
@@ -542,11 +537,15 @@ html[data-theme="dark"] .opportunities-label{
   align-items: baseline;
   gap: 8px;
   margin: 0;
-  padding: 6px 12px;
-  border: 1px solid var(--border);
-  border-radius: 6px;
-  background: var(--surface);
-  font-size: 13px;
+  padding: 0;
+  color: var(--text);
+  font-size: 14px;
+}
+
+.service-venues li + li::before{
+  content: "·";
+  color: var(--muted);
+  margin-right: 4px;
 }
 
 .service-venues strong{
@@ -558,13 +557,10 @@ html[data-theme="dark"] .opportunities-label{
   font-variant-numeric: tabular-nums;
 }
 
-@media (max-width: 600px){
-  .service-panel{
-    padding: 18px;
-  }
-
+@media (max-width: 480px){
   .service-row{
     grid-template-columns: minmax(0, 1fr);
+    gap: 4px;
   }
 }
 
